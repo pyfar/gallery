@@ -14,4 +14,13 @@
 Pyfar gallery
 =============
 
-There's nothing here yet. But there will be soon.
+This is the pyfar gallery. It provides a collection of examples and tutorials 
+for the whole pyfar ecosystem.
+
+.. nbgallery::
+   :caption: Getting Started
+   :name: pyfar_gallery
+   :glob:
+   :reversed:
+
+   gallery/pyfar_demo.ipynb
