@@ -30,6 +30,8 @@ extensions = [
     'matplotlib.sphinxext.plot_directive',
     'sphinx.ext.mathjax',
     'sphinx.ext.intersphinx',
+    'sphinx_gallery.load_style',
+    'nbsphinx',
     'autodocsumm',
 ]
 
@@ -109,3 +111,34 @@ texinfo_documents = [
      'One line description of project.',
      'Miscellaneous'),
 ]
+
+# -- Options for nbsphinx -------------------------------------------------
+nbsphinx_prolog = r"""
+{% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
+
+.. raw:: html
+
+    <div class="admonition note">
+      Open an interactive online version by clicking the badge 
+      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/pyfar_gallery/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
+      or
+      <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
+      the notebook.
+      <script>
+        if (document.location.host) {
+          let nbviewer_link = document.createElement('a');
+          nbviewer_link.setAttribute('href',
+            'https://nbviewer.org/url' +
+            (window.location.protocol == 'https:' ? 's/' : '/') +
+            window.location.host +
+            window.location.pathname.slice(0, -4) +
+            'ipynb');
+          nbviewer_link.innerHTML = 'Or view it on <em>nbviewer</em>';
+          nbviewer_link.classList.add('reference');
+          nbviewer_link.classList.add('external');
+          document.currentScript.replaceWith(nbviewer_link, '.');
+        }
+      </script>
+    </div>
+
+"""
