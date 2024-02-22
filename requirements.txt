@@ -4,7 +4,7 @@ wheel
 watchdog
 flake8
 coverage
-Sphinx
+Sphinx>=4.0
 twine
 pytest
 pytest-runner
@@ -22,3 +22,4 @@ nbmake>=0.7.0
 ipykernel
 nbsphinx
 nbsphinx-link
+sphinx-gallery
