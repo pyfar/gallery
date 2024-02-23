@@ -31,4 +31,4 @@ for the whole pyfar ecosystem.
    :glob:
    :reversed:
 
-   gallery/impulse_response_measurement.ipynb
+   gallery/static/impulse_response_measurement.ipynb
