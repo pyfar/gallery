@@ -24,3 +24,11 @@ for the whole pyfar ecosystem.
    :reversed:
 
    gallery/pyfar_demo.ipynb
+
+.. nbgallery::
+   :caption: Acoustic measurements
+   :name: measurement
+   :glob:
+   :reversed:
+
+   gallery/impulse_response_measurement.ipynb
