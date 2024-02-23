@@ -48,8 +48,7 @@ jobs:
           name: Examples
           command: |
             pip install astroid
-            pip install -e .
-            pytest --nbmake examples/*.ipynb
+            pytest --nbmake docs/gallery/*.ipynb
 
   test_documentation_build:
     parameters:
@@ -73,7 +72,6 @@ jobs:
       - run:
           name: Sphinx
           command: |
-            pip install -e .
             cd docs/
             make html SPHINXOPTS="-W"
 
