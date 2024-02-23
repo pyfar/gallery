@@ -23,4 +23,4 @@ for the whole pyfar ecosystem.
    :glob:
    :reversed:
 
-   gallery/pyfar_demo.ipynb
+   gallery/interactive/pyfar_demo.ipynb

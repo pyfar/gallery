@@ -48,7 +48,7 @@ jobs:
           name: Examples
           command: |
             pip install astroid
-            pytest --nbmake docs/gallery/*.ipynb
+            pytest --nbmake docs/gallery/interactive/*.ipynb
 
   test_documentation_build:
     parameters:
