@@ -14,7 +14,7 @@
 Pyfar gallery
 =============
 
-This is the pyfar gallery. It provides a collection of examples and tutorials 
+This is the pyfar gallery. It provides a collection of examples and tutorials
 for the whole pyfar ecosystem.
 
 .. nbgallery::
@@ -24,3 +24,4 @@ for the whole pyfar ecosystem.
    :reversed:
 
    gallery/pyfar_demo.ipynb
+   gallery/fast_fourier_transform.ipynb
