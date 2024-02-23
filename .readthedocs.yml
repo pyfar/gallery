@@ -12,9 +12,6 @@ build:
   apt_packages:
     - pandoc
     - libsndfile1
-  jobs:
-    pre_build:
-      - python -m pip install -e .
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
