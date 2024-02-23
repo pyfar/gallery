@@ -56,7 +56,10 @@ intersphinx_mapping = {
 html_theme = 'pydata_sphinx_theme'
 # html_static_path = ['_static']
 
-
+# define thumbnails (optional)
+nbsphinx_thumbnails = {
+    'gallery/interactive/pyfar_audio_objects': 'resources/thumbnail_pyfar_audio_objects.png',
+}
 # -- Options for Texinfo output ----------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
@@ -78,7 +81,7 @@ nbsphinx_prolog = r"""
 .. raw:: html
 
     <div class="admonition note">
-      Open an interactive online version by clicking the badge 
+      Open an interactive online version by clicking the badge
       <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/pyfar_gallery/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
       or
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
