@@ -24,3 +24,4 @@ for the whole pyfar ecosystem.
    :reversed:
 
    gallery/interactive/pyfar_demo.ipynb
+   gallery/interactive/pyfar_coordinates.ipynb
