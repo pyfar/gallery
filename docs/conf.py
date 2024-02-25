@@ -1,3 +1,5 @@
+import os
+import shutil
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -56,10 +58,26 @@ intersphinx_mapping = {
 html_theme = 'pydata_sphinx_theme'
 # html_static_path = ['_static']
 
-# define thumbnails (optional)
+# -- manage thumbnails --------------------------------------------------------
+# define thumbnails
+# (must be in 'resources' and will always be copied to'_images')
 nbsphinx_thumbnails = {
-    'gallery/interactive/pyfar_audio_objects': 'resources/thumbnail_pyfar_audio_objects.png',
+    'gallery/interactive/pyfar_audio_objects': '_images/thumbnail_pyfar_audio_objects.png',
 }
+
+# create _image folder if it does not exist
+path = ''
+for folder in ['_build', 'html', '_images']:
+    path = os.path.join(path, folder)
+    if not os.path.exists(path):
+        os.mkdir(path)
+
+# copy thumbnails (they are assumed to be located in resources folder)
+for thumbnail in nbsphinx_thumbnails.values():
+    thumbnail = thumbnail.split('/')[-1]
+    shutil.copyfile(os.path.join('resources', thumbnail),
+                    os.path.join(path, thumbnail))
+
 # -- Options for Texinfo output ----------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
