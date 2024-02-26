@@ -56,27 +56,7 @@ intersphinx_mapping = {
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'pydata_sphinx_theme'
-# html_static_path = ['_static']
-
-# -- manage thumbnails --------------------------------------------------------
-# define thumbnails
-# (must be in 'resources' and will always be copied to'_images')
-nbsphinx_thumbnails = {
-    'gallery/interactive/pyfar_audio_objects': '_images/thumbnail_pyfar_audio_objects.png',
-}
-
-# create _image folder if it does not exist
-path = ''
-for folder in ['_build', 'html', '_images']:
-    path = os.path.join(path, folder)
-    if not os.path.exists(path):
-        os.mkdir(path)
-
-# copy thumbnails (they are assumed to be located in resources folder)
-for thumbnail in nbsphinx_thumbnails.values():
-    thumbnail = thumbnail.split('/')[-1]
-    shutil.copyfile(os.path.join('resources', thumbnail),
-                    os.path.join(path, thumbnail))
+html_static_path = ['_static']
 
 # -- Options for Texinfo output ----------------------------------------
 
@@ -122,3 +102,9 @@ nbsphinx_prolog = r"""
     </div>
 
 """
+
+# -- manage thumbnails --------------------------------------------------------
+# must be located in 'docs/_static'
+nbsphinx_thumbnails = {
+    'gallery/interactive/pyfar_audio_objects': '_static/thumbnail_pyfar_audio_objects.png',
+}
