@@ -53,21 +53,13 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
 
    Now you can make your changes locally.
 
-6. When you're done making changes, check that your changes pass flake8 and the
-   tests::
-
-    $ flake8 pyfar tests
-    $ pytest
-
-   flake8 test must pass without any warnings for `./pyfar` and `./tests` using the default or a stricter configuration. Flake8 ignores `E123/E133, E226` and `E241/E242` by default. If necessary adjust the your flake8 and linting configuration in your IDE accordingly.
-
-7. Commit your changes and push your branch to GitHub::
+6. Commit your changes and push your branch to GitHub::
 
     $ git add .
     $ git commit -m "Your detailed description of your changes."
     $ git push origin name-of-your-bugfix-or-feature
 
-8. Submit a pull request on the develop branch through the GitHub website.
+7. Submit a pull request on the develop branch through the GitHub website.
 
 Structure
 ---------
