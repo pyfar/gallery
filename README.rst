@@ -40,8 +40,7 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
 
     $ conda create --name gallery python
     $ conda activate gallery
-    $ pip install -e .
-    $ pip install -r requirements_dev.txt
+    $ pip install -r requirements.txt
 
 4. Setup pre-commit hooks, this will clean all notebooks in ``docs/gallery/interactive`` before the commit::
 
