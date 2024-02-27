@@ -56,6 +56,13 @@ intersphinx_mapping = {
 html_theme = 'pydata_sphinx_theme'
 # html_static_path = ['_static']
 
+html_theme_options = {
+  # Configure secondary (right) side bar
+  "show_toc_level": 3,                     # Show all subsections of notebooks
+  "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that
+                                           # shows notebook in json format
+}
+
 
 # -- Options for Texinfo output ----------------------------------------
 
@@ -78,7 +85,7 @@ nbsphinx_prolog = r"""
 .. raw:: html
 
     <div class="admonition note">
-      Open an interactive online version by clicking the badge 
+      Open an interactive online version by clicking the badge
       <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
       or
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
