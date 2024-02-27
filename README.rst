@@ -42,7 +42,7 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
     $ conda activate gallery
     $ pip install -r requirements.txt
 
-4. Setup pre-commit hooks, this will clean all notebooks in ``docs/gallery/interactive`` before the commit::
+4. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed::
 
     $ pre-commit install
 
