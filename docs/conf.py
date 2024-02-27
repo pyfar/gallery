@@ -54,8 +54,7 @@ intersphinx_mapping = {
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'pydata_sphinx_theme'
-# html_static_path = ['_static']
-
+html_static_path = ['_static']
 
 # -- Options for Texinfo output ----------------------------------------
 
@@ -78,7 +77,7 @@ nbsphinx_prolog = r"""
 .. raw:: html
 
     <div class="admonition note">
-      Open an interactive online version by clicking the badge 
+      Open an interactive online version by clicking the badge
       <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
       or
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
@@ -101,3 +100,9 @@ nbsphinx_prolog = r"""
     </div>
 
 """
+
+# -- manage thumbnails --------------------------------------------------------
+# must be located in 'docs/_static'
+nbsphinx_thumbnails = {
+    'gallery/interactive/pyfar_audio_objects': '_static/thumbnail_pyfar_audio_objects.png',
+}
