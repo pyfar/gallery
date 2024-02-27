@@ -37,6 +37,7 @@ To add notebooks to the gallery, simply place them inside ``docs/gallery/interac
     ├── Makefile
     ├── _build
     ├── _templates
+    ├── _static
     ├── conf.py
     ├── gallery
     │   ├── interactive
@@ -48,6 +49,8 @@ To add notebooks to the gallery, simply place them inside ``docs/gallery/interac
     ├── make.bat
     └── resources
 
+Metadata for static notebooks
+-----------------------------
 
 Note that notebooks placed in the static folder omitted from unit testing on CircleCI and hence need apprpriate offline testing.
 Static notebooks further need to include the setting
@@ -57,18 +60,58 @@ Static notebooks further need to include the setting
     "nbsphinx": {
         "execute": "never"
     },
-    
-as part of their JSON meta-data. For more information see the `nbsphinx documentation <https://nbsphinx.readthedocs.io/en/latest/never-execute.html>`_
+
+as part of their JSON meta-data.
+For more information see the `nbsphinx documentation <https://nbsphinx.readthedocs.io/en/latest/never-execute.html>`_
+
+Thumbnails
+----------
+
+Nbspinx does select the last output of a notebook as thumbnail by default.
+If a specific output from a notebook should be selected as thumbnail, the meta data of the cell containing the output must be tagged
+
+.. code-block:: json
+
+    "metadata": {
+        "nbsphinx-thumbnail": {}
+    }
+
+If the notebook contains no output, a thumbnail can be added by placing a file in the ``docs/gallery/_static`` folder.
+The filename and notebook name need to be added to the ``nbspinx_thumbnails`` dictionary in the ``conf.py`` file.
+
+.. code-block:: python
+
+    sphinx_thumbnails = {
+        'gallery/interactive/your_new_notebook': '_static/thumbnail_added.png',
+    }
+
+The respective file tree for this example would look like this:
+
+.. code-block:: shell
+
+    docs
+    ├── Makefile
+    ├── _build
+    ├── _static
+    │   └── thumbnail_added.png
+    ├── conf.py
+    ├── gallery
+    │   ├── interactive
+    │   │   └── your_new_notebook.ipynb
+
+
+Adding a notebook to the gallery
+--------------------------------
 
 Finally, add the notebook to an appropriate ``nbgallery`` inside the ``docs/index.rst``. For example:
 
-.. code-block:: rst 
+.. code-block:: rst
 
     .. nbgallery::
        :caption: Getting Started
        :name: pyfar_gallery
        :glob:
        :reversed:
-    
+
        gallery/interactive/pyfar_demo.ipynb
        gallery/interactive/your_new_notebook.ipynb
