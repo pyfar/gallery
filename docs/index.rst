@@ -25,3 +25,4 @@ for the whole pyfar ecosystem.
 
    gallery/interactive/pyfar_demo.ipynb
    gallery/interactive/pyfar_filtering.ipynb
+   gallery/interactive/pyfar_audio_objects.ipynb
