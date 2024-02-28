@@ -24,4 +24,5 @@ for the whole pyfar ecosystem.
    :reversed:
 
    gallery/interactive/pyfar_audio_objects.ipynb
+   gallery/interactive/pyfar_filter_types.ipynb
    gallery/interactive/pyfar_demo.ipynb
