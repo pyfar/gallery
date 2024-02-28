@@ -114,26 +114,34 @@ plt.savefig('filter_types_standard.png', dpi=150)
 
 # %% filter banks -------------------------------------------------------------
 
-_, ax = plt.subplots(3, 1, figsize=(20/2.54, 30/2.54), sharey=True)
-
 # DIN Filterbank
-axis = ax[0]
+_, ax = plt.subplots(1, 1, figsize=(20/2.54, 10/2.54))
+
+axis = ax
 y = pf.dsp.filter.fractional_octave_bands(impulse, 1, freq_range=(60, 12e3))
 pf.plot.freq(y, ax=axis)
 axis.set_title('Fractional octave bands (room acoustics)')
 axis.set_xlim(20, 20e3)
 axis.set_ylim(-60, 10)
 
+plt.savefig('filter_types_filterbank_frac.png', dpi=150)
+
 # Reconstructing Filterbank
-axis = ax[1]
+_, ax = plt.subplots(1, 1, figsize=(20/2.54, 10/2.54))
+
+axis = ax
 y, *_ = pf.dsp.filter.reconstructing_fractional_octave_bands(impulse, 1)
 pf.plot.freq(y, ax=axis)
 axis.set_title('Fractional octave bands (perfectly reconstructing)')
 axis.set_xlim(20, 20e3)
 axis.set_ylim(-60, 10)
 
+plt.savefig('filter_types_filterbank_frac_rec.png', dpi=150)
+
 # Auditory Filterbank
-axis = ax[2]
+_, ax = plt.subplots(1, 1, figsize=(20/2.54, 10/2.54))
+
+axis = ax
 gtf = pf.dsp.filter.GammatoneBands((20, 20e3))
 y, _ = gtf.process(impulse)
 pf.plot.freq(y, ax=axis)
@@ -141,7 +149,7 @@ axis.set_title('Auditory gammatone bands (almost perfectly reconstructing)')
 axis.set_xlim(20, 20e3)
 axis.set_ylim(-60, 10)
 
-plt.savefig('filter_types_filterbanks.png', dpi=150)
+plt.savefig('filter_types_filterbank_gamma.png', dpi=150)
 
 # %% cross-over ---------------------------------------------------------------
 _, ax = plt.subplots(1, 1, figsize=(15/2.54, 12/2.54))
