@@ -24,3 +24,12 @@ for the whole pyfar ecosystem.
    :reversed:
 
    gallery/interactive/pyfar_audio_objects.ipynb
+
+
+.. nbgallery::
+    :caption: Workshops
+    :name: workshops
+    :glob:
+    :reversed:
+
+    gallery/interactive/2024_workshop_daga.ipynb
