@@ -70,10 +70,10 @@ jobs:
           # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
           pip-dependency-file: requirements.txt
       - run:
-          name: make html SPHINXOPTS="-W"
+          name: Sphinx
           command: |
             cd docs/
-            make html
+            make html SPHINXOPTS="-W"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
