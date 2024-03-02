@@ -24,4 +24,5 @@ nbsphinx
 nbsphinx-link
 sphinx-gallery
 pyfar
+sounddevice
 pre-commit

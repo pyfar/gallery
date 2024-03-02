@@ -23,8 +23,8 @@ for the whole pyfar ecosystem.
    :glob:
    :reversed:
 
+   gallery/interactive/pyfar_demo.ipynb
    gallery/interactive/pyfar_audio_objects.ipynb
-
 
 .. nbgallery::
     :caption: Workshops
@@ -33,3 +33,11 @@ for the whole pyfar ecosystem.
     :reversed:
 
     gallery/interactive/2024_workshop_daga.ipynb
+
+.. nbgallery::
+   :caption: Acoustic measurements
+   :name: measurement
+   :glob:
+   :reversed:
+
+   gallery/static/impulse_response_measurement.ipynb
