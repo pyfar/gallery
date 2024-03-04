@@ -25,6 +25,44 @@ The rendered version of the gallery is hosted on `readthedocs.org`_.
 Contributing
 ============
 
+Get Started!
+------------
+
+Ready to contribute? Here's how to set up `pyfar_gallery` for local development using the command-line interface. Note that several alternative user interfaces exist, e.g., the Git GUI, `GitHub Desktop <https://desktop.github.com/>`_, extensions in `Visual Studio Code <https://code.visualstudio.com/>`_ ...
+
+1. `Fork <https://docs.github.com/en/get-started/quickstart/fork-a-repo/>`_ the `gallery` repo on GitHub.
+2. Clone your fork locally and cd into the gallery directory::
+
+    $ git clone https://github.com/YOUR_USERNAME/gallery.git
+    $ cd gallery
+
+3. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development::
+
+    $ conda create --name gallery python
+    $ conda activate gallery
+    $ pip install -r requirements.txt
+
+4. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed::
+
+    $ pre-commit install
+
+5. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`)::
+
+    $ git checkout -b name-of-your-bugfix-or-feature
+
+   Now you can make your changes locally.
+
+6. Commit your changes and push your branch to GitHub::
+
+    $ git add .
+    $ git commit -m "Your detailed description of your changes."
+    $ git push origin name-of-your-bugfix-or-feature
+
+7. Submit a pull request on the develop branch through the GitHub website.
+
+Structure
+---------
+
 The gallery is separated into *interactive* and *static* notebooks, allowing to include notebooks for which execution on readthedocs or CircleCI is not feasible.
 This could be due to the need for specific hardware, such as audio interfaces or other io-devices, as well as notebooks with very long execution times or computational demands.
 
@@ -113,5 +151,4 @@ Finally, add the notebook to an appropriate ``nbgallery`` inside the ``docs/inde
        :glob:
        :reversed:
 
-       gallery/interactive/pyfar_demo.ipynb
        gallery/interactive/your_new_notebook.ipynb
