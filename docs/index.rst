@@ -25,4 +25,3 @@ for the whole pyfar ecosystem.
 
    gallery/interactive/pyfar_audio_objects.ipynb
    gallery/interactive/binaural_synthesis.ipynb
-   gallery/interactive/pyfar_demo.ipynb
