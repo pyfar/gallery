@@ -152,5 +152,4 @@ Finally, add the notebook to an appropriate ``nbgallery`` inside the ``docs/inde
        :glob:
        :reversed:
 
-       gallery/interactive/pyfar_demo.ipynb
        gallery/interactive/your_new_notebook.ipynb
