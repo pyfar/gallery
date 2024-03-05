@@ -26,3 +26,5 @@ sphinx-gallery
 pyfar
 pre-commit
 ipympl
+sphinx-design
+sphinx-favicon

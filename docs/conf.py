@@ -33,6 +33,8 @@ extensions = [
     'sphinx_gallery.load_style',
     'nbsphinx',
     'autodocsumm',
+    "sphinx_design",
+    "sphinx_favicon",
 ]
 
 templates_path = ['_templates']
@@ -55,6 +57,26 @@ intersphinx_mapping = {
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+html_css_files = ['css/custom.css']
+html_logo = 'resources/pyfar.png'
+html_title = "pyfar"
+html_favicon = '_static/favicon.ico'
+
+
+# -- HTML theme options
+# https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/layout.html
+
+html_theme_options = {
+    "navbar_start": ["navbar-logo"],
+    "icon_links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pyfar",
+          "icon": "fa-brands fa-square-github",
+          "type": "fontawesome",
+        }
+    ],
+}
 
 # -- Options for Texinfo output ----------------------------------------
 
