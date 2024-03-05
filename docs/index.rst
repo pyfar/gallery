@@ -24,4 +24,4 @@ for the whole pyfar ecosystem.
    :reversed:
 
    gallery/interactive/pyfar_audio_objects.ipynb
-   gallery/interactive/binaural_synthesis.ipynb
+   gallery/static/binaural_synthesis.ipynb
