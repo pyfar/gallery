@@ -53,64 +53,22 @@ intersphinx_mapping = {
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'insipid'
+html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
-
-
-# -- Options for LaTeX output ------------------------------------------
-
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
-}
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title, author, documentclass
-# [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'pyfar.tex',
-     u'pyfar Gallery',
-     u'The pyfar developers', 'manual'),
-]
-
-
-# -- Options for manual page output ------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'pyfar',
-     u'pyfar Gallery',
-     [author], 1)
-]
-
 
 # -- Options for Texinfo output ----------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'pyfar',
-     u'pyfar Gallery',
-     author,
-     'pyfar',
-     'One line description of project.',
-     'Miscellaneous'),
-]
+# texinfo_documents = [
+#     (master_doc, 'pyfar',
+#      u'pyfar Gallery',
+#      author,
+#      'pyfar',
+#      'One line description of project.',
+#      'Miscellaneous'),
+# ]
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
@@ -119,8 +77,8 @@ nbsphinx_prolog = r"""
 .. raw:: html
 
     <div class="admonition note">
-      Open an interactive online version by clicking the badge 
-      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/pyfar_gallery/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
+      Open an interactive online version by clicking the badge
+      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
       or
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
       the notebook.
@@ -142,3 +100,9 @@ nbsphinx_prolog = r"""
     </div>
 
 """
+
+# -- manage thumbnails --------------------------------------------------------
+# must be located in 'docs/_static'
+nbsphinx_thumbnails = {
+    'gallery/interactive/pyfar_audio_objects': '_static/thumbnail_pyfar_audio_objects.png',
+}

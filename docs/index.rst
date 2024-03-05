@@ -23,5 +23,4 @@ for the whole pyfar ecosystem.
    :glob:
    :reversed:
 
-   gallery/pyfar_demo.ipynb
-   gallery/fast_fourier_transform.ipynb
+   gallery/interactive/pyfar_audio_objects.ipynb
