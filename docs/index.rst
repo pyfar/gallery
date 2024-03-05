@@ -23,6 +23,5 @@ for the whole pyfar ecosystem.
    :glob:
    :reversed:
 
-   gallery/interactive/pyfar_demo.ipynb
    gallery/interactive/pyfar_arithmetics.ipynb
    gallery/interactive/pyfar_audio_objects.ipynb
