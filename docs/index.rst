@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-.. |pyfar_logo| image:: resources/pyfar.png
+.. |pyfar_logo| image:: resources/pyfar_logos_fixed_size_pyfar.png
    :width: 150
    :alt: Alternative text
 
@@ -29,8 +29,8 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
 
-      .. image:: resources/pyfar.png
-         :width: 250 px
+      .. image:: resources/pyfar_logos_fixed_size_pyfar.png
+         :width: 300 px
       
       ^^^
       
@@ -62,8 +62,8 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
 
-      .. image:: resources/sofar.png
-         :width: 250 px
+      .. image:: resources/pyfar_logos_fixed_size_sofar.png
+         :width: 300 px
 
       ^^^
       SOFA files store spatially distributed acoustic data such as head-related 
@@ -94,8 +94,8 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
    
-      .. image:: resources/spharpy.png
-         :width: 250 px
+      .. image:: resources/pyfar_logos_fixed_size_spharpy.png
+         :width: 300 px
 
       ^^^
       Spherical array processing in python
@@ -124,8 +124,8 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
 
-      .. image:: resources/pyrato.png
-         :width: 250 px
+      .. image:: resources/pyfar_logos_fixed_size_pyrato.png
+         :width: 300 px
 
       ^^^^
       A collection of functions for commonly used operations in room acoustics
