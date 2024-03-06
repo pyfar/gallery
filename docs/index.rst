@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 .. |pyfar_logo| image:: resources/pyfar.png
    :width: 150
    :alt: Alternative text
@@ -25,11 +26,15 @@ educational and commercial use.
    :gutter: 4
 
    .. grid-item-card:: python package for acoustics research
-      :img-top: resources/pyfar.png 
       :text-align: center
       :shadow: lg
+
+      .. image:: resources/pyfar.png
+         :width: 250 px
       
       ^^^
+      
+
       The pyfar base package offers functionality for digital signal 
       processing, signal generation, and plotting.
       +++
@@ -54,9 +59,11 @@ educational and commercial use.
                code
 
    .. grid-item-card::  maybe the most complete python package for SOFA files so far
-      :img-top: resources/sofar.png
       :text-align: center
       :shadow: lg
+
+      .. image:: resources/sofar.png
+         :width: 250 px
 
       ^^^
       SOFA files store spatially distributed acoustic data such as head-related 
@@ -84,10 +91,12 @@ educational and commercial use.
                code        
 
    .. grid-item-card::  Spherical array processing in python
-      :img-top: resources/spharpy.png
       :text-align: center
       :shadow: lg
    
+      .. image:: resources/spharpy.png
+         :width: 250 px
+
       ^^^
       Spherical array processing in python
       +++
@@ -112,9 +121,11 @@ educational and commercial use.
                code
 
    .. grid-item-card:: Python Room Acoustics Tools
-      :img-top: resources/pyrato.png
       :text-align: center
       :shadow: lg
+
+      .. image:: resources/pyrato.png
+         :width: 250 px
 
       ^^^^
       A collection of functions for commonly used operations in room acoustics
@@ -221,42 +232,56 @@ Supporters
    :gutter: 2
 
    .. grid-item::
+      :columns: 8
+
       .. grid:: 2
          :gutter: 4
 
          .. grid-item-card:: 
-            :img-top: resources/supporter-logos/ITHA_RWTH.svg
             :link: https://www.akustik.rwth-aachen.de/go/id/dwma/
             :text-align: center
+
+            .. image:: resources/supporter-logos/ITHA_RWTH.svg
+               :width: 250 px
+
 
             Institute for Hearing Technology and Acoustics, RWTH Aachen University
 
          .. grid-item-card:: 
-            :img-top: resources/supporter-logos/TU_AK.png
             :link: https://www.tu.berlin/ak/
             :text-align: center
+
+            .. image:: resources/supporter-logos/TU_AK.png
+               :width: 250 px
 
             Audio Communication Group, Technical University of Berlin
 
          .. grid-item-card:: 
-            :img-top: resources/supporter-logos/TH_Koeln.png
             :link: https://www.th-koeln.de
             :text-align: center
+
+            .. image:: resources/supporter-logos/TH_Koeln.png
+               :width: 250 px
 
             University of Applied Sciences Cologne
 
          .. grid-item-card:: 
-            :img-top: resources/supporter-logos/iap.png
             :text-align: center
+
+            .. image:: resources/supporter-logos/iap.png
+               :width: 250 px
 
             The Institute for Advanced Procrastination
 
    .. grid-item::
-      .. grid:: 2
+      :columns: 4
 
+      .. grid:: 1
+         
          .. grid-item-card:: 
-            :img-top: resources/supporter-logos/DTU.png
             :link: https://www.dtu.dk/english/
             :text-align: center
+
+            .. image:: resources/supporter-logos/DTU.png
 
             Technical University of Denmark
