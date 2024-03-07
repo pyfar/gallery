@@ -3,10 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
 .. |pyfar_logo| image:: resources/pyfar_logos_fixed_size_pyfar.png
    :width: 150
    :alt: Alternative text
+
+.. toctree::
+   :maxdepth: 0
+   :hidden:
+
+   Examples gallery<examples_gallery>
+
 
 pyfar - python packages for acoustics research
 ==============================================
@@ -173,7 +179,7 @@ educational and commercial use.
 
 
 |
-Pyfar gallery
+Pyfar gallery  
 =============
 
 This is the pyfar gallery. It provides a collection of examples and tutorials
@@ -183,7 +189,7 @@ for the whole pyfar ecosystem.
 
 .. nbgallery::
    :caption: Getting Started
-   :name: pyfar_gallery
+   :name: getting_started
    :glob:
    :reversed:
 
@@ -200,9 +206,6 @@ for the whole pyfar ecosystem.
    :reversed:
 
    gallery/static/impulse_response_measurement.ipynb
-
-
-
 
 |
 Contribute  
@@ -234,67 +237,66 @@ community for the acoustics research community. We welcome any contributions
       If you want to add code or documentation, a good starting point for ideas
       are the issues on GitHub. The GitHub projects are linked through the 
       Code buttons above. If you have own ideas for contributions, may it be 
-      code, or other things, it would be best to get in touch through GitHub 
+      code, or other things, it would be best to get in touch through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_  
       or info@pyfar.org before you start.
 
 |
 Supporters
 ===========
 
-.. grid:: 2
-   :gutter: 2
+.. grid:: 3
+   :gutter: 4
 
-   .. grid-item::
-      :columns: 8
+   .. grid-item-card:: 
+      :link: https://www.akustik.rwth-aachen.de/go/id/dwma/
+      :text-align: center
 
-      .. grid:: 2
-         :gutter: 4
+      .. image:: resources/supporter-logos/ITHA_RWTH.svg
+         :width: 250 px
 
-         .. grid-item-card:: 
-            :link: https://www.akustik.rwth-aachen.de/go/id/dwma/
-            :text-align: center
-
-            .. image:: resources/supporter-logos/ITHA_RWTH.svg
-               :width: 250 px
-
-
-            Institute for Hearing Technology and Acoustics, RWTH Aachen University
-
-         .. grid-item-card:: 
-            :link: https://www.tu.berlin/ak/
-            :text-align: center
-
-            .. image:: resources/supporter-logos/TU_AK.png
-               :width: 250 px
-
-            Audio Communication Group, Technical University of Berlin
-
-         .. grid-item-card:: 
-            :link: https://www.th-koeln.de
-            :text-align: center
-
-            .. image:: resources/supporter-logos/TH_Koeln.png
-               :width: 250 px
-
-            University of Applied Sciences Cologne
-
-         .. grid-item-card:: 
-            :text-align: center
-
-            .. image:: resources/supporter-logos/iap.png
-               :width: 250 px
-
-            The Institute for Advanced Procrastination
-
-   .. grid-item::
-      :columns: 4
-
-      .. grid:: 1
          
-         .. grid-item-card:: 
-            :link: https://www.dtu.dk/english/
-            :text-align: center
+      Institute for Hearing Technology and Acoustics, RWTH Aachen University
 
-            .. image:: resources/supporter-logos/DTU.png
+   .. grid-item-card:: 
+      :link: https://www.tu.berlin/ak/
+      :text-align: center
 
-            Technical University of Denmark
+      .. image:: resources/supporter-logos/TU_AK.png
+         :width: 250 px
+
+      Audio Communication Group, Technical University of Berlin
+
+   .. grid-item-card:: 
+      :link: https://www.th-koeln.de/informations-medien-und-elektrotechnik/technische-akustik_25051.php
+      :text-align: center
+
+      .. image:: resources/supporter-logos/TH_Koeln.png
+         :width: 250 px
+
+      University of Applied Sciences Cologne
+
+   .. grid-item-card:: 
+      :text-align: center
+
+      .. image:: resources/supporter-logos/iap.png
+         :width: 250 px
+
+      The Institute for Advanced Procrastination
+   
+   .. grid-item-card::
+      :link: https://www.tu.berlin/akustik
+      :text-align: center
+
+      .. image:: resources/tu-berlin-logo-long-red.svg
+         :width: 250 px
+
+      Engineering Acoustics Group, Technical University of Berlin
+
+   .. grid-item-card:: 
+      :link: https://electro.dtu.dk/research/research-areas/electro-technology/acoustic-technology
+      :text-align: center
+
+      .. image:: resources/supporter-logos/DTU.png
+         :height: 100 px
+
+      Technical University of Denmark

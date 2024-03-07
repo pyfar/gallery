@@ -20,6 +20,7 @@ copyright = '2024, The pyfar developers'
 author = 'The pyfar developers'
 release = '0.1.0'
 
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -68,6 +69,8 @@ html_favicon = '_static/favicon.ico'
 
 html_theme_options = {
     "navbar_start": ["navbar-logo"],
+    "navbar_end": ["theme-switcher", "navbar-icon-links"],
+    "navbar_align": "content",
     "icon_links": [
         {
           "name": "GitHub",
@@ -76,6 +79,11 @@ html_theme_options = {
           "type": "fontawesome",
         }
     ],
+  
+  # Configure secondary (right) side bar
+  "show_toc_level": 3,                     # Show all subsections of notebooks
+  "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that
+                                           # shows notebook in json format
 }
 
 # -- Options for Texinfo output ----------------------------------------
