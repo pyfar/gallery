@@ -9,6 +9,10 @@ pyfar gallery
     :target: https://circleci.com/gh/pyfar/gallery
 .. image:: https://mybinder.org/badge_logo.svg
     :target: https://mybinder.org/v2/gh/pyfar/gallery/main?filepath=docs/gallery
+.. image:: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+    :target: https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1
+    :height: 20
+
 
 
 This is the pyfar gallery. It contains examples of applications pyfar and its sub-packages can be used for.
@@ -164,3 +168,10 @@ Finally, add the notebook to an appropriate ``nbgallery`` inside the ``docs/inde
        :reversed:
 
        gallery/interactive/your_new_notebook.ipynb
+
+License
+-------
+Unless otherwise stated source code, graphics, and audio files © 2024 by `the pyfar developers <https://github.com/orgs/pyfar/people>`_ are licensed under `CC BY 4.0 <http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1>`_.
+
+.. image:: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg
+    :target: https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1
