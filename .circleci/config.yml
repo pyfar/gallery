@@ -39,7 +39,7 @@ jobs:
       - checkout
       - run:
           name: Install System Dependencies
-          command: sudo apt-get update && sudo apt-get install -y libsndfile1
+          command: sudo apt-get update && sudo apt-get install -y libsndfile1 portaudio19-dev
       - python/install-packages:
           pkg-manager: pip
           # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
@@ -64,7 +64,7 @@ jobs:
       - checkout
       - run:
           name: Install System Dependencies
-          command: sudo apt-get update && sudo apt-get install -y libsndfile1 dvipng pandoc
+          command: sudo apt-get update && sudo apt-get install -y libsndfile1 dvipng pandoc portaudio19-dev
       - python/install-packages:
           pkg-manager: pip
           # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
@@ -73,7 +73,7 @@ jobs:
           name: Sphinx
           command: |
             cd docs/
-            make html
+            make html SPHINXOPTS="-W"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows

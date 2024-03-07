@@ -105,4 +105,9 @@ nbsphinx_prolog = r"""
 # must be located in 'docs/_static'
 nbsphinx_thumbnails = {
     'gallery/interactive/pyfar_audio_objects': '_static/thumbnail_pyfar_audio_objects.png',
+    'gallery/interactive/pyfar_coordinates': '_static/thumbnail_pyfar_coordinates.png',
+    'gallery/interactive/pyfar_filter_types': '_static/thumbnail_pyfar_filter_types.png',
+    'gallery/interactive/pyfar_arithmetics': '_static/thumbnail_pyfar_arithmetics.png',
+    'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
+    'gallery/interactive/sofar_introduction': '_static/thumbnail_sofar_introduction.png',
 }

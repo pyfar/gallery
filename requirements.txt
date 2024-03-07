@@ -6,7 +6,7 @@ flake8
 coverage
 Sphinx>=4.0
 twine
-pytest
+pytest<8.1.0
 pytest-runner
 pytest-cov
 numpy>=1.23.0
@@ -24,5 +24,7 @@ nbsphinx
 nbsphinx-link
 sphinx-gallery
 pyfar
+sounddevice
 pre-commit
 watermark
+ipympl
