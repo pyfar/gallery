@@ -30,8 +30,8 @@ for the whole pyfar ecosystem.
    gallery/interactive/pyfar_filtering.ipynb
 
 .. nbgallery::
-   :caption: Acoustic measurements
-   :name: measurement
+   :caption: Applications
+   :name: applications
    :glob:
    :reversed:
 
