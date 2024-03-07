@@ -78,6 +78,7 @@ This could be due to the need for specific hardware, such as audio interfaces or
 
 
 To add notebooks to the gallery, simply place them inside ``docs/gallery/interactive`` or ``docs/gallery/static``, respectively.
+A very bare template for new notebooks is provided in `docs/_templates/template.ipympl <https://github.com/pyfar/gallery/blob/main/docs/_templates/template.ipympl>`_`.
 
 .. code-block:: shell
 
@@ -100,7 +101,7 @@ To add notebooks to the gallery, simply place them inside ``docs/gallery/interac
 Metadata for static notebooks
 -----------------------------
 
-Note that notebooks placed in the static folder omitted from unit testing on CircleCI and hence need apprpriate offline testing.
+Note that notebooks placed in the static folder omitted from unit testing on CircleCI and hence need appropriate offline testing.
 Static notebooks further need to include the setting
 
 .. code-block:: json
