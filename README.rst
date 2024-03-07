@@ -33,30 +33,40 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
 1. `Fork <https://docs.github.com/en/get-started/quickstart/fork-a-repo/>`_ the `gallery` repo on GitHub.
 2. Clone your fork locally and cd into the gallery directory::
 
-    $ git clone https://github.com/YOUR_USERNAME/gallery.git
-    $ cd gallery
+.. code-block:: shell
+
+    git clone https://github.com/YOUR_USERNAME/gallery.git
+    cd gallery
 
 3. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development::
 
-    $ conda create --name gallery python
-    $ conda activate gallery
-    $ pip install -r requirements.txt
+.. code-block:: shell
+
+    conda create --name gallery python
+    conda activate gallery
+    pip install -r requirements.txt
 
 4. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed::
 
-    $ pre-commit install
+.. code-block:: shell
+
+    pre-commit install
 
 5. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`)::
 
-    $ git checkout -b name-of-your-bugfix-or-feature
+.. code-block:: shell
+
+    git checkout -b name-of-your-bugfix-or-feature
 
    Now you can make your changes locally.
 
 6. Commit your changes and push your branch to GitHub::
 
-    $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
+.. code-block:: shell
+
+    git add .
+    git commit -m "Your detailed description of your changes."
+    git push origin name-of-your-bugfix-or-feature
 
 7. Submit a pull request on the develop branch through the GitHub website.
 
@@ -100,6 +110,7 @@ Static notebooks further need to include the setting
     },
 
 as part of their JSON meta-data.
+
 For more information see the `nbsphinx documentation <https://nbsphinx.readthedocs.io/en/latest/never-execute.html>`_
 
 Thumbnails
