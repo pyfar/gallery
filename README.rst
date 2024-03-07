@@ -110,6 +110,7 @@ Static notebooks further need to include the setting
     },
 
 as part of their JSON meta-data.
+
 For more information see the `nbsphinx documentation <https://nbsphinx.readthedocs.io/en/latest/never-execute.html>`_
 
 Thumbnails

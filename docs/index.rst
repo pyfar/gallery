@@ -23,6 +23,7 @@ for the whole pyfar ecosystem.
    :glob:
    :reversed:
 
+   gallery/interactive/pyfar_filtering.ipynb
    gallery/interactive/pyfar_audio_objects.ipynb
 
 .. nbgallery::
