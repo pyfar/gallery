@@ -108,4 +108,5 @@ nbsphinx_thumbnails = {
     'gallery/interactive/pyfar_filter_types': '_static/thumbnail_pyfar_filter_types.png',
     'gallery/interactive/pyfar_arithmetics': '_static/thumbnail_pyfar_arithmetics.png',
     'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
+    'gallery/interactive/sofar_introduction': '_static/thumbnail_sofar_introduction.png',
 }
