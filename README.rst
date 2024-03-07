@@ -82,7 +82,8 @@ This could be due to the need for specific hardware, such as audio interfaces or
 
 
 To add notebooks to the gallery, simply place them inside ``docs/gallery/interactive`` or ``docs/gallery/static``, respectively.
-A very bare template for new notebooks is provided in `docs/_templates/template.ipympl <https://github.com/pyfar/gallery/blob/main/docs/_templates/template.ipympl>`_`.
+
+A very bare template for new notebooks is provided in `docs/_templates/template.ipympl <https://github.com/pyfar/gallery/blob/main/docs/_templates/template.ipynb>`_. It is highly recommended to use it for consistency with other notebooks.
 
 .. code-block:: shell
 
@@ -90,6 +91,7 @@ A very bare template for new notebooks is provided in `docs/_templates/template.
     ├── Makefile
     ├── _build
     ├── _templates
+    │   └── template.ipynb
     ├── _static
     ├── conf.py
     ├── gallery
