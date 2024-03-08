@@ -177,7 +177,6 @@ educational and commercial use.
  
                progress 
 
-
 |
 Pyfar gallery  
 =============
@@ -185,29 +184,8 @@ Pyfar gallery
 This is the pyfar gallery. It provides a collection of examples and tutorials
 for the whole pyfar ecosystem.
 
-
-
-.. nbgallery::
-   :caption: Getting Started
-   :name: getting_started
-   :glob:
-   :reversed:
-
-   gallery/interactive/pyfar_coordinates.ipynb
-   gallery/interactive/pyfar_audio_objects.ipynb
-   gallery/interactive/pyfar_orientations.ipynb
-   gallery/interactive/pyfar_filter_types.ipynb
-   gallery/interactive/pyfar_arithmetics.ipynb
-   gallery/interactive/pyfar_filtering.ipynb
-   gallery/interactive/sofar_introduction.ipynb
-
-.. nbgallery::
-   :caption: Applications
-   :name: applications
-   :glob:
-   :reversed:
-
-   gallery/static/impulse_response_measurement.ipynb
+.. include:: examples_gallery.rst
+   :start-after: .. include_label
 
 |
 Contribute  
@@ -276,14 +254,6 @@ Supporters
          :width: 250 px
 
       University of Applied Sciences Cologne
-
-   .. grid-item-card:: 
-      :text-align: center
-
-      .. image:: resources/supporter-logos/iap.png
-         :width: 250 px
-
-      The Institute for Advanced Procrastination
    
    .. grid-item-card::
       :link: https://www.tu.berlin/akustik
@@ -302,3 +272,11 @@ Supporters
          :height: 100 px
 
       Technical University of Denmark
+
+   .. grid-item-card:: 
+      :text-align: center
+
+      .. image:: resources/supporter-logos/iap.png
+         :width: 250 px
+
+      The Institute for Advanced Procrastination

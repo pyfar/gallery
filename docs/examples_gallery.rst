@@ -2,6 +2,8 @@
 Examples gallery
 =================
 
+.. include_label
+
 .. nbgallery::
    :caption: Getting Started
    :name: getting_started
