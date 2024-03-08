@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. |pyfar_logo| image:: resources/pyfar_logos_fixed_size_pyfar.png
+.. |pyfar_logo| image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
    :width: 150
    :alt: Alternative text
 
@@ -35,7 +35,7 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
 
-      .. image:: resources/pyfar_logos_fixed_size_pyfar.png
+      .. image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
          :width: 300 px
       
       ^^^
@@ -68,7 +68,7 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
 
-      .. image:: resources/pyfar_logos_fixed_size_sofar.png
+      .. image:: resources/logos/pyfar_logos_fixed_size_sofar.png
          :width: 300 px
 
       ^^^
@@ -100,7 +100,7 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
    
-      .. image:: resources/pyfar_logos_fixed_size_spharpy.png
+      .. image:: resources/logos/pyfar_logos_fixed_size_spharpy.png
          :width: 300 px
 
       ^^^
@@ -130,7 +130,7 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
 
-      .. image:: resources/pyfar_logos_fixed_size_pyrato.png
+      .. image:: resources/logos/pyfar_logos_fixed_size_pyrato.png
          :width: 300 px
 
       ^^^^
@@ -164,7 +164,7 @@ educational and commercial use.
       ^^^^
       The pyfar base package will be extendend an new packages for audio 
       input/output to external hardware, acoustic measurements, 
-      and spherical array processing are planned.
+      and material modeling are planned.
       +++
       .. grid:: 1
 
@@ -289,7 +289,7 @@ Supporters
       :link: https://www.tu.berlin/akustik
       :text-align: center
 
-      .. image:: resources/tu-berlin-logo-long-red.svg
+      .. image:: resources/supporter-logos/tu-berlin-logo-long-red.svg
          :width: 250 px
 
       Engineering Acoustics Group, Technical University of Berlin

@@ -59,7 +59,7 @@ intersphinx_mapping = {
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
-html_logo = 'resources/pyfar_logos_fixed_size_pyfar.png'
+html_logo = 'resources/logos/pyfar_logos_fixed_size_pyfar.png'
 html_title = "pyfar"
 html_favicon = '_static/favicon.ico'
 
@@ -69,14 +69,21 @@ html_favicon = '_static/favicon.ico'
 
 html_theme_options = {
     "navbar_start": ["navbar-logo"],
-    "navbar_end": ["theme-switcher", "navbar-icon-links"],
+    "navbar_end": ["navbar-icon-links"],
     "navbar_align": "content",
+    "footer_center": "icon-links",
     "icon_links": [
         {
           "name": "GitHub",
           "url": "https://github.com/pyfar",
           "icon": "fa-brands fa-square-github",
           "type": "fontawesome",
+        },
+        {
+            "name": "CC-BY",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.de",
+            "icon": "fa-brands fa-creative-commons-by",
+            "type": "fontawesome",
         }
     ],
   
@@ -86,6 +93,9 @@ html_theme_options = {
                                            # shows notebook in json format
 }
 
+html_context = {
+   "default_mode": "light"
+}
 # -- Options for Texinfo output ----------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
