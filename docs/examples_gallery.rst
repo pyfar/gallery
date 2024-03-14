@@ -16,7 +16,6 @@ Examples gallery
    gallery/interactive/pyfar_filter_types.ipynb
    gallery/interactive/pyfar_arithmetics.ipynb
    gallery/interactive/pyfar_filtering.ipynb
-   gallery/interactive/sofar_introduction.ipynb
 
 .. nbgallery::
    :caption: Applications
@@ -25,3 +24,4 @@ Examples gallery
    :reversed:
 
    gallery/static/impulse_response_measurement.ipynb
+   gallery/interactive/sofar_introduction.ipynb
