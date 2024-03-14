@@ -27,3 +27,4 @@ Examples gallery
 
    gallery/static/impulse_response_measurement.ipynb
    gallery/interactive/sofar_introduction.ipynb
+   gallery/static/binaural_synthesis.ipynb
