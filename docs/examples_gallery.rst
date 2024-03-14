@@ -16,6 +16,8 @@ Examples gallery
    gallery/interactive/pyfar_filter_types.ipynb
    gallery/interactive/pyfar_arithmetics.ipynb
    gallery/interactive/pyfar_filtering.ipynb
+   gallery/interactive/fast_fourier_transform.ipynb
+
 
 .. nbgallery::
    :caption: Applications
