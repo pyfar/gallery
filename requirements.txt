@@ -26,5 +26,7 @@ sphinx-gallery
 pyfar
 sounddevice
 pre-commit
-watermark
 ipympl
+sphinx-design
+sphinx-favicon
+watermark
