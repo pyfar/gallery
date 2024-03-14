@@ -20,6 +20,7 @@ copyright = '2024, The pyfar developers'
 author = 'The pyfar developers'
 release = '0.1.0'
 
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -33,6 +34,8 @@ extensions = [
     'sphinx_gallery.load_style',
     'nbsphinx',
     'autodocsumm',
+    "sphinx_design",
+    "sphinx_favicon",
 ]
 
 templates_path = ['_templates']
@@ -55,7 +58,43 @@ intersphinx_mapping = {
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+html_css_files = ['css/custom.css']
+html_logo = 'resources/logos/pyfar_logos_fixed_size_pyfar.png'
+html_title = "pyfar"
+html_favicon = '_static/favicon.ico'
 
+
+# -- HTML theme options
+# https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/layout.html
+
+html_theme_options = {
+    "navbar_start": ["navbar-logo"],
+    "navbar_end": ["navbar-icon-links"],
+    "navbar_align": "content",
+    "icon_links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pyfar",
+          "icon": "fa-brands fa-square-github",
+          "type": "fontawesome",
+        },
+        {
+            "name": "CC-BY",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.de",
+            "icon": "fa-brands fa-creative-commons-by",
+            "type": "fontawesome",
+        }
+    ],
+  
+  # Configure secondary (right) side bar
+  "show_toc_level": 3,                     # Show all subsections of notebooks
+  "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that
+                                           # shows notebook in json format
+}
+
+html_context = {
+   "default_mode": "light"
+}
 # -- Options for Texinfo output ----------------------------------------
 
 # Grouping the document tree into Texinfo files. List of tuples
