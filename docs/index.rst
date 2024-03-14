@@ -134,7 +134,7 @@ educational and commercial use.
          :width: 300 px
 
       ^^^^
-      A collection of functions for commonly used operations in room acoustics
+      A collection of functions for commonly used operations in room acoustics.
       +++
       .. grid:: 2
       
@@ -162,7 +162,7 @@ educational and commercial use.
 
       **coming next...**
       ^^^^
-      The pyfar base package will be extendend an new packages for audio 
+      The pyfar base package will be extended. New packages for audio 
       input/output to external hardware, acoustic measurements, 
       and material modeling are planned.
       +++
