@@ -178,6 +178,7 @@ educational and commercial use.
                progress 
 
 |
+
 Pyfar gallery  
 =============
 
@@ -188,6 +189,7 @@ for the whole pyfar ecosystem.
    :start-after: .. include_label
 
 |
+
 Contribute  
 ===========
 
@@ -221,6 +223,7 @@ community for the acoustics research community. We welcome any contributions
       or info@pyfar.org before you start.
 
 |
+
 Supporters
 ===========
 
