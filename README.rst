@@ -9,6 +9,10 @@ pyfar gallery
     :target: https://circleci.com/gh/pyfar/gallery
 .. image:: https://mybinder.org/badge_logo.svg
     :target: https://mybinder.org/v2/gh/pyfar/gallery/main?filepath=docs/gallery
+.. image:: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+    :target: https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1
+    :height: 20
+
 
 
 This is the pyfar gallery. It contains examples of applications pyfar and its sub-packages can be used for.
@@ -33,30 +37,40 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
 1. `Fork <https://docs.github.com/en/get-started/quickstart/fork-a-repo/>`_ the `gallery` repo on GitHub.
 2. Clone your fork locally and cd into the gallery directory::
 
-    $ git clone https://github.com/YOUR_USERNAME/gallery.git
-    $ cd gallery
+.. code-block:: shell
+
+    git clone https://github.com/YOUR_USERNAME/gallery.git
+    cd gallery
 
 3. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development::
 
-    $ conda create --name gallery python
-    $ conda activate gallery
-    $ pip install -r requirements.txt
+.. code-block:: shell
+
+    conda create --name gallery python
+    conda activate gallery
+    pip install -r requirements.txt
 
 4. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed::
 
-    $ pre-commit install
+.. code-block:: shell
+
+    pre-commit install
 
 5. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`)::
 
-    $ git checkout -b name-of-your-bugfix-or-feature
+.. code-block:: shell
+
+    git checkout -b name-of-your-bugfix-or-feature
 
    Now you can make your changes locally.
 
 6. Commit your changes and push your branch to GitHub::
 
-    $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
+.. code-block:: shell
+
+    git add .
+    git commit -m "Your detailed description of your changes."
+    git push origin name-of-your-bugfix-or-feature
 
 7. Submit a pull request on the develop branch through the GitHub website.
 
@@ -69,12 +83,15 @@ This could be due to the need for specific hardware, such as audio interfaces or
 
 To add notebooks to the gallery, simply place them inside ``docs/gallery/interactive`` or ``docs/gallery/static``, respectively.
 
+A very bare template for new notebooks is provided in `docs/_templates/template.ipympl <https://github.com/pyfar/gallery/blob/main/docs/_templates/template.ipynb>`_. It is highly recommended to use it for consistency with other notebooks.
+
 .. code-block:: shell
 
     docs
     ├── Makefile
     ├── _build
     ├── _templates
+    │   └── template.ipynb
     ├── _static
     ├── conf.py
     ├── gallery
@@ -90,7 +107,7 @@ To add notebooks to the gallery, simply place them inside ``docs/gallery/interac
 Metadata for static notebooks
 -----------------------------
 
-Note that notebooks placed in the static folder omitted from unit testing on CircleCI and hence need apprpriate offline testing.
+Note that notebooks placed in the static folder omitted from unit testing on CircleCI and hence need appropriate offline testing.
 Static notebooks further need to include the setting
 
 .. code-block:: json
@@ -100,6 +117,7 @@ Static notebooks further need to include the setting
     },
 
 as part of their JSON meta-data.
+
 For more information see the `nbsphinx documentation <https://nbsphinx.readthedocs.io/en/latest/never-execute.html>`_
 
 Thumbnails
@@ -152,3 +170,10 @@ Finally, add the notebook to an appropriate ``nbgallery`` inside the ``docs/inde
        :reversed:
 
        gallery/interactive/your_new_notebook.ipynb
+
+License
+-------
+Unless otherwise stated source code, graphics, and audio files © 2024 by `the pyfar developers <https://github.com/orgs/pyfar/people>`_ are licensed under `CC BY 4.0 <http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1>`_.
+
+.. image:: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg
+    :target: https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1
