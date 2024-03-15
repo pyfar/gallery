@@ -179,17 +179,6 @@ educational and commercial use.
 
 |
 
-Pyfar gallery
-=============
-
-This is the pyfar gallery. It provides a collection of examples and tutorials
-for the whole pyfar ecosystem.
-
-.. include:: examples_gallery.rst
-   :start-after: .. include_label
-
-|
-
 Contribute
 ===========
 
