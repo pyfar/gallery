@@ -35,4 +35,4 @@ Examples gallery
     :glob:
     :reversed:
 
-    gallery/interactive/2024_workshop_daga.ipynb
+    gallery/interactive/pfyar_introduction.ipynb
