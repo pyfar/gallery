@@ -160,6 +160,25 @@ educational and commercial use.
       :text-align: center
       :shadow: lg
 
+      **Example gallery**
+      ^^^^
+      The pyfar gallery contains notebooks explaining fundamental concepts and showing application examples.
+      +++
+      .. grid:: 1
+
+         .. grid-item::
+
+            .. button-link:: examples_gallery.html
+               :color: primary
+               :expand:
+               :shadow:
+
+               gallery
+
+   .. grid-item-card::
+      :text-align: center
+      :shadow: lg
+
       **coming next...**
       ^^^^
       The pyfar base package will be extended. New packages for audio
