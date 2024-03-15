@@ -69,7 +69,7 @@ html_favicon = '_static/favicon.ico'
 
 html_theme_options = {
     "navbar_start": ["navbar-logo"],
-    "navbar_end": ["navbar-icon-links"],
+    "navbar_end": ["navbar-icon-links", "theme-switcher"],
     "navbar_align": "content",
     "icon_links": [
         {
@@ -90,9 +90,6 @@ html_theme_options = {
     "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
 }
 
-html_context = {
-    "default_mode": "light"
-}
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
