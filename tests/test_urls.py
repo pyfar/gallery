@@ -14,12 +14,13 @@ notebooks = glob.glob(os.path.join(
 def test_urls(notebook):
     '''Test if a url exists and raise an error if not'''
     # load notebook content
-    with open(notebook, 'r') as f:
+    with open(notebook, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # extract list of links starting with http or www
+    # extract list of links starting with http or www ...
     urls = re.findall(r'(http[s]?://\S+|www\.\S+)', content)
-    urls = [url[:-1] if url.endswith(')') else url for url in urls]
+    # ... and ending at the first closing bracket
+    urls = [url[:url.find(')')] for url in urls if url.find(')')]
 
     # check if links exist
     not_found = ''
