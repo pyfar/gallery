@@ -198,8 +198,8 @@ educational and commercial use. It is made by the acoustics research
 community for the acoustics research community. We welcome any contributions
 – go ahead if you are in the mood.
 
-.. grid:: 2
-
+.. grid:: 1 1 2 2
+   :gutter: 4
 
    .. grid-item-card::
       :text-align: center
@@ -227,7 +227,7 @@ community for the acoustics research community. We welcome any contributions
 Supporters
 ===========
 
-.. grid:: 3
+.. grid:: 1 2 2 3
    :gutter: 4
 
    .. grid-item-card::
