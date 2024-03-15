@@ -20,6 +20,7 @@ copyright = '2024, The pyfar developers'
 author = 'The pyfar developers'
 release = '0.1.0'
 
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -33,6 +34,8 @@ extensions = [
     'sphinx_gallery.load_style',
     'nbsphinx',
     'autodocsumm',
+    "sphinx_design",
+    "sphinx_favicon",
 ]
 
 templates_path = ['_templates']
@@ -48,27 +51,48 @@ intersphinx_mapping = {
     'scipy': ('https://docs.scipy.org/doc/scipy/', None),
     'matplotlib': ('https://matplotlib.org/stable/', None),
     'spharpy': ('https://spharpy.readthedocs.io/en/stable/', None)
-    }
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+html_css_files = ['css/custom.css']
+html_logo = 'resources/logos/pyfar_logos_fixed_size_pyfar.png'
+html_title = "pyfar"
+html_favicon = '_static/favicon.ico'
 
-# -- Options for Texinfo output ----------------------------------------
 
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-# texinfo_documents = [
-#     (master_doc, 'pyfar',
-#      u'pyfar Gallery',
-#      author,
-#      'pyfar',
-#      'One line description of project.',
-#      'Miscellaneous'),
-# ]
+# -- HTML theme options
+# https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/layout.html
+
+html_theme_options = {
+    "navbar_start": ["navbar-logo"],
+    "navbar_end": ["navbar-icon-links"],
+    "navbar_align": "content",
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/pyfar",
+            "icon": "fa-brands fa-square-github",
+            "type": "fontawesome",
+        },
+        {
+            "name": "CC-BY",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.de",
+            "icon": "fa-brands fa-creative-commons-by",
+            "type": "fontawesome",
+        }
+    ],
+    # Configure secondary (right) side bar
+    "show_toc_level": 3,                     # Show all subsections of notebooks
+    "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
+}
+
+html_context = {
+    "default_mode": "light"
+}
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
@@ -105,4 +129,10 @@ nbsphinx_prolog = r"""
 # must be located in 'docs/_static'
 nbsphinx_thumbnails = {
     'gallery/interactive/pyfar_audio_objects': '_static/thumbnail_pyfar_audio_objects.png',
+    'gallery/interactive/pyfar_coordinates': '_static/thumbnail_pyfar_coordinates.png',
+    'gallery/interactive/pyfar_filter_types': '_static/thumbnail_pyfar_filter_types.png',
+    'gallery/interactive/pyfar_arithmetics': '_static/thumbnail_pyfar_arithmetics.png',
+    'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
+    'gallery/interactive/sofar_introduction': '_static/thumbnail_sofar_introduction.png',
+    'gallery/interactive/fast_fourier_transform': '_static/thumbnail_fast_fourier_transform.png',
 }

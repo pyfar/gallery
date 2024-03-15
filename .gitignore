@@ -2,3 +2,4 @@ env/
 _build
 .DS_Store
 tests/__pycache__/*
+docs/resources/my_first.sofa

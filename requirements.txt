@@ -24,5 +24,9 @@ nbsphinx
 nbsphinx-link
 sphinx-gallery
 pyfar
+sounddevice
 pre-commit
 ipympl
+sphinx-design
+sphinx-favicon
+watermark

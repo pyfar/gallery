@@ -39,7 +39,7 @@ jobs:
       - checkout
       - run:
           name: Install System Dependencies
-          command: sudo apt-get update && sudo apt-get install -y libsndfile1
+          command: sudo apt-get update && sudo apt-get install -y libsndfile1 portaudio19-dev
       - python/install-packages:
           pkg-manager: pip
           # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
@@ -47,7 +47,6 @@ jobs:
       - run:
           name: Examples
           command: |
-            pip install astroid
             pytest --nbmake docs/gallery/interactive/*.ipynb
 
   test_documentation_build:
@@ -64,7 +63,7 @@ jobs:
       - checkout
       - run:
           name: Install System Dependencies
-          command: sudo apt-get update && sudo apt-get install -y libsndfile1 dvipng pandoc
+          command: sudo apt-get update && sudo apt-get install -y libsndfile1 dvipng pandoc portaudio19-dev
       - python/install-packages:
           pkg-manager: pip
           # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
