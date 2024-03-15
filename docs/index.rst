@@ -18,17 +18,17 @@ pyfar - python packages for acoustics research
 ==============================================
 
 
-Pyfar aims at providing signal processing methods, plotting functionality, and 
-interfacing with audio devices and instrumentation in a unified and 
-comprehensive framework for acoustics research. To ensure  good usability, the 
-pyfar ecosystem is developed with a strong focus on documentation. Test driven 
-development and continuous integration ensure stable and reliable code. Pyfar 
-packages are provided under the MIT open source license allowing unrestricted 
+Pyfar aims at providing signal processing methods, plotting functionality, and
+interfacing with audio devices and instrumentation in a unified and
+comprehensive framework for acoustics research. To ensure  good usability, the
+pyfar ecosystem is developed with a strong focus on documentation. Test driven
+development and continuous integration ensure stable and reliable code. Pyfar
+packages are provided under the MIT open source license allowing unrestricted
 educational and commercial use.
 
 |
 
-.. grid:: 3
+.. grid:: 1 2 2 3
    :gutter: 4
 
    .. grid-item-card:: python package for acoustics research
@@ -37,31 +37,31 @@ educational and commercial use.
 
       .. image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
          :width: 300 px
-      
-      ^^^
-      
 
-      The pyfar base package offers functionality for digital signal 
+      ^^^
+
+
+      The pyfar base package offers functionality for digital signal
       processing, signal generation, and plotting.
       +++
       .. grid:: 2
-         
+
          .. grid-item::
 
-            .. button-link:: https://pyfar.readthedocs.io/en/stable/ 
+            .. button-link:: https://pyfar.readthedocs.io/en/stable/
                :color: primary
                :shadow:
                :expand:
 
                docs
-         
+
          .. grid-item::
 
-            .. button-link:: https://github.com/pyfar/pyfar 
+            .. button-link:: https://github.com/pyfar/pyfar
                :color: primary
                :shadow:
                :expand:
-               
+
                code
 
    .. grid-item-card::  maybe the most complete python package for SOFA files so far
@@ -72,21 +72,21 @@ educational and commercial use.
          :width: 300 px
 
       ^^^
-      SOFA files store spatially distributed acoustic data such as head-related 
-      transfer functions. Sofar can read, create, write, manipulate, and verify 
+      SOFA files store spatially distributed acoustic data such as head-related
+      transfer functions. Sofar can read, create, write, manipulate, and verify
       SOFA files.
       +++
       .. grid:: 2
-      
+
          .. grid-item::
 
-            .. button-link:: https://sofar.readthedocs.io/en/stable/ 
+            .. button-link:: https://sofar.readthedocs.io/en/stable/
                :color: primary
                :shadow:
                :expand:
 
                docs
-         
+
          .. grid-item::
 
             .. button-link:: https://github.com/pyfar/sofar
@@ -94,12 +94,12 @@ educational and commercial use.
                :shadow:
                :expand:
 
-               code        
+               code
 
    .. grid-item-card::  Spherical array processing in python
       :text-align: center
       :shadow: lg
-   
+
       .. image:: resources/logos/pyfar_logos_fixed_size_spharpy.png
          :width: 300 px
 
@@ -110,13 +110,13 @@ educational and commercial use.
 
          .. grid-item::
 
-            .. button-link:: https://spharpy.readthedocs.io/en/latest/ 
+            .. button-link:: https://spharpy.readthedocs.io/en/latest/
                :color: primary
                :shadow:
                :expand:
 
                docs
-         
+
          .. grid-item::
 
             .. button-link:: https://github.com/pyfar/spharpy
@@ -137,16 +137,16 @@ educational and commercial use.
       A collection of functions for commonly used operations in room acoustics.
       +++
       .. grid:: 2
-      
+
          .. grid-item::
 
-            .. button-link:: https://pyrato.readthedocs.io/en/latest/ 
+            .. button-link:: https://pyrato.readthedocs.io/en/latest/
                :color: primary
                :shadow:
                :expand:
 
                docs
-         
+
          .. grid-item::
 
             .. button-link:: https://github.com/pyfar/pyrato
@@ -156,14 +156,14 @@ educational and commercial use.
 
                code
 
-   .. grid-item-card::  
+   .. grid-item-card::
       :text-align: center
       :shadow: lg
 
       **coming next...**
       ^^^^
-      The pyfar base package will be extended. New packages for audio 
-      input/output to external hardware, acoustic measurements, 
+      The pyfar base package will be extended. New packages for audio
+      input/output to external hardware, acoustic measurements,
       and material modeling are planned.
       +++
       .. grid:: 1
@@ -174,12 +174,12 @@ educational and commercial use.
                :color: primary
                :expand:
                :shadow:
- 
-               progress 
+
+               progress
 
 |
 
-Pyfar gallery  
+Pyfar gallery
 =============
 
 This is the pyfar gallery. It provides a collection of examples and tutorials
@@ -190,24 +190,24 @@ for the whole pyfar ecosystem.
 
 |
 
-Contribute  
+Contribute
 ===========
 
-Pyfar is completely open source and it’s license allows unrestricted 
-educational and commercial use. It is made by the acoustics research 
+Pyfar is completely open source and it’s license allows unrestricted
+educational and commercial use. It is made by the acoustics research
 community for the acoustics research community. We welcome any contributions
 – go ahead if you are in the mood.
 
-.. grid:: 2
-   
+.. grid:: 1 1 2 2
+   :gutter: 4
 
    .. grid-item-card::
       :text-align: center
 
       **Feedback, bugs, feature requests**
       ^^^^
-      The best way for any feedback, bug reports, and feature request is to 
-      open a new issue on GitHub. The GitHub projects are linked through the 
+      The best way for any feedback, bug reports, and feature request is to
+      open a new issue on GitHub. The GitHub projects are linked through the
       Code buttons above.
 
    .. grid-item-card::
@@ -217,9 +217,9 @@ community for the acoustics research community. We welcome any contributions
       ^^^^
 
       If you want to add code or documentation, a good starting point for ideas
-      are the issues on GitHub. The GitHub projects are linked through the 
-      Code buttons above. If you have own ideas for contributions, may it be 
-      code, or other things, it would be best to get in touch through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_  
+      are the issues on GitHub. The GitHub projects are linked through the
+      Code buttons above. If you have own ideas for contributions, may it be
+      code, or other things, it would be best to get in touch through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
       or info@pyfar.org before you start.
 
 |
@@ -227,20 +227,20 @@ community for the acoustics research community. We welcome any contributions
 Supporters
 ===========
 
-.. grid:: 3
+.. grid:: 1 2 2 3
    :gutter: 4
 
-   .. grid-item-card:: 
+   .. grid-item-card::
       :link: https://www.akustik.rwth-aachen.de/go/id/dwma/
       :text-align: center
 
       .. image:: resources/supporter-logos/ITHA_RWTH.svg
          :width: 250 px
 
-         
+
       Institute for Hearing Technology and Acoustics, RWTH Aachen University
 
-   .. grid-item-card:: 
+   .. grid-item-card::
       :link: https://www.tu.berlin/ak/
       :text-align: center
 
@@ -249,7 +249,7 @@ Supporters
 
       Audio Communication Group, Technical University of Berlin
 
-   .. grid-item-card:: 
+   .. grid-item-card::
       :link: https://www.th-koeln.de/informations-medien-und-elektrotechnik/technische-akustik_25051.php
       :text-align: center
 
@@ -257,7 +257,7 @@ Supporters
          :width: 250 px
 
       University of Applied Sciences Cologne
-   
+
    .. grid-item-card::
       :link: https://www.tu.berlin/akustik
       :text-align: center
@@ -267,7 +267,7 @@ Supporters
 
       Engineering Acoustics Group, Technical University of Berlin
 
-   .. grid-item-card:: 
+   .. grid-item-card::
       :link: https://electro.dtu.dk/research/research-areas/electro-technology/acoustic-technology
       :text-align: center
 
@@ -276,7 +276,7 @@ Supporters
 
       Technical University of Denmark
 
-   .. grid-item-card:: 
+   .. grid-item-card::
       :text-align: center
 
       .. image:: resources/supporter-logos/iap.png

@@ -51,7 +51,7 @@ intersphinx_mapping = {
     'scipy': ('https://docs.scipy.org/doc/scipy/', None),
     'matplotlib': ('https://matplotlib.org/stable/', None),
     'spharpy': ('https://spharpy.readthedocs.io/en/stable/', None)
-    }
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -73,10 +73,10 @@ html_theme_options = {
     "navbar_align": "content",
     "icon_links": [
         {
-          "name": "GitHub",
-          "url": "https://github.com/pyfar",
-          "icon": "fa-brands fa-square-github",
-          "type": "fontawesome",
+            "name": "GitHub",
+            "url": "https://github.com/pyfar",
+            "icon": "fa-brands fa-square-github",
+            "type": "fontawesome",
         },
         {
             "name": "CC-BY",
@@ -85,29 +85,14 @@ html_theme_options = {
             "type": "fontawesome",
         }
     ],
-  
-  # Configure secondary (right) side bar
-  "show_toc_level": 3,                     # Show all subsections of notebooks
-  "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that
-                                           # shows notebook in json format
+    # Configure secondary (right) side bar
+    "show_toc_level": 3,                     # Show all subsections of notebooks
+    "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
 }
 
 html_context = {
-   "default_mode": "light"
+    "default_mode": "light"
 }
-# -- Options for Texinfo output ----------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-# texinfo_documents = [
-#     (master_doc, 'pyfar',
-#      u'pyfar Gallery',
-#      author,
-#      'pyfar',
-#      'One line description of project.',
-#      'Miscellaneous'),
-# ]
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
