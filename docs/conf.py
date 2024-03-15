@@ -96,7 +96,7 @@ html_context = {
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
-{% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
+{% set docname = 'docs/' + env.doc2path(env.docname, base=None) %}
 
 .. raw:: html
 
