@@ -18,6 +18,7 @@ Examples gallery
    gallery/interactive/pyfar_filtering.ipynb
    gallery/interactive/fast_fourier_transform.ipynb
    gallery/interactive/pyfar_plotting.ipynb
+   gallery/interactive/pyfar_interactive_plots.ipynb
 
 
 .. nbgallery::
