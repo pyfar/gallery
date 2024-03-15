@@ -156,11 +156,13 @@ educational and commercial use.
 
                code
 
-   .. grid-item-card::
+   .. grid-item-card:: coming next...
       :text-align: center
       :shadow: lg
 
-      **coming next...**
+      .. image:: resources/pyfar_logos_fixed_size_coming.png
+         :width: 250 px
+
       ^^^^
       The pyfar base package will be extended. New packages for audio
       input/output to external hardware, acoustic measurements,
@@ -185,10 +187,36 @@ Pyfar gallery
 This is the pyfar gallery. It provides a collection of examples and tutorials
 for the whole pyfar ecosystem.
 
-.. include:: examples_gallery.rst
-   :start-after: .. include_label
+.. grid:: 1 2 2 3
+   :gutter: 4
 
-|
+   .. grid-item-card::
+      :link: examples_gallery.html#getting_started
+      :text-align: center
+
+      Getting Started
+      ^^^^
+
+      .. image:: _static/thumbnail_pyfar_audio_objects.png
+         :width: 200 px
+
+   .. grid-item-card::
+      :link: examples_gallery.html#applications
+      :text-align: center
+
+      Applications 
+      ^^^^
+
+      .. image:: _static/thumbnail_sofar_introduction.png
+         :width: 200 px
+
+   .. grid-item-card::
+      :link: examples_gallery.html#workshops
+      :text-align: center
+
+      Workshops
+      ^^^^
+      
 
 Contribute
 ===========
