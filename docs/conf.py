@@ -150,4 +150,5 @@ nbsphinx_thumbnails = {
     'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
     'gallery/interactive/sofar_introduction': '_static/thumbnail_sofar_introduction.png',
     'gallery/interactive/fast_fourier_transform': '_static/thumbnail_fast_fourier_transform.png',
+    'gallery/interactive/pyfar_introduction': '_static/pyfar_pf_transparent.png',
 }
