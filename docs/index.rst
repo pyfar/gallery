@@ -156,11 +156,13 @@ educational and commercial use.
 
                code
 
-   .. grid-item-card::
+   .. grid-item-card:: coming next...
       :text-align: center
       :shadow: lg
 
-      **coming next...**
+      .. image:: resources/pyfar_logos_fixed_size_coming.png
+         :width: 250 px
+
       ^^^^
       The pyfar base package will be extended. New packages for audio
       input/output to external hardware, acoustic measurements,
