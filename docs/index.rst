@@ -48,7 +48,7 @@ educational and commercial use.
 
          .. grid-item::
 
-            .. button-link:: https://pyfar.readthedocs.io/en/stable/
+            .. button-link:: https://pyfar.readthedocs.io/
                :color: primary
                :shadow:
                :expand:
@@ -80,7 +80,7 @@ educational and commercial use.
 
          .. grid-item::
 
-            .. button-link:: https://sofar.readthedocs.io/en/stable/
+            .. button-link:: https://sofar.readthedocs.io
                :color: primary
                :shadow:
                :expand:
@@ -110,7 +110,7 @@ educational and commercial use.
 
          .. grid-item::
 
-            .. button-link:: https://spharpy.readthedocs.io/en/latest/
+            .. button-link:: https://spharpy.readthedocs.io
                :color: primary
                :shadow:
                :expand:
@@ -140,7 +140,7 @@ educational and commercial use.
 
          .. grid-item::
 
-            .. button-link:: https://pyrato.readthedocs.io/en/latest/
+            .. button-link:: https://pyrato.readthedocs.io
                :color: primary
                :shadow:
                :expand:
@@ -204,7 +204,7 @@ for the whole pyfar ecosystem.
       :link: examples_gallery.html#applications
       :text-align: center
 
-      Applications 
+      Applications
       ^^^^
 
       .. image:: _static/thumbnail_sofar_introduction.png
@@ -220,7 +220,7 @@ for the whole pyfar ecosystem.
       .. image:: _static/pyfar_pf_transparent.png
          :width: 150 px
 
-      
+
 
 Contribute
 ===========
