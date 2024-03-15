@@ -216,6 +216,10 @@ for the whole pyfar ecosystem.
 
       Workshops
       ^^^^
+
+      .. image:: _static/pyfar_pf_transparent.png
+         :width: 150 px
+
       
 
 Contribute
