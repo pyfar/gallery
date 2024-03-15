@@ -35,4 +35,4 @@ Examples gallery
     :glob:
     :reversed:
 
-    gallery/interactive/pfyar_introduction.ipynb
+    gallery/interactive/pyfar_introduction.ipynb
