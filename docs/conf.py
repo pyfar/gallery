@@ -69,7 +69,7 @@ html_favicon = '_static/favicon.ico'
 
 html_theme_options = {
     "navbar_start": ["navbar-logo"],
-    "navbar_end": ["navbar-icon-links"],
+    "navbar_end": ["navbar-icon-links", "theme-switcher"],
     "navbar_align": "content",
     "icon_links": [
         {
@@ -90,19 +90,16 @@ html_theme_options = {
     "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
 }
 
-html_context = {
-    "default_mode": "light"
-}
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
-{% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
+{% set docname = 'docs/' + env.doc2path(env.docname, base=None) %}
 
 .. raw:: html
 
     <div class="admonition note">
       Open an interactive online version by clicking the badge
-      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?filepath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
+      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?labpath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
       or
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
       the notebook.
@@ -135,4 +132,5 @@ nbsphinx_thumbnails = {
     'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
     'gallery/interactive/sofar_introduction': '_static/thumbnail_sofar_introduction.png',
     'gallery/interactive/fast_fourier_transform': '_static/thumbnail_fast_fourier_transform.png',
+    'gallery/interactive/pyfar_introduction': '_static/pyfar_pf_transparent.png',
 }
