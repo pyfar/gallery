@@ -6,5 +6,26 @@ indent_style = space
 indent_size = 4
 end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = false
+trim_trailing_whitespace = true
 insert_final_newline = false
+
+[*.py]
+indent_size = 4
+insert_final_newline = true
+
+[*.rst]
+indent_size = 3
+indent_style = space
+
+[*.yml]
+indent_size = 2
+
+[LICENSE]
+insert_final_newline = false
+
+[Makefile]
+indent_style = tab
+
+[*.bat]
+indent_style = tab
+end_of_line = crlf
