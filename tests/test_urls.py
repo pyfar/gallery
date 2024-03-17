@@ -8,6 +8,8 @@ import re
 base_path = os.path.dirname(os.path.abspath(__file__))
 notebooks = glob.glob(os.path.join(
     base_path, '..', 'docs', 'gallery', 'interactive', '*.ipynb'))
+notebooks += glob.glob(os.path.join(
+    base_path, '..', 'docs', 'gallery', 'static', '*.ipynb'))
 
 
 @pytest.mark.parametrize('notebook', notebooks)
