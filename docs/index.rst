@@ -31,8 +31,8 @@ educational and commercial use.
 .. grid:: 1 2 2 3
    :gutter: 4
 
-   .. grid-item-card:: python package for acoustics research
-      :text-align: center
+   .. grid-item-card:: Python package for acoustics research
+      :text-align: justify
       :shadow: lg
 
       .. image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
@@ -64,8 +64,8 @@ educational and commercial use.
 
                code
 
-   .. grid-item-card::  maybe the most complete python package for SOFA files so far
-      :text-align: center
+   .. grid-item-card::  Python package for handling SOFA files
+      :text-align: justify
       :shadow: lg
 
       .. image:: resources/logos/pyfar_logos_fixed_size_sofar.png
@@ -97,7 +97,7 @@ educational and commercial use.
                code
 
    .. grid-item-card::  Spherical array processing in python
-      :text-align: center
+      :text-align: justify
       :shadow: lg
 
       .. image:: resources/logos/pyfar_logos_fixed_size_spharpy.png
@@ -127,7 +127,7 @@ educational and commercial use.
                code
 
    .. grid-item-card:: Python Room Acoustics Tools
-      :text-align: center
+      :text-align: justify
       :shadow: lg
 
       .. image:: resources/logos/pyfar_logos_fixed_size_pyrato.png
@@ -157,7 +157,7 @@ educational and commercial use.
                code
 
    .. grid-item-card:: coming next...
-      :text-align: center
+      :text-align: justify
       :shadow: lg
 
       .. image:: resources/pyfar_logos_fixed_size_coming.png
@@ -234,7 +234,7 @@ community for the acoustics research community. We welcome any contributions
    :gutter: 4
 
    .. grid-item-card::
-      :text-align: center
+      :text-align: justify
 
       **Feedback, bugs, feature requests**
       ^^^^
@@ -243,7 +243,7 @@ community for the acoustics research community. We welcome any contributions
       Code buttons above.
 
    .. grid-item-card::
-      :text-align: center
+      :text-align: justify
 
       **Add code, documentation, or funding**
       ^^^^
@@ -305,6 +305,7 @@ Supporters
 
       .. image:: resources/supporter-logos/DTU.png
          :height: 100 px
+         :align: center
 
       Technical University of Denmark
 
