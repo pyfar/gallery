@@ -31,7 +31,7 @@ educational and commercial use.
 .. grid:: 1 2 2 3
    :gutter: 4
 
-   .. grid-item-card:: python package for acoustics research
+   .. grid-item-card:: Python package for acoustics research
       :text-align: justify
       :shadow: lg
 
@@ -64,7 +64,7 @@ educational and commercial use.
 
                code
 
-   .. grid-item-card::  maybe the most complete python package for SOFA files so far
+   .. grid-item-card::  Python package for handling SOFA files
       :text-align: justify
       :shadow: lg
 
@@ -157,7 +157,7 @@ educational and commercial use.
                code
 
    .. grid-item-card:: coming next...
-      :text-align: center
+      :text-align: justify
       :shadow: lg
 
       .. image:: resources/pyfar_logos_fixed_size_coming.png
