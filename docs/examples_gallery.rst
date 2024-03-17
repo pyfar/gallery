@@ -15,6 +15,8 @@ Examples gallery
    gallery/interactive/pyfar_coordinates.ipynb
    gallery/interactive/pyfar_orientations.ipynb
    gallery/interactive/pyfar_filter_types.ipynb
+   gallery/interactive/pyfar_plotting.ipynb
+   gallery/interactive/pyfar_interactive_plots.ipynb
 
 
 .. nbgallery::
