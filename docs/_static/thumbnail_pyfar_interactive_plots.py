@@ -1,4 +1,4 @@
-%%
+# %%
 
 import pyfar as pf
 import matplotlib.pyplot as plt
