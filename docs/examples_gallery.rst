@@ -1,6 +1,6 @@
-=================
-Examples gallery
-=================
+======================
+Pyfar examples gallery
+======================
 
 
 .. nbgallery::
