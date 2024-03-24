@@ -7,12 +7,7 @@
    :width: 150
    :alt: Alternative text
 
-.. toctree::
-   :maxdepth: 0
-   :hidden:
-
-   Examples gallery<examples_gallery>
-
+.. include:: header.rst
 
 pyfar - python packages for acoustics research
 ==============================================
