@@ -71,6 +71,7 @@ html_theme_options = {
     "navbar_start": ["navbar-logo"],
     "navbar_end": ["navbar-icon-links", "theme-switcher"],
     "navbar_align": "content",
+    "header_links_before_dropdown": 10,
     "icon_links": [
         {
             "name": "GitHub",
