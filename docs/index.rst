@@ -26,6 +26,12 @@ development and continuous integration ensure stable and reliable code. Pyfar
 packages are provided under the MIT open source license allowing unrestricted
 educational and commercial use.
 
+.. admonition:: Getting started
+
+      - If you are new to pyfar, we recommend the `Pyfar examples gallery`_, which works online.
+      - If you want to start on your local machine, please refer to the `Installation guide`_.
+      - If you need detailed information for a specific package, please refer to their documentation below.
+
 |
 
 .. grid:: 1 2 2 3
@@ -181,8 +187,8 @@ educational and commercial use.
 
 |
 
-Pyfar gallery
-=============
+Pyfar examples gallery
+======================
 
 This is the pyfar gallery. It provides a collection of examples and tutorials
 for the whole pyfar ecosystem.
@@ -252,7 +258,7 @@ community for the acoustics research community. We welcome any contributions
       are the issues on GitHub. The GitHub projects are linked through the
       Code buttons above. If you have own ideas for contributions, may it be
       code, or other things, it would be best to get in touch through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
-      or info@pyfar.org before you start.
+      or info@pyfar.org. Before starting, please have a look at the `Contributing guidelines`_.
 
 |
 
@@ -316,3 +322,8 @@ Supporters
          :width: 250 px
 
       The Institute for Advanced Procrastination
+
+
+.. _Pyfar examples gallery: examples_gallery.rst
+.. _Installation guide: installation.rst
+.. _Contributing guidelines: contributing.rst
