@@ -87,9 +87,15 @@ html_theme_options = {
     ],
     # Configure secondary (right) side bar
     "show_toc_level": 3,                     # Show all subsections of notebooks
+    "show_nav_level": 2,
     "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
 }
 
+html_sidebars = {
+    "community/index": [
+        "sidebar-nav-bs",
+    ],  # This ensures we test for custom sidebars
+}
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""

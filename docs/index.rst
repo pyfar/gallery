@@ -12,7 +12,9 @@
    :hidden:
 
    Examples gallery<examples_gallery>
-
+   community/index
+   community/contributing
+   community/installation
 
 pyfar - python packages for acoustics research
 ==============================================
@@ -325,5 +327,5 @@ Supporters
 
 
 .. _Pyfar examples gallery: examples_gallery.rst
-.. _Installation guide: installation.rst
-.. _Contributing guidelines: contributing.rst
+.. _Installation guide: community/installation.rst
+.. _Contributing guidelines: community/contributing.rst
