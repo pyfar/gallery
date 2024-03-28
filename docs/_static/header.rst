@@ -8,3 +8,4 @@
    sofar <https://sofar.readthedocs.io>
    spharpy <https://spharpy.readthedocs.io>
    pyrato <https://pyrato.readthedocs.io>
+   imkar <https://imkar.readthedocs.io>
