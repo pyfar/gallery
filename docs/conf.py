@@ -6,6 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import re
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
@@ -71,6 +72,7 @@ html_theme_options = {
     "navbar_start": ["navbar-logo"],
     "navbar_end": ["navbar-icon-links", "theme-switcher"],
     "navbar_align": "content",
+    "header_links_before_dropdown": 10,
     "icon_links": [
         {
             "name": "GitHub",
@@ -121,6 +123,15 @@ nbsphinx_prolog = r"""
     </div>
 
 """
+
+# replace examples_gallery hard link to internal link
+with open("_static/header.rst", "rt") as fin:
+    with open("header.rst", "wt") as fout:
+        for line in fin:
+            new_line = re.sub(
+                '<.*examples_gallery.*>', '<examples_gallery>', line)
+            fout.write(new_line)
+
 
 # -- manage thumbnails --------------------------------------------------------
 # must be located in 'docs/_static'
