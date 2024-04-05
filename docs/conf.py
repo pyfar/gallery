@@ -122,6 +122,15 @@ nbsphinx_prolog = r"""
     </div>
 
 """
+import re
+# replace examples_gallery hard link to internal link
+with open("_static/header.rst", "rt") as fin:
+    with open("header.rst", "wt") as fout:
+        for line in fin:
+            new_line = re.sub(
+                '<.*examples_gallery.*>', '<examples_gallery>', line)
+            fout.write(new_line)
+
 
 # -- manage thumbnails --------------------------------------------------------
 # must be located in 'docs/_static'
