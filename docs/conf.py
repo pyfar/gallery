@@ -136,6 +136,8 @@ with open("_static/header.rst", "rt") as fin:
         for line in fin:
             new_line = re.sub(
                 '<.*examples_gallery.*>', '<examples_gallery>', line)
+            new_line = re.sub(
+                '<.*community/index.*>', '<community/index>', new_line)
             fout.write(new_line)
 
 
