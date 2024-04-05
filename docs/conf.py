@@ -6,6 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import re
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
@@ -122,7 +123,7 @@ nbsphinx_prolog = r"""
     </div>
 
 """
-import re
+
 # replace examples_gallery hard link to internal link
 with open("_static/header.rst", "rt") as fin:
     with open("header.rst", "wt") as fout:
