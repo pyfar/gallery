@@ -261,7 +261,7 @@ Supporters
       :link: https://www.akustik.rwth-aachen.de/go/id/dwma/
       :text-align: center
 
-      .. image:: resources/supporter-logos/ITHA_RWTH.svg
+      .. image:: resources/supporter-logos/IHTA_fixed_size.png
          :width: 250 px
 
 
@@ -271,7 +271,7 @@ Supporters
       :link: https://www.tu.berlin/ak/
       :text-align: center
 
-      .. image:: resources/supporter-logos/TU_AK.png
+      .. image:: resources/supporter-logos/TU_AK_fixed_size.png
          :width: 250 px
 
       Audio Communication Group, Technical University of Berlin
@@ -280,7 +280,7 @@ Supporters
       :link: https://www.th-koeln.de/informations-medien-und-elektrotechnik/technische-akustik_25051.php
       :text-align: center
 
-      .. image:: resources/supporter-logos/TH_Koeln.png
+      .. image:: resources/supporter-logos/THK_fixed_size.png
          :width: 250 px
 
       University of Applied Sciences Cologne
@@ -289,7 +289,7 @@ Supporters
       :link: https://www.tu.berlin/akustik
       :text-align: center
 
-      .. image:: resources/supporter-logos/tu-berlin-logo-long-red.svg
+      .. image:: resources/supporter-logos/TU_TA_fixed_size.png
          :width: 250 px
 
       Engineering Acoustics Group, Technical University of Berlin
@@ -298,7 +298,7 @@ Supporters
       :link: https://electro.dtu.dk/research/research-areas/electro-technology/acoustic-technology
       :text-align: center
 
-      .. image:: resources/supporter-logos/DTU.png
+      .. image:: resources/supporter-logos/DTU_fixed_size.png
          :height: 100 px
          :align: center
 
@@ -307,7 +307,7 @@ Supporters
    .. grid-item-card::
       :text-align: center
 
-      .. image:: resources/supporter-logos/iap.png
+      .. image:: resources/supporter-logos/IAP_fixed_size.png
          :width: 250 px
 
       The Institute for Advanced Procrastination
