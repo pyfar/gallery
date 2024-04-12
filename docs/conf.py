@@ -96,7 +96,10 @@ html_theme_options = {
 html_sidebars = {
     "community/index": [
         "sidebar-nav-bs",
-    ],  # This ensures we test for custom sidebars
+    ],
+    "help/index": [
+        "sidebar-nav-bs",
+    ]  # This ensures we test for custom sidebars
 }
 
 # -- Options for nbsphinx -------------------------------------------------
@@ -138,6 +141,8 @@ with open("_static/header.rst", "rt") as fin:
                 '<.*examples_gallery.*>', '<examples_gallery>', line)
             new_line = re.sub(
                 '<.*community/index.*>', '<community/index>', new_line)
+            new_line = re.sub(
+                '<.*help/index.*>', '<help/index>', new_line)
             fout.write(new_line)
 
 

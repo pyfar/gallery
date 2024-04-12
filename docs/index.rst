@@ -24,8 +24,8 @@ educational and commercial use.
 .. admonition:: Getting started
 
       - If you are new to pyfar, we recommend the `Pyfar examples gallery`_, which works online.
-      - If you want to start on your local machine, please refer to the `Installation guide`_.
       - If you need detailed information for a specific package, please refer to their documentation below.
+      - If you trouble with pyfar, please refer to the `Help section`_.
 
 |
 
@@ -320,5 +320,5 @@ Supporters
 
 
 .. _Pyfar examples gallery: examples_gallery.rst
-.. _Installation guide: community/installation.rst
+.. _Help section: help/help.rst
 .. _Contributing guidelines: community/contributing.rst

@@ -8,5 +8,4 @@ These pages contain information about the community that leads, supports, and de
    :maxdepth: 2
    :caption: Contributor guide
 
-   installation
    contributing
