@@ -1,4 +1,4 @@
-.. toctree::index
+.. toctree::
    :maxdepth: 0
    :hidden:
 

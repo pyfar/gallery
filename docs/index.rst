@@ -24,7 +24,7 @@ educational and commercial use.
 .. admonition:: Getting started
 
       - If you are new to pyfar, we recommend the `Pyfar examples gallery`_, which works online.
-      - If you need detailed information for a specific package, please refer to their documentation below.
+      - If you want to install a specific package, please refer to their documentation below.
       - If you trouble with pyfar, please refer to the `Help section`_.
 
 |
