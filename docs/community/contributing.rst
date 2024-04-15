@@ -13,7 +13,7 @@ Before you submit a pull request, check that it meets these guidelines:
 
 1. The pull request should include tests.
 2. If the pull request adds functionality, the docs should be updated. Put your new functionality into a function with a docstring.
-3. If checks do not pass, have a look at https://app.circleci.com/pipelines/github/pyfar/pyfar for more information.
+3. If checks do not pass, have a look at https://app.circleci.com/pipelines/github/pyfar/PACKAGENAME for more information.
 
 Function and Class Guidelines
 -----------------------------
@@ -71,7 +71,7 @@ Tips
 ~~~~~~~~~~~
 Pytest provides several, sophisticated functionalities which could reduce the effort of implementing tests.
 
-- Similar tests executing the same code with different variables can be `parametrized <https://docs.pytest.org/en/stable/example/parametrize.html>`_. An example is ``test___eq___differInPoints`` in *test_coordinates.py*.
+- Similar tests executing the same code with different variables can be `parametrized <https://docs.pytest.org/en/stable/example/parametrize.html>`_. An example is ``test_read_sofa_filename_and_path_object`` in *test_io.py*.
 
 - Run a single test with
 
