@@ -137,12 +137,12 @@ nbsphinx_prolog = r"""
 with open("_static/header.rst", "rt") as fin:
     with open("header.rst", "wt") as fout:
         for line in fin:
-            new_line = re.sub(
-                '<.*examples_gallery.*>', '<examples_gallery>', line)
-            new_line = re.sub(
-                '<.*community/index.*>', '<community/index>', new_line)
-            new_line = re.sub(
-                '<.*help/index.*>', '<help/index>', new_line)
+            new_line = line
+            for version in ['latest', 'stable']:
+                pattern = fr'(https://pyfar-gallery\.readthedocs\.io/en/{version}/(.*?)\.html)'
+                match = re.search(pattern, new_line)
+                if match:
+                    new_line = re.sub(pattern, match.group(2), new_line)
             fout.write(new_line)
 
 
