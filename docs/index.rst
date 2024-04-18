@@ -320,5 +320,5 @@ Supporters
 
 
 .. _Pyfar examples gallery: examples_gallery.rst
-.. _Help section: help/help.rst
+.. _Help section: help/index.rst
 .. _Contributing guidelines: community/contributing.rst
