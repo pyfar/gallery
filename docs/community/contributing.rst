@@ -54,7 +54,7 @@ In the following, you'll find a guideline. Note: these instructions are not gene
 - The main tool used for testing is `pytest <https://docs.pytest.org/en/stable/index.html>`_.
 - All tests are located in the *tests/* folder.
 - Make sure that all important parts of pyfar are covered by the tests. This can be checked using *coverage* (see below).
-- In case of pyfar, mainly **state verification** is applied in the tests. This means that the outcome of a function is compared to a desired value (``assert ...``). For more information, it is refered to `Martin Fowler's article <https://martinfowler.com/articles/mocksArentStubs.html.>`_.
+- In case of pyfar, mainly **state verification** is applied in the tests. This means that the outcome of a function is compared to a desired value (``assert ...``). For more information, it is refered to `Martin Fowler's article <https://martinfowler.com/articles/mocksArentStubs.html>`_.
 
 Required Tests
 ~~~~~~~~~~~~~~
