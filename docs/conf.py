@@ -100,9 +100,13 @@ nbsphinx_prolog = r"""
 .. raw:: html
 
     <div class="admonition note">
+      {% if "gallery/no_binder/" in docname %}
+      This example must be run locally, please
+      {% else %}
       Open an interactive online version by clicking the badge
       <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?labpath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
       or
+      {% endif %}
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
       the notebook.
       <script>

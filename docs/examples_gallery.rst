@@ -25,7 +25,7 @@ Examples gallery
    :glob:
 
    gallery/interactive/sofar_introduction.ipynb
-   gallery/static/impulse_response_measurement.ipynb
+   gallery/no_binder/impulse_response_measurement.ipynb
    gallery/static/binaural_synthesis.ipynb
 
 
