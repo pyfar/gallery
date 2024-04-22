@@ -13,7 +13,7 @@ Before you submit a pull request, check that it meets these guidelines:
 
 1. The pull request should include tests.
 2. If the pull request adds functionality, the docs should be updated. Put your new functionality into a function with a docstring.
-3. If checks do not pass, have a look at https://app.circleci.com/pipelines/github/pyfar/PACKAGENAME for more information.
+3. If checks do not pass, have a look at https://app.circleci.com/pipelines/github/pyfar/PACKAGENAME for more information (e.g., use 'pyfar' as the PACKAGENAME).
 
 Function and Class Guidelines
 -----------------------------
@@ -26,24 +26,24 @@ Functions and classes should
   - parameters that are necessary only if another parameter is provided
   - parameters that must have a specific value depending on other parameters
 
-* be split into multiple functions or classes if the functionality not well limited.
+* be split into multiple functions or classes if the functionality is not well limited.
 * contain documentation for all input and output parameters.
 * contain examples in the documentation if they are non-trivial to use.
-* contain comments in the code that explain decisions and parts that are not trivial to read from the code. As a rule of thumb, too much comments are better than to little comments.
-* use clear names for all variables
+* contain comments in the code that explain decisions and parts that are not trivial to read from the code. As a rule of thumb, too many comments are better than too few comments.
+* use unique and descriptive names for all variables.
 
-It is also a good idea to follow `the Zen of Python <https://peps.python.org/pep-0020/>`_
+It is also a good idea to follow `the Zen of Python <https://peps.python.org/pep-0020/>`_.
 
 Errors should be raised if
 
-* Audio objects do not have the correct type (e.g. a TimeData instance is passed but a Signal instance is required)
-* String input that specifies a function option has an invalid value (e.g. 'linea' was passed but 'linear' was required)
-* Invalid parameter combinations are used
+* audio objects do not have the correct type (e.g. a TimeData instance is passed but a Signal instance is required).
+* string input that specifies a function option has an invalid value (e.g. 'linea' was passed but 'linear' was required).
+* invalid parameter combinations are used.
 
 Warnings should be raised if
 
-* Results might be wrong or unexpected
-* Possibly bad parameter combinations are used
+* results might be wrong or unexpected.
+* possibly invalid parameter combinations are used.
 
 
 Testing Guidelines
@@ -61,11 +61,11 @@ Required Tests
 
 The testing should include
 
-- Test all errors and warnings (see also function and class guidelines above)
-- Test all parameters
-- Test specific parameter combinations if required
-- Test with single and multi-dimensional input data such Signal objects and array likes
-- Test with audio objects with complex time data and NaN values (if applicable)
+- test all errors and warnings (see also function and class guidelines above).
+- test all parameters.
+- test specific parameter combinations if required.
+- test with single and multi-dimensional input data such Signal objects and array likes.
+- test with audio objects with complex time data and NaN values (if applicable).
 
 Tips
 ~~~~~~~~~~~
@@ -126,24 +126,25 @@ Writing the Documentation
 
 Pyfar follows the `numpy style guide <https://numpydoc.readthedocs.io/en/latest/format.html>`_ for the docstring. A docstring has to consist at least of
 
-- A short and/or extended summary,
+- a short and/or extended summary,
 - the Parameters section, and
-- the Returns section
+- the Returns section.
 
 Optional fields that are often used are
 
 - References,
 - Examples, and
-- Notes
+- Notes.
 
-Here are a few tips to make things run smoothly
+Here are a few tips to make things run smoothly.
 
-- Use the tags ``:py:func:``, ``:py:mod:``, and ``:py:class:`` to reference pyfar functions, modules, and classes: For example ``:py:func:`~pyfar.plot.time``` for a link that displays only the function name. For links with custom text use ``:py:mod:`plot functions <pyfar.plot>```.
+- Use the tags ``:py:func:``, ``:py:mod:``, and ``:py:class:`` to reference functions, modules, and classes from the package itself: For example ``:py:func:`~pyfar.plot.time``` for a link that displays only the function name. For links with custom text use ``:py:mod:`plot functions <pyfar.plot>```.
 - Code snippets and values as well as external modules, classes, functions are marked by double ticks \`\` to appear in mono spaced font, e.g., ``x=3`` or ``pyfar.Signal``.
 - Parameters, returns, and attributes are marked by single ticks \` to appear as emphasized text, e.g., *unit*.
 - Use ``[#]_`` and ``.. [#]`` to get automatically numbered footnotes.
 - Do not use footnotes in the short summary. Only use footnotes in the extended summary if there is a short summary. Otherwise, it messes with the auto-footnotes.
-- If a method or class takes or returns pyfar objects for example write ``parameter_name : Signal``. This will create a link to the ``pyfar.Signal`` class.
+- If a method or class takes or returns pyfar objects defined in the package for example write ``parameter_name : Signal``. This will create a link to the ``pyfar.Signal`` class.
+- If a method or class takes or returns pyfar objects from other packages for example write ``parameter_name : :py:class:\`~pyfar.classes.audio.Signal\``` to create the link. Note that this requires an intersphinx mapping in `docs/conf.py` in this case ``intersphinx_mapping = {'pyfar': ('https://pyfar.readthedocs.io/en/stable/', None)}``.
 - Plots can be included in the documentation by using the prefix ``.. plot::`` followed by an empty line and an indented block containing the code for the plot. See `pyfar.plot.line.time.py` for examples.
 
 See the `Sphinx homepage <https://www.sphinx-doc.org>`_ for more information.
@@ -158,7 +159,7 @@ You can build the documentation of your branch using Sphinx by executing the mak
     $ cd docs/
     $ make html
 
-After Sphinx finishes you can open the generated html using any browser
+After Sphinx finishes you can open the generated html using any browser.
 
 .. code-block:: console
 
@@ -179,9 +180,9 @@ Deploying
 
 A reminder for the maintainers on how to deploy.
 
-- Commit all changes to develop
-- Update HISTORY.rst in develop
-- Merge develop into main
+- Commit all changes to develop.
+- Update HISTORY.rst in develop.
+- Merge develop into main.
 
 Switch to main to update the version::
 
@@ -190,4 +191,4 @@ $ git push --follow-tags
 
 The testing platform will then deploy to PyPI if tests pass.
 
-- merge main back into develop
+- Merge main back into develop.

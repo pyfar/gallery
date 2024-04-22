@@ -182,8 +182,8 @@ educational and commercial use.
 
 |
 
-Pyfar examples gallery
-======================
+Examples
+=========
 
 This is the pyfar gallery. It provides a collection of examples and tutorials
 for the whole pyfar ecosystem.

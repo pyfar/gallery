@@ -35,16 +35,6 @@ Now activate the environment with
 After this, you can install pyfar into the environment as shown above. For more information we recommend the `Managing environments`_ tutorial.
 
 
-Trouble shooting
-================
-
-Pyfar does not always work with the latest Python version. If the installation fails, try to restrict the Python version inside your environment, for example with
-
-.. code-block:: console
-
-    $ conda create --name pyfar python<'3.12'
-
-
 .. _SoundFile: https://pysoundfile.readthedocs.io/en/latest/
 .. _libsndfile: http://www.mega-nerd.com/libsndfile/
 .. _Anaconda: https://www.anaconda.com/
