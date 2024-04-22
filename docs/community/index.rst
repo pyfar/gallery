@@ -35,3 +35,8 @@ community for the acoustics research community. We welcome any contributions
 
 .. include:: contributing.rst
 
+.. toctree::
+   :maxdepth: 1
+
+   code_of_conduct
+
