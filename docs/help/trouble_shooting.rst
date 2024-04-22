@@ -25,7 +25,7 @@ Reading and writing audio files is supported through `SoundFile`_, which is base
 A pyfar package is installed but can not be imported
 ====================================================
 
-Make sure that you have selected the correct Python environment in which you installed pyfar. If you are using conda, you can activate an environment by
+Make sure that you have selected the correct virtual Python environment in which you installed pyfar. If you are using conda, you can activate an environment by
 
 .. code-block:: console
 

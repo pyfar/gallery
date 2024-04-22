@@ -4,7 +4,7 @@
 Contributing
 ============
 
-These are the pyfar-wide contributing guidelines. For package specific guidelines please visit the github page for that package, which is linked from *code* buttons on `pyfar.org <https://pyfar.org>`_
+These are the pyfar-wide contributing guidelines. For package specific guidelines please visit the documentation for that package, which is linked from *Docs* buttons on `pyfar.org <https://pyfar.org>`_
 
 Pull Request Guidelines
 -----------------------
@@ -29,7 +29,7 @@ Functions and classes should
 * be split into multiple functions or classes if the functionality is not well limited.
 * contain documentation for all input and output parameters.
 * contain examples in the documentation if they are non-trivial to use.
-* contain comments in the code that explain decisions and parts that are not trivial to read from the code. As a rule of thumb, too many comments are better than too few comments.
+* contain comments in the code that explain decisions and parts that are not trivial to read from the code.
 * use unique and descriptive names for all variables.
 
 It is also a good idea to follow `the Zen of Python <https://peps.python.org/pep-0020/>`_.
@@ -44,6 +44,7 @@ Warnings should be raised if
 
 * results might be wrong or unexpected.
 * possibly invalid parameter combinations are used.
+* features are deprecated.
 
 
 Testing Guidelines
@@ -157,9 +158,9 @@ You can build the documentation of your branch using Sphinx by executing the mak
 .. code-block:: console
 
     $ cd docs/
-    $ make html
+    $ make html -j
 
-After Sphinx finishes you can open the generated html using any browser.
+The ``-j`` option uses multiple cores to speed up the build process in Linux and Mac. After Sphinx finishes you can open the generated html using any browser.
 
 .. code-block:: console
 
