@@ -41,5 +41,5 @@ community for the acoustics research community. We welcome any contributions
    :hidden:
 
    contributing
-   code_of_conduct
+   Code of Conduct <code_of_conduct>
 
