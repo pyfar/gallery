@@ -183,7 +183,7 @@ educational and commercial use.
 |
 
 Examples
-=========
+========
 
 This is the pyfar gallery. It provides a collection of examples and tutorials
 for the whole pyfar ecosystem.
@@ -223,7 +223,7 @@ for the whole pyfar ecosystem.
 
 
 Supporters
-===========
+==========
 
 .. grid:: 1 2 2 3
    :gutter: 4

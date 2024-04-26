@@ -60,13 +60,15 @@ In the following, you'll find a guideline. Note: these instructions are not gene
 Required Tests
 ~~~~~~~~~~~~~~
 
-The testing should include
+The testing for functions and classes should at least contain tests for
 
-- test all errors and warnings (see also function and class guidelines above).
-- test all parameters.
-- test specific parameter combinations if required.
-- test with single and multi-dimensional input data such Signal objects and array likes.
-- test with audio objects with complex time data and NaN values (if applicable).
+- all errors and warnings (see also function and class guidelines above).
+- all input and output parameters.
+- specific input and output parameter combinations (if required).
+- single and multi-dimensional input data such Signal objects and array likes.
+- audio objects with complex time data and NaN values (if applicable).
+
+In case of deprecations, it must also be tested if the deprecated feature is properly removed (see `tests/test_deprecations.py` for examples).
 
 Tips
 ~~~~~~~~~~~

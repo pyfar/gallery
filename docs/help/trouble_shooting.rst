@@ -15,7 +15,13 @@ Pyfar packages do not always work with the latest Python version. If the install
 Writing/reading audio files does not work
 =========================================
 
-Reading and writing audio files is supported through `SoundFile`_, which is based on `libsndfile`_. On Linux, you need to install libsndfile using your distribution’s package manager, for example
+Reading and writing audio files is supported through `SoundFile`_, which is based on `libsndfile`_. On Linux, you need to install libsndfile either from conda-forge
+
+.. code-block:: console
+
+    $ conda install -c conda-forge libsndfile
+
+or using your distribution’s package manager, for example
 
 .. code-block:: console
 

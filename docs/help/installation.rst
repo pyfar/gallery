@@ -20,7 +20,7 @@ Reading and writing audio files is supported through `SoundFile`_, which is base
 Best practice
 =============
 
-We recommend to install pyfar into a virtual python environment to avoid conflicts with already installed packages. The example below uses the `Anaconda`_ package manager. To create a new environment run
+We recommend to install pyfar into a virtual python environment to avoid conflicts with already installed packages. The example below uses the `Conda`_ package manager. To create a new environment run
 
 .. code-block:: console
 
@@ -37,5 +37,5 @@ After this, you can install pyfar into the environment as shown above. For more 
 
 .. _SoundFile: https://pysoundfile.readthedocs.io/en/latest/
 .. _libsndfile: http://www.mega-nerd.com/libsndfile/
-.. _Anaconda: https://www.anaconda.com/
+.. _Conda: https://docs.conda.io/en/latest/
 .. _Managing environments: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
