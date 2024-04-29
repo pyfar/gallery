@@ -32,12 +32,16 @@ extensions = [
     'matplotlib.sphinxext.plot_directive',
     'sphinx.ext.mathjax',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel',
     'sphinx_gallery.load_style',
     'nbsphinx',
     'autodocsumm',
     "sphinx_design",
     "sphinx_favicon",
 ]
+
+# Make sure the target is unique
+autosectionlabel_prefix_document = True
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
