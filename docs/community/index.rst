@@ -5,7 +5,8 @@ Community
 Pyfar is completely open source and it’s license allows unrestricted
 educational and commercial use. It is made by the acoustics research
 community for the acoustics research community. We welcome any contributions
-– go ahead if you are in the mood.
+– go ahead if you are in the mood. Please also note our
+`code of conduct`_.
 
 .. grid:: 1 1 2 2
    :gutter: 4
