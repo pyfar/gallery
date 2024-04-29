@@ -54,7 +54,7 @@ intersphinx_mapping = {
     'matplotlib': ('https://matplotlib.org/stable/', None),
     'spharpy': ('https://spharpy.readthedocs.io/en/stable/', None),
     'pytest': ('https://docs.pytest.org/en/stable/', None),
-    'coverage': ('https://coverage.readthedocs.io/en/5.5/', None),
+    'coverage': ('https://coverage.readthedocs.io/en/latest/', None),
 }
 
 # -- Options for HTML output -------------------------------------------------
