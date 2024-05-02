@@ -24,13 +24,13 @@ We recommend to install pyfar into a virtual python environment to avoid conflic
 
 .. code-block:: console
 
-    $ conda create --name pyfar python
+    $ conda create --name MY_ENVIRONMENT python
 
 Now activate the environment with
 
 .. code-block:: console
 
-    $ conda activate pyfar
+    $ conda activate MY_ENVIRONMENT
 
 After this, you can install pyfar into the environment as shown above. For more information we recommend the `Managing environments`_ tutorial.
 
