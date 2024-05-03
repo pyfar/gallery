@@ -150,7 +150,7 @@ Here are a few tips to make things run smoothly.
 - If a method or class takes or returns pyfar objects from other packages for example write ``parameter_name : :py:class:`~pyfar.classes.audio.Signal``` to create the link. Note that this requires an intersphinx mapping in `docs/conf.py` in this case ``intersphinx_mapping = {'pyfar': ('https://pyfar.readthedocs.io/en/stable/', None)}``.
 - you can refer to the gallery notebooks using ``:doc:`gallery:gallery/interactive/pyfar_audio_objects```. A section of a notebook can be referenced using ``:ref:`gallery:/gallery/interactive/fast_fourier_transform.ipynb#fft-normalizations```.
 - you can use ``python -m sphinx.ext.intersphinx https://pyfar-gallery.readthedocs.io/en/latest/objects.inv > mapping.txt`` to write the mapping for e.g. gallery into a textfile.
-- note that sphinx links should be used anytime exept for the gallery notebooks.
+- note that sphinx links should be used everywhere except within gallery notebooks.
 - Plots can be included in the documentation by using the prefix ``.. plot::`` followed by an empty line and an indented block containing the code for the plot. See `pyfar.plot.line.time.py` for examples.
 
 See the `Sphinx homepage <https://www.sphinx-doc.org>`_ for more information.
