@@ -52,7 +52,7 @@ Testing Guidelines
 Pyfar uses test-driven development based on `three steps <https://martinfowler.com/bliki/TestDrivenDevelopment.html>`_ and `continuous integration <https://en.wikipedia.org/wiki/Continuous_integration>`_ to test and monitor the code.
 In the following, you'll find a guideline. Note: these instructions are not generally applicable outside of pyfar.
 
-- The main tool used for testing is `pytest <https://docs.pytest.org/en/stable/index.html>`_.
+- The main tool used for testing is :doc:`pytest<pytest:index>`.
 - All tests are located in the *tests/* folder and can by executed with the `pytest` command.
 - Make sure that all important parts of pyfar are covered by the tests. This can be checked using *coverage* (see below).
 - In case of pyfar, mainly **state verification** is applied in the tests. This means that the outcome of a function is compared to a desired value (``assert ...``). For more information, it is refered to `Martin Fowler's article <https://martinfowler.com/articles/mocksArentStubs.html>`_.
@@ -74,7 +74,7 @@ Tips
 ~~~~~~~~~~~
 Pytest provides several, sophisticated functionalities which could reduce the effort of implementing tests.
 
-- Similar tests executing the same code with different variables can be `parametrized <https://docs.pytest.org/en/stable/example/parametrize.html>`_. An example is ``test_read_sofa_filename_and_path_object`` in *test_io.py*.
+- Similar tests executing the same code with different variables can be :doc:`parametrized<pytest:example/parametrize>`. An example is ``test_read_sofa_filename_and_path_object`` in *test_io.py*.
 
 - Run a single test with
 
@@ -84,7 +84,7 @@ Pytest provides several, sophisticated functionalities which could reduce the ef
 
     $ pytest -k 'not plot and not interaction'
 
-- Create an html report on the test `coverage <https://coverage.readthedocs.io/en/coverage-5.5/>`_ with
+- Create an html report on the test :doc:`coverage<coverage:index>` with
 
     $ pytest --cov=. --cov-report=html
 
@@ -92,7 +92,7 @@ Pytest provides several, sophisticated functionalities which could reduce the ef
 
 Fixtures
 ~~~~~~~~
-"Software test fixtures initialize test functions. They provide a fixed baseline so that tests execute reliably and produce consistent, repeatable, results. Initialization may setup services, state, or other operating environments. These are accessed by test functions through parameters; for each fixture used by a test function there is typically a parameter (named after the fixture) in the test function’s definition." (from https://docs.pytest.org/en/stable/fixture.html)
+"Software test fixtures initialize test functions. They provide a fixed baseline so that tests execute reliably and produce consistent, repeatable, results. Initialization may setup services, state, or other operating environments. These are accessed by test functions through parameters; for each fixture used by a test function there is typically a parameter (named after the fixture) in the test function’s definition." (from :doc:`pytest fixtures<pytest:explanation/fixtures>`)
 
 - All fixtures are implemented in *conftest.py*, which makes them automatically available to all tests. This prevents from implementing redundant, unreliable code in several test files.
 - Typical fixtures are pyfar objects with varying properties, stubs as well as functions need for initiliazing tests.
@@ -127,7 +127,7 @@ Mocks are similar to stubs but used for **behavioral verification**. For example
 Writing the Documentation
 -------------------------
 
-Pyfar follows the `numpy style guide <https://numpydoc.readthedocs.io/en/latest/format.html>`_ for the docstring. A docstring has to consist at least of
+Pyfar follows the :doc:`numpy style guide<numpydoc:format>` for the docstring. A docstring has to consist at least of
 
 - a short and/or extended summary,
 - the Parameters section, and
@@ -147,7 +147,10 @@ Here are a few tips to make things run smoothly.
 - Use ``[#]_`` and ``.. [#]`` to get automatically numbered footnotes.
 - Do not use footnotes in the short summary. Only use footnotes in the extended summary if there is a short summary. Otherwise, it messes with the auto-footnotes.
 - If a method or class takes or returns pyfar objects defined in the package for example write ``parameter_name : Signal``. This will create a link to the ``pyfar.Signal`` class.
-- If a method or class takes or returns pyfar objects from other packages for example write ``parameter_name : :py:class:\`~pyfar.classes.audio.Signal\``` to create the link. Note that this requires an intersphinx mapping in `docs/conf.py` in this case ``intersphinx_mapping = {'pyfar': ('https://pyfar.readthedocs.io/en/stable/', None)}``.
+- If a method or class takes or returns pyfar objects from other packages for example write ``parameter_name : :py:class:`~pyfar.classes.audio.Signal``` to create the link. Note that this requires an intersphinx mapping in `docs/conf.py` in this case ``intersphinx_mapping = {'pyfar': ('https://pyfar.readthedocs.io/en/stable/', None)}``.
+- you can refer to the gallery notebooks using ``:doc:`gallery:gallery/interactive/pyfar_audio_objects```. A section of a notebook can be referenced using ``:ref:`gallery:/gallery/interactive/fast_fourier_transform.ipynb#fft-normalizations```.
+- you can use ``python -m sphinx.ext.intersphinx https://pyfar-gallery.readthedocs.io/en/latest/objects.inv > mapping.txt`` to write the mapping for e.g. gallery into a textfile.
+- note that sphinx links should be used everywhere except within gallery notebooks.
 - Plots can be included in the documentation by using the prefix ``.. plot::`` followed by an empty line and an indented block containing the code for the plot. See `pyfar.plot.line.time.py` for examples.
 
 See the `Sphinx homepage <https://www.sphinx-doc.org>`_ for more information.
