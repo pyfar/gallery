@@ -1,6 +1,6 @@
-=========
-Community
-=========
+==========
+Contribute
+==========
 
 Pyfar is completely open source and it’s license allows unrestricted
 educational and commercial use. It is made by the acoustics research
@@ -30,17 +30,18 @@ community for the acoustics research community. We welcome any contributions
       are the issues on GitHub. The GitHub projects are linked through the
       `Code` buttons `pyfar.org <https://pyfar.org>`_. If you have own ideas for contributions, may it be
       code, or other things, it would be best to get in touch through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
-      or info@pyfar.org. Before starting, please have a look at the guidelines.
+      or info@pyfar.org. Before starting, please have a look at the `contribution guidelines`_.
 
 |
 
 
 .. _code of conduct: code_of_conduct.rst
+.. _contribution guidelines: contribution_guidelines.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
 
-   contributing
+   Contribution Guidelines <contribution_guidelines>
    Code of Conduct <code_of_conduct>
 

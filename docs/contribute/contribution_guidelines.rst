@@ -1,8 +1,8 @@
 .. highlight:: shell
 
-============
-Contributing
-============
+=======================
+Contribution Guidelines
+=======================
 
 These are the pyfar-wide contributing guidelines. For package specific guidelines please visit the documentation for that package, which is linked from *Docs* buttons on `pyfar.org <https://pyfar.org>`_
 
