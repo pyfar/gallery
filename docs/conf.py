@@ -96,15 +96,6 @@ html_theme_options = {
     "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
 }
 
-html_sidebars = {
-    "community/index": [
-        "sidebar-nav-bs",
-    ],
-    "help/index": [
-        "sidebar-nav-bs",
-    ]  # This ensures we test for custom sidebars
-}
-
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
 {% set docname = 'docs/' + env.doc2path(env.docname, base=None) %}
