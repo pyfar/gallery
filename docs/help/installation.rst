@@ -2,7 +2,7 @@
 Installation
 ============
 
-Use pip to install any pyfar package. For example the base package *pyfar* is installed by
+You can use *pip* to install any pyfar package. For example the base package *pyfar* is installed by
 
 .. code-block:: console
 
