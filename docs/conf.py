@@ -48,11 +48,7 @@ highlight_language = "python3"
 
 # intersphinx mapping
 intersphinx_mapping = {
-    'numpy': ('https://numpy.org/doc/stable/', None),
     'numpydoc': ('https://numpydoc.readthedocs.io/en/stable/', None),
-    'scipy': ('https://docs.scipy.org/doc/scipy/', None),
-    'matplotlib': ('https://matplotlib.org/stable/', None),
-    'spharpy': ('https://spharpy.readthedocs.io/en/stable/', None),
     'pytest': ('https://docs.pytest.org/en/stable/', None),
     'coverage': ('https://coverage.readthedocs.io/en/latest/', None),
 }
