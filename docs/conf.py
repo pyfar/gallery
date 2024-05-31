@@ -48,10 +48,9 @@ highlight_language = "python3"
 
 # intersphinx mapping
 intersphinx_mapping = {
-    'numpy': ('https://numpy.org/doc/stable/', None),
-    'scipy': ('https://docs.scipy.org/doc/scipy/', None),
-    'matplotlib': ('https://matplotlib.org/stable/', None),
-    'spharpy': ('https://spharpy.readthedocs.io/en/stable/', None)
+    'numpydoc': ('https://numpydoc.readthedocs.io/en/stable/', None),
+    'pytest': ('https://docs.pytest.org/en/stable/', None),
+    'coverage': ('https://coverage.readthedocs.io/en/latest/', None),
 }
 
 # -- Options for HTML output -------------------------------------------------
@@ -89,9 +88,9 @@ html_theme_options = {
     ],
     # Configure secondary (right) side bar
     "show_toc_level": 3,                     # Show all subsections of notebooks
+    "show_nav_level": 2,
     "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
 }
-
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
@@ -132,8 +131,12 @@ nbsphinx_prolog = r"""
 with open("_static/header.rst", "rt") as fin:
     with open("header.rst", "wt") as fout:
         for line in fin:
-            new_line = re.sub(
-                '<.*examples_gallery.*>', '<examples_gallery>', line)
+            new_line = line
+            for version in ['latest', 'stable']:
+                pattern = fr'(https://pyfar-gallery\.readthedocs\.io/en/{version}/(.*?)\.html)'
+                match = re.search(pattern, new_line)
+                if match:
+                    new_line = re.sub(pattern, match.group(2), new_line)
             fout.write(new_line)
 
 
