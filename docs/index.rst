@@ -38,6 +38,7 @@ educational and commercial use.
 
       .. image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
          :width: 300 px
+         :target: https://pyfar.readthedocs.io/
 
       ^^^
 
@@ -71,6 +72,7 @@ educational and commercial use.
 
       .. image:: resources/logos/pyfar_logos_fixed_size_sofar.png
          :width: 300 px
+         :target: https://sofar.readthedocs.io
 
       ^^^
       SOFA files store spatially distributed acoustic data such as head-related
@@ -103,6 +105,7 @@ educational and commercial use.
 
       .. image:: resources/logos/pyfar_logos_fixed_size_spharpy.png
          :width: 300 px
+         :target: https://spharpy.readthedocs.io
 
       ^^^
       Spherical array processing in python
@@ -133,6 +136,7 @@ educational and commercial use.
 
       .. image:: resources/logos/pyfar_logos_fixed_size_pyrato.png
          :width: 300 px
+         :target: https://pyrato.readthedocs.io
 
       ^^^^
       A collection of functions for commonly used operations in room acoustics.
@@ -163,6 +167,7 @@ educational and commercial use.
 
       .. image:: resources/pyfar_logos_fixed_size_coming.png
          :width: 250 px
+         :target: https://github.com/pyfar
 
       ^^^^
       The pyfar base package will be extended. New packages for audio
