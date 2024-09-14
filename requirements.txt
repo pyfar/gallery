@@ -23,7 +23,7 @@ ipykernel
 nbsphinx
 nbsphinx-link
 sphinx-gallery
-pyfar
+pyfar>=0.6.9
 sounddevice
 pre-commit
 ipympl
