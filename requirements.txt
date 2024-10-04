@@ -17,7 +17,7 @@ deepdiff
 pydata-sphinx-theme
 autodocsumm
 soundfile>=0.11.0
-sofar>=1.1.1
+sofar>=1.2.0
 nbmake>=0.7.0
 ipykernel
 nbsphinx
