@@ -165,7 +165,7 @@ educational and commercial use.
       :text-align: justify
       :shadow: lg
 
-      .. image:: resources/pyfar_logos_fixed_size_coming.png
+      .. image:: resources/logos/pyfar_logos_fixed_size_coming.png
          :width: 250 px
          :target: https://github.com/pyfar
 
