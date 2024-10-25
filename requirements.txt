@@ -4,7 +4,7 @@ wheel
 watchdog
 flake8
 coverage
-Sphinx<8
+Sphinx
 twine
 pytest<8.1.0
 pytest-runner
@@ -15,7 +15,7 @@ matplotlib<=3.7
 urllib3
 deepdiff
 pydata-sphinx-theme
-autodocsumm
+autodocsumm>=0.2.14
 soundfile>=0.11.0
 sofar>=1.2.0
 nbmake>=0.7.0
