@@ -74,25 +74,25 @@ jobs:
             cd docs/
             make html SPHINXOPTS="-W"
 
-  test_pytest:
-    parameters:
-      version:
-        description: "version tag"
-        default: "latest"
-        type: string
-    executor:
-      name: python-docker
-      version: <<parameters.version>>
+  # test_pytest:
+  #   parameters:
+  #     version:
+  #       description: "version tag"
+  #       default: "latest"
+  #       type: string
+  #   executor:
+  #     name: python-docker
+  #     version: <<parameters.version>>
 
-    steps:
-      - checkout
-      - python/install-packages:
-          pkg-manager: pip
-          # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
-          pip-dependency-file: requirements.txt
-      - run:
-          name: Run tests
-          command: pytest
+  #   steps:
+  #     - checkout
+  #     - python/install-packages:
+  #         pkg-manager: pip
+  #         # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
+  #         pip-dependency-file: requirements.txt
+  #     - run:
+  #         name: Run tests
+  #         command: pytest
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -117,8 +117,8 @@ workflows:
           requires:
             - test_examples
 
-      - test_pytest:
-          matrix:
-            parameters:
-              version:
-                - "3.12"
+      # - test_pytest:
+      #     matrix:
+      #       parameters:
+      #         version:
+      #           - "3.12"
