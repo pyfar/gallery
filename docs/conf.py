@@ -94,7 +94,7 @@ html_theme_options = {
 
 # -- Options for nbsphinx -------------------------------------------------
 nbsphinx_prolog = r"""
-{% set docname = 'docs/' + env.doc2path(env.docname, base=None) %}
+{% set docname = 'docs/' + env.doc2path(env.docname, base=None)|string %}
 
 .. raw:: html
 
