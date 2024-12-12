@@ -192,7 +192,7 @@ A reminder for the maintainers on how to deploy.
 
 Switch to main to update the version::
 
-$ bumpversion patch --verbose  # possible version bumps: major / minor / patch
+$ bump-my-version bump patch --verbose  # possible version bumps: major / minor / patch
 $ git push --follow-tags
 
 The testing platform will then deploy to PyPI if tests pass.
