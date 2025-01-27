@@ -34,8 +34,14 @@ community for the acoustics research community. We welcome any contributions
       code, or other things, it would be best to get in touch through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
       or info@pyfar.org. Before starting, please have a look at the `contribution guidelines`_.
 
-|
+   .. grid-item-card::
+      :text-align: justify
 
+      **Add an assignment**
+      ^^^^
+
+      If you want to add an assignment that can be used for teaching acoustics, please use the empty template notebook as a starting point. It is recommended to contact the pyfar developers before starting the assignment to make sure it is within the scope. For further questions do not hesitate to contact us through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
+      or info@pyfar.org.
 
 .. _code of conduct: code_of_conduct.rst
 .. _contribution guidelines: contribution_guidelines.rst
