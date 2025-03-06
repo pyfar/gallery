@@ -281,6 +281,16 @@ Supporters
       Technical University of Denmark
 
    .. grid-item-card::
+      :link: https://www.int.uni-rostock.de/Signalverarbeitung-und-virtuel.spva+B6Jkw9MA__.0.html
+      :text-align: center
+
+      .. image:: resources/supporter-logos/Uni_Rostock_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Signal Processing and Virtual Acoustics, University of Rostock
+
+   .. grid-item-card::
       :text-align: center
 
       .. image:: resources/supporter-logos/iap_fixed_size.png
