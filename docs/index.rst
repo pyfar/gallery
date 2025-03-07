@@ -291,6 +291,16 @@ Supporters
       Multimedia Communications and Signal Processing, Friedrich-Alexander University
 
    .. grid-item-card::
+      :link: https://www.aalto.fi/en/aalto-acoustics-lab
+      :text-align: center
+
+      .. image:: resources/supporter-logos/aalto_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Acoustics Lab, Aalto University
+
+   .. grid-item-card::
       :link: https://www.int.uni-rostock.de/Signalverarbeitung-und-virtuel.spva+B6Jkw9MA__.0.html
       :text-align: center
 
