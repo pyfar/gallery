@@ -301,6 +301,16 @@ Supporters
       Acoustics Lab, Aalto University
 
    .. grid-item-card::
+      :link: https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-engineering/institute-of-sound-and-vibration-research
+      :text-align: center
+
+      .. image:: resources/supporter-logos/university_southhampton_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Institute of Sound and Vibration Research, University of Southampton
+
+   .. grid-item-card::
       :link: https://www.int.uni-rostock.de/Signalverarbeitung-und-virtuel.spva+B6Jkw9MA__.0.html
       :text-align: center
 
