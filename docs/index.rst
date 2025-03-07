@@ -281,6 +281,16 @@ Supporters
       Technical University of Denmark
 
    .. grid-item-card::
+      :link: hhttps://www.lms.tf.fau.eu/person/prof-dr-ing-sebastian-schlecht/
+      :text-align: center
+
+      .. image:: resources/supporter-logos/FAU_LMS_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Multimedia Communications and Signal Processing, Friedrich-Alexander University
+
+   .. grid-item-card::
       :link: https://www.int.uni-rostock.de/Signalverarbeitung-und-virtuel.spva+B6Jkw9MA__.0.html
       :text-align: center
 
