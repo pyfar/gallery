@@ -1,0 +1,1 @@
+Logos have a size of 800 x 320 pixels and are saved with 72 pixels per inch (ppi)
