@@ -281,7 +281,7 @@ Supporters
       Technical University of Denmark
 
    .. grid-item-card::
-      :link: hhttps://www.lms.tf.fau.eu/person/prof-dr-ing-sebastian-schlecht/
+      :link: https://www.lms.tf.fau.eu/person/prof-dr-ing-sebastian-schlecht/
       :text-align: center
 
       .. image:: resources/supporter-logos/FAU_LMS_fixed_size.png
