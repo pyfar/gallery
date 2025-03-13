@@ -50,13 +50,13 @@ community for the acoustics research community. We welcome any contributions
 
 .. _code of conduct: code_of_conduct.rst
 .. _contributing to the gallery: contribution_gallery.rst
-.. _contribution guidelines: contribution_guidelines.rst
+.. _contribution guidelines: contribution_packages.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
 
-   Contribution to a Package <contribution_guidelines>
+   Contribution to a Package <contribution_packages>
    Contributing to the Gallery <contribution_gallery>
    Code of Conduct <code_of_conduct>
 
