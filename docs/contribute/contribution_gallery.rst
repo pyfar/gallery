@@ -8,14 +8,14 @@ Get Started
 Ready to contribute? Here's how to set up `pyfar_gallery` for local development using the command-line interface. Note that several alternative user interfaces exist, e.g., the Git GUI, `GitHub Desktop <https://desktop.github.com/>`_, extensions in `Visual Studio Code <https://code.visualstudio.com/>`_ ...
 
 1. `Fork <https://docs.github.com/en/get-started/quickstart/fork-a-repo/>`_ the `gallery` repo on GitHub.
-2. Clone your fork locally and cd into the gallery directory::
+2. Clone your fork locally and cd into the gallery directory:
 
 .. code-block:: shell
 
     git clone https://github.com/YOUR_USERNAME/gallery.git
     cd gallery
 
-3. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development::
+3. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development:
 
 .. code-block:: shell
 
@@ -23,13 +23,13 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
     conda activate gallery
     pip install -r requirements.txt
 
-4. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed::
+4. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed:
 
 .. code-block:: shell
 
     pre-commit install
 
-5. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`)::
+5. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`):
 
 .. code-block:: shell
 
@@ -37,7 +37,7 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
 
    Now you can make your changes locally.
 
-6. Commit your changes and push your branch to GitHub::
+6. Commit your changes and push your branch to GitHub:
 
 .. code-block:: shell
 
