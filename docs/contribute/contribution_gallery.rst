@@ -23,13 +23,21 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
     conda activate gallery
     pip install -r requirements.txt
 
-4. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed:
+
+4. You will also require pandoc. If you don't have it installed, you can download it from the `official website <https://pandoc.org/installing.html>`_. Alternatively, you can install it using conda using the conda-forge channel:
+
+.. code-block:: shell
+
+    conda install -c conda-forge pandoc
+
+
+5. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed:
 
 .. code-block:: shell
 
     pre-commit install
 
-5. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`):
+6. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`):
 
 .. code-block:: shell
 
@@ -37,7 +45,7 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
 
    Now you can make your changes locally.
 
-6. Commit your changes and push your branch to GitHub:
+7. Commit your changes and push your branch to GitHub:
 
 .. code-block:: shell
 
@@ -45,7 +53,7 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
     git commit -m "Your detailed description of your changes."
     git push origin name-of-your-bugfix-or-feature
 
-7. Submit a pull request on the develop branch through the GitHub website.
+8. Submit a pull request on the develop branch through the GitHub website.
 
 Structure
 ---------
