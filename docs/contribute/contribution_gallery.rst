@@ -148,5 +148,6 @@ Finally, add the notebook to an appropriate ``nbgallery`` inside the ``docs/inde
 Licensing
 ---------
 Unless otherwise stated the notebooks are released under © 2024 by `the pyfar developers <https://github.com/orgs/pyfar/people>`_ are licensed under `CC BY 4.0 <http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1>`_.
-If required a different but compatible license can be chosen for single notebooks.
+If required, a different but compatible license can be chosen for single notebooks.
+Simply adapt the author name and license information in the respective section at the end of the notebook.
 Note that if a notebook contains code or content from other sources, this should be clearly stated in the notebook.
