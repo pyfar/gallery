@@ -53,7 +53,6 @@ Structure
 The gallery is separated into *interactive* and *static* notebooks, allowing to include notebooks for which execution on readthedocs or CircleCI is not feasible.
 This could be due to the need for specific hardware, such as audio interfaces or other io-devices, as well as notebooks with very long execution times or computational demands.
 
-
 To add notebooks to the gallery, simply place them inside ``docs/gallery/interactive`` or ``docs/gallery/static``, respectively.
 Note that all notebooks added to the folder ``interactive`` should not contain output for any of the cells, see the section above for setting up the pre-commit hooks to automatically clean the notebooks from outputs,
 
