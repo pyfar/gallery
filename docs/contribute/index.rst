@@ -56,7 +56,7 @@ community for the acoustics research community. We welcome any contributions
    :maxdepth: 1
    :hidden:
 
-   Contribution to a Package <contribution_packages>
-   Contributing to the Gallery <contribution_gallery>
+   Contribute to a Package <contribution_packages>
+   Contribute to the Gallery <contribution_gallery>
    Code of Conduct <code_of_conduct>
 
