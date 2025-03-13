@@ -64,7 +64,7 @@ This could be due to the need for specific hardware, such as audio interfaces or
 To add notebooks to the gallery, simply place them inside ``docs/gallery/interactive`` or ``docs/gallery/static``, respectively.
 Note that all notebooks added to the folder ``interactive`` should not contain output for any of the cells, see the section above for setting up the pre-commit hooks to automatically clean the notebooks from outputs,
 
-A very bare template for new notebooks is provided in `docs/_templates/template.ipympl <https://github.com/pyfar/gallery/blob/main/docs/_templates/template.ipynb>`_. It is highly recommended to use it for consistency with other notebooks.
+A very bare template for new notebooks is provided in `docs/contribute/template.ipympl <template.html>`_. It is highly recommended to use it for consistency with other notebooks.
 
 .. code-block:: shell
 
