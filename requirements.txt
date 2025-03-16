@@ -29,3 +29,4 @@ ipympl
 sphinx-design
 sphinx-favicon
 watermark
+pytz

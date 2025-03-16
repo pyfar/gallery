@@ -25,7 +25,7 @@ community for the acoustics research community. We welcome any contributions
    .. grid-item-card::
       :text-align: justify
 
-      **Add code, documentation, or funding**
+      **Contribute code or documentation**
       ^^^^
 
       If you want to add code or documentation, a good starting point for ideas
@@ -34,16 +34,30 @@ community for the acoustics research community. We welcome any contributions
       code, or other things, it would be best to get in touch through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
       or info@pyfar.org. Before starting, please have a look at the `contribution guidelines`_.
 
+   .. grid-item-card::
+      :text-align: justify
+
+      **Contribute examples**
+      ^^^^
+      If you're using any of the pyfar related packages and have examples that
+      you think would be useful for others, please consider adding them to the
+      `gallery <https://pyfar-gallery.readthedocs.io/en/latest>`_.
+      Guidelines on how to contribute your examples in the form of a Jupyter
+      notebook can be found in the section on `contributing to the gallery`_.
+
 |
 
 
 .. _code of conduct: code_of_conduct.rst
-.. _contribution guidelines: contribution_guidelines.rst
+.. _contributing to the gallery: contribution_gallery.rst
+.. _contribution guidelines: contribution_packages.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
 
-   Contribution Guidelines <contribution_guidelines>
+   Contribute to a Package <contribution_packages>
+   Contribute to the Gallery <contribution_gallery>
+   Gallery Template <template>
    Code of Conduct <code_of_conduct>
 
