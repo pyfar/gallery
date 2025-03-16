@@ -227,6 +227,26 @@ for the whole pyfar ecosystem.
          :width: 150 px
 
 
+Open Educational Resources
+==========================
+
+We host a collection of open educational resources for teaching acoustics.
+The collection primarily includes assignments in the form of Jupyter notebooks.
+
+.. grid:: 1 2 2 3
+   :gutter: 4
+
+   .. grid-item-card::
+      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#pyfar_assignments
+      :text-align: center
+
+      Intro to pyfar
+      ^^^^
+
+      .. image:: _static/pyfar_pf_transparent.png
+         :width: 150 px
+
+
 Supporters
 ==========
 
