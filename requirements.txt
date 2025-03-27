@@ -1,5 +1,4 @@
-pip
-bump2version
+bump-my-version
 wheel
 watchdog
 flake8
@@ -9,9 +8,9 @@ twine
 pytest<8.1.0
 pytest-runner
 pytest-cov
-numpy>=1.23.0,<2
+numpy>=1.23.0
 scipy>=1.5.0
-matplotlib<=3.7
+matplotlib
 urllib3
 deepdiff
 pydata-sphinx-theme
@@ -30,3 +29,4 @@ ipympl
 sphinx-design
 sphinx-favicon
 watermark
+pytz

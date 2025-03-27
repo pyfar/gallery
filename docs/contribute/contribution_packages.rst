@@ -1,7 +1,7 @@
 .. highlight:: shell
 
 =======================
-Contribution Guidelines
+Contribute to a Package
 =======================
 
 These are the pyfar-wide contributing guidelines. For package specific guidelines please visit the documentation for that package, which is linked from *Docs* buttons on `pyfar.org <https://pyfar.org>`_
@@ -223,7 +223,7 @@ A reminder for the maintainers on how to deploy.
 
 Switch to main to update the version::
 
-$ bumpversion patch --verbose  # possible version bumps: major / minor / patch
+$ bump-my-version bump patch --verbose  # possible version bumps: major / minor / patch
 $ git push --follow-tags
 
 The testing platform will then deploy to PyPI if tests pass.

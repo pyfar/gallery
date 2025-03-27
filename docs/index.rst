@@ -227,6 +227,26 @@ for the whole pyfar ecosystem.
          :width: 150 px
 
 
+Open Educational Resources
+==========================
+
+We host a collection of open educational resources for teaching acoustics.
+The collection primarily includes assignments in the form of Jupyter notebooks.
+
+.. grid:: 1 2 2 3
+   :gutter: 4
+
+   .. grid-item-card::
+      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#pyfar_assignments
+      :text-align: center
+
+      Intro to pyfar
+      ^^^^
+
+      .. image:: _static/pyfar_pf_transparent.png
+         :width: 150 px
+
+
 Supporters
 ==========
 
@@ -279,6 +299,46 @@ Supporters
          :align: center
 
       Technical University of Denmark
+
+   .. grid-item-card::
+      :link: https://www.lms.tf.fau.eu/person/prof-dr-ing-sebastian-schlecht/
+      :text-align: center
+
+      .. image:: resources/supporter-logos/FAU_LMS_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Multimedia Communications and Signal Processing, Friedrich-Alexander University
+
+   .. grid-item-card::
+      :link: https://www.aalto.fi/en/aalto-acoustics-lab
+      :text-align: center
+
+      .. image:: resources/supporter-logos/aalto_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Acoustics Lab, Aalto University
+
+   .. grid-item-card::
+      :link: https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-engineering/institute-of-sound-and-vibration-research
+      :text-align: center
+
+      .. image:: resources/supporter-logos/university_southhampton_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Institute of Sound and Vibration Research, University of Southampton
+
+   .. grid-item-card::
+      :link: https://www.int.uni-rostock.de/Signalverarbeitung-und-virtuel.spva+B6Jkw9MA__.0.html
+      :text-align: center
+
+      .. image:: resources/supporter-logos/Uni_Rostock_fixed_size.png
+         :height: 100 px
+         :align: center
+
+      Signal Processing and Virtual Acoustics, University of Rostock
 
    .. grid-item-card::
       :text-align: center
