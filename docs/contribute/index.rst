@@ -45,11 +45,23 @@ community for the acoustics research community. We welcome any contributions
       Guidelines on how to contribute your examples in the form of a Jupyter
       notebook can be found in the section on `contributing to the gallery`_.
 
+   .. grid-item-card::
+      :text-align: justify
+
+      **Contribute to the open educational resources**
+      ^^^^
+      If you want to contribute to the open educational resources, please first get in
+      touch with us through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
+      or info@pyfar.org.
+      Guidelines on how to contribute assignments in the form of a Jupyter
+      notebook can be found in the section on `contributing to the open educational resources`_.
+
 |
 
 
 .. _code of conduct: code_of_conduct.rst
 .. _contributing to the gallery: contribution_gallery.rst
+.. _contributing to the open educational resources: contribution_oer.rst
 .. _contribution guidelines: contribution_packages.rst
 
 .. toctree::
