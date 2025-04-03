@@ -71,5 +71,7 @@ community for the acoustics research community. We welcome any contributions
    Contribute to a Package <contribution_packages>
    Contribute to the Gallery <contribution_gallery>
    Template Gallery <template_gallery>
+   Contribute to the Open Educational Resources <contribution_oer>
+   Template Open Educational Resources <template_oer>
    Code of Conduct <code_of_conduct>
 
