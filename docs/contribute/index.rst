@@ -70,6 +70,6 @@ community for the acoustics research community. We welcome any contributions
 
    Contribute to a Package <contribution_packages>
    Contribute to the Gallery <contribution_gallery>
-   Gallery Template <template>
+   Template Gallery <template_gallery>
    Code of Conduct <code_of_conduct>
 
