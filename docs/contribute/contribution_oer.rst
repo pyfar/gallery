@@ -11,28 +11,33 @@ This process of creating the assignments from the notebooks including solutions 
 As the name implies, nbgrader can also be used to (at least partially) automate grading the assignments.
 For an introduction to nbgrader, please refer to the `nbgrader documentation <https://nbgrader.readthedocs.io/en/stable/>`_.
 If you want to contribute to the open educational resources, please first get in touch with us to get access to the private repository.
-Ways to contact us are listed `here index.rst`_.
+Ways to contact us are listed :doc:`here<index>`.
 
 Get Started
 -----------
 
-Ready to contribute? Here's how to set up `pyfar_gallery` for local development using the command-line interface. Note that several alternative user interfaces exist, e.g., the Git GUI, `GitHub Desktop <https://desktop.github.com/>`_, extensions in `Visual Studio Code <https://code.visualstudio.com/>`_ ...
+Ready to contribute? Here's what you need to do:
 
-1. `Fork <https://docs.github.com/en/get-started/quickstart/fork-a-repo/>`_ the `gallery` repo on GitHub.
-2. Clone your fork locally and cd into the gallery directory:
+After getting in touch with us you should now have access to the closed-educational-resources
+repository on GitHub. This is the repository where the assignments including the solutions are
+stored.
 
-.. code-block:: shell
+1. `Fork <https://docs.github.com/en/get-started/quickstart/fork-a-repo/>`_ the `closed-educational-resources <https://github.com/pyfar/closed-educational-resources>`_ repo on GitHub.
 
-    git clone https://github.com/YOUR_USERNAME/gallery.git
-    cd gallery
-
-3. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development:
+2. Clone your fork locally and cd into the root directory:
 
 .. code-block:: shell
 
-    conda create --name gallery python
-    conda activate gallery
-    pip install -r requirements.txt
+    git clone https://github.com/YOUR_USERNAME/closed-educational-resources.git
+    cd closed-educational-resources
+
+1. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development:
+
+.. code-block:: shell
+
+    conda create --name cer python
+    conda activate cer
+    pip install ".[dev]"
 
 
 4. You will also require pandoc. If you don't have it installed, you can download it from the `official website <https://pandoc.org/installing.html>`_. Alternatively, you can install it using conda using the conda-forge channel:
@@ -41,127 +46,132 @@ Ready to contribute? Here's how to set up `pyfar_gallery` for local development 
 
     conda install -c conda-forge pandoc
 
-
-5. Set up pre-commit hooks. This will cause commits to fail and clean all notebooks if the notebooks in `docs/gallery/interactive` aren't cleaned from outputs. After that, the automatic changes can be added and committed:
-
-.. code-block:: shell
-
-    pre-commit install
-
-6. Create a branch for local development. Indicate the intention of your branch in its respective name (i.e. `feature/branch-name` or `bugfix/branch-name`):
+5. Create a local branch for your assignment. Indicate the course and assignment in the branch-name (e.g. `course1/assignment1`):
 
 .. code-block:: shell
 
-    git checkout -b name-of-your-bugfix-or-feature
+    git checkout -b course1/assignment1
 
-   Now you can make your changes locally.
+Now you can create your assignment locally. For a detailed guide on how to
+create assignments, please refer to :ref:`Creating an Assignment<creating-an-assignment>`.
 
-7. Commit your changes and push your branch to GitHub:
+6. Commit your changes and push your branch to GitHub. Commit only the core assignment files.
+   Avoid committing supplementary, generated, or temporary files.
+   Please refer to the :ref:`File Handling<file-handling>` section for more information.
 
 .. code-block:: shell
 
     git add .
     git commit -m "Your detailed description of your changes."
-    git push origin name-of-your-bugfix-or-feature
+    git push origin course1/assignment1
 
-8. Submit a pull request on the develop branch through the GitHub website.
+7. Submit a pull request on the main branch through the GitHub website.
 
-Structure
----------
 
-The gallery is separated into *interactive* and *static* notebooks, allowing to include notebooks for which execution on readthedocs or CircleCI is not feasible.
-This could be due to the need for specific hardware, such as audio interfaces or other io-devices, as well as notebooks with very long execution times or computational demands.
+Repository Structure
+--------------------
 
-To add notebooks to the gallery, simply place them inside ``docs/gallery/interactive`` or ``docs/gallery/static``, respectively.
-Note that all notebooks added to the folder ``interactive`` should not contain output for any of the cells, see the section above for setting up the pre-commit hooks to automatically clean the notebooks from outputs,
+Infrastructure and workflow in this repository follow the
+`nbgrader folder structure <https://nbgrader.readthedocs.io/en/latest/user_guide/philosophy.html>`_.
 
-A very bare template for new notebooks is provided in `docs/contribute/template.ipympl <template.html>`_. It is highly recommended to use it for consistency with other notebooks.
+.. code-block:: text
 
-.. code-block:: shell
+    closed-educational-resources/
+    ├── courses/
+    │   ├── course1/
+    │   │   ├── nbgrader_config.py
+    │   │   └── source/
+    │   │       └── assignment1/
+    │   │           └── problem1.ipynb
+    │   ├── course2/
+    │   │   ├── nbgrader_config.py
+    │   │   └── source/
+    │   │       └── assignment1/
+    │   │           ├── problem1.ipynb
+    │   │           └── problem2.ipynb
+    │   └── ...
 
-    docs
-    ├── Makefile
-    ├── _build
-    ├── _templates
-    │   └── template.ipynb
-    ├── _static
-    ├── conf.py
-    ├── gallery
-    │   ├── interactive
-    │   │   ├── your_new_notebook.ipynb
-    │   │   └── interactive_demo.ipynb
-    │   └── static
-    │       └── pre_executed_notebook.ipynb
-    ├── index.rst
-    ├── make.bat
-    └── resources
+To create a new course, add a folder in the ``courses`` directory and name it
+after your course (e.g., ``course1``).
+This course directory is where all solution notebooks, the nbgrader config, etc., are stored.
+Every course requires an ``nbgrader_config.py`` file. Please refer to the
+course_exmaple on closed-educational-resources and the
+`nbgrader configuration documentation <https://nbgrader.readthedocs.io/en/latest/configuration/nbgrader_config.html>`_,
+there are alot of configuraiton options available.
 
-Metadata for static notebooks
------------------------------
+.. _creating-an-assignment:
 
-Note that notebooks placed in the static folder omitted from unit testing on CircleCI and hence need appropriate offline testing.
-Static notebooks further need to include the setting
+Creating an Assignment
+----------------------
 
-.. code-block:: json
+This course folder serves as the root directory from which nbgrader runs to generate
+new release notebooks. Newly added notebooks must be stored in their respective
+assignment folder inside the ``source`` directory. This is where nbgrader looks
+for assignments by default.
 
-    "nbsphinx": {
-        "execute": "never"
-    },
+If you are creating a new course, add a ``source`` folder inside the course directory.
+Then, create a subfolder for your assignment (e.g., ``assignment1``).
+This assignment folder can contain multiple notebooks (e.g., ``problem1``, ``problem2``).
+All notebooks within an assignment should be thematically related — for example,
+covering material from a single class session on one topic within the lecture series.
+If the notebooks cover unrelated topics, it's recommended to create separate assignments.
 
-as part of their JSON meta-data.
+You can also add assignments in an existing course. To do so, just add a new
+assignment folder inside the ``source`` directory of the course.
 
-For more information see the `nbsphinx documentation <https://nbsphinx.readthedocs.io/en/latest/never-execute.html>`_
+We use ``nbgrader`` to generate the release version of the assignments. This happens
+automatically in circleci / GitHub Actions when a :ref:`pull request is submitted<pull-request>`.
+The best way to create an nbgrader assignment is to use the `Jupyter notebook
+extension <https://nbgrader.readthedocs.io/en/latest/user_guide/highlights.html#instructor-interface>`_.
 
-Thumbnails
-----------
+You can find a `template-notebook <link-to-template>`_ including detailed instructions and guidelines
+in the `course example <link-to-example-course>`_. This exmaple course serves
+as a template for your assignment.
 
-Nbspinx does select the last output of a notebook as thumbnail by default.
-If a specific output from a notebook should be selected as thumbnail, the meta data of the cell containing the output must be tagged
 
-.. code-block:: json
-
-    "metadata": {
-        "nbsphinx-thumbnail": {}
-    }
-
-If the notebook contains no output, a thumbnail can be added by placing a file in the ``docs/gallery/_static`` folder.
-The filename and notebook name need to be added to the ``nbspinx_thumbnails`` dictionary in the ``conf.py`` file.
-
-.. code-block:: python
-
-    sphinx_thumbnails = {
-        'gallery/interactive/your_new_notebook': '_static/thumbnail_added.png',
-    }
-
-The respective file tree for this example would look like this:
+To check the release version of your assignment locally, you can run
 
 .. code-block:: shell
 
-    docs
-    ├── Makefile
-    ├── _build
-    ├── _static
-    │   └── thumbnail_added.png
-    ├── conf.py
-    ├── gallery
-    │   ├── interactive
-    │   │   └── your_new_notebook.ipynb
+    nbgrader generate_assignment <assignment_name>
 
+in your course directory. This will generate the release version in a new
+``release`` folder. Make sure not to push release versions to the repository.
 
-Adding a notebook to the gallery
---------------------------------
+.. _file-handling:
 
-Finally, add the notebook to an appropriate ``nbgallery`` inside the ``docs/index.rst``. For example:
+File Handling
+-------------
 
-.. code-block:: rst
+To prevent large supplementary files in the repository, we use
+`pooch <https://www.fatiando.org/pooch/latest/>`_ to handle the downloading of
+files when a notebook is executed.
+These files can be stored in the pyfar `files-repository <https://github.com/pyfar/files>`_
 
-    .. nbgallery::
-       :caption: Getting Started
-       :name: pyfar_gallery
-       :glob:
-       :reversed:
+A detailed guide on how to use pooch is also available in the `template-notebook <link-to-template>`_.
 
-       gallery/interactive/your_new_notebook.ipynb
+.. _pull-request:
+
+Pull Request & GitHub Workflow
+------------------------------
+
+Once you pushed your local changes to GitHub, you can submit a pull request to
+the main branch of the closed-educational-resources repository.
+
+Given everything is set up correctly, a circleci-workflow will generate a
+html preview of the release-version of your assignment. You can access this
+rendered html via the artifacts of the ``generate_release_and_build_docs`` workflow.
+
+Once formally reviewed and approved, you can assign the label "ready to merge"
+to your pull request. This will trigger a workflow that creates a pull request
+on the public `open-educational-resources <https://github.com/pyfar/open-educational-resources>`_ repository, adding the release version
+of your assignment.
+
+On the open-educational-resources pull request you have to add a thumnbail and adjust
+the docs (e.g. correct affiliation of your assignment to a course).
+
+Once this pull-request is reviewed and approved, it will be merged into the
+main branch and then be publicly available on `pyfar open educational resources <https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html>`_.
 
 Licensing
 ---------
