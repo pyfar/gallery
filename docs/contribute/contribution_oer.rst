@@ -11,7 +11,7 @@ This process of creating the assignments from the notebooks including solutions 
 As the name implies, nbgrader can also be used to (at least partially) automate grading the assignments.
 For an introduction to nbgrader, please refer to the `nbgrader documentation <https://nbgrader.readthedocs.io/en/stable/>`_.
 If you want to contribute to the open educational resources, please first get in touch with us to get access to the private repository.
-Ways to contact us are listed :doc:`here<index>`.
+Ways to contact us are listed :doc:`here <index>`.
 
 Get Started
 -----------
