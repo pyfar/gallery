@@ -206,3 +206,4 @@ Unless otherwise stated the notebooks are released under © 2024 by `the pyfar d
 If required, a different but compatible license can be chosen for single notebooks.
 Simply adapt the author name and license information in the respective section at the end of the notebook.
 Note that if a notebook contains code or content from other sources, this should be clearly stated in the notebook.
+
