@@ -13,8 +13,8 @@ For an introduction to nbgrader, please refer to the `nbgrader documentation <ht
 If you want to contribute to the open educational resources, please first get in touch with us to get access to the private repository.
 Ways to contact us are listed :doc:`here <index>`.
 
-Get Started
------------
+1. Get Started
+--------------
 
 Ready to contribute? Here's what you need to do:
 
@@ -31,7 +31,7 @@ stored.
     git clone https://github.com/YOUR_USERNAME/closed-educational-resources.git
     cd closed-educational-resources
 
-1. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development:
+3. Install your local copy into a virtualenv. Assuming you have Anaconda or Miniconda installed, this is how you set up your fork for local development:
 
 .. code-block:: shell
 
@@ -52,24 +52,85 @@ stored.
 
     git checkout -b course1/assignment1
 
-Now you can create your assignment locally. For a detailed guide on how to
-create assignments, please refer to :ref:`Creating an Assignment<creating-an-assignment>`.
+Now you can create your assignment locally.
 
-6. Commit your changes and push your branch to GitHub. Commit only the core assignment files.
-   Avoid committing supplementary, generated, or temporary files.
-   Please refer to the :ref:`File Handling<file-handling>` section for more information.
+
+.. _creating-an-assignment:
+
+2. Create an Assignment
+-------------------------
+
+To create an assignment for a new course, you can use the `course example <link>`_
+as a template. This example provides the necessary structure to get your
+assignment running with the workflows on closed-educational-resources. It also
+contains a template-notebook with detailed instructions.
+
+To start your course / assignment:
+
+1. Copy ``course_example`` folder to the ``courses`` directory.
+2. Rename according to your course / institution (check `existing courses <https://github.com/pyfar/closed-educational-resources/tree/main/courses>`_
+   for examples). Make sure to also adjust the ``course_id`` in
+   ``nbgrader_config.py``.
+3. Rename assignment folder according to your topic.
+4. Open the example notebook in your editor of choice and follow the contained
+   guidelines to create your assignment.
+
+.. note::
+
+   If you want to add an assignment to an existing course, just add a new
+   assignment folder to the course's ``source`` directory.
+
+.. _pull-request:
+
+3. Create a Pull Request
+------------------------
+
+Commit your changes and push your branch to GitHub. Commit only the core assignment
+files. Please refer to the file handling section of the `template-notebook <link>`_
+for more information.
+
+.. note::
+
+   Avoid committing supplementary, generated, or temporary files. Also don't push
+   any ``.db``-files to the repository, they might contain sensitive information
+   on students.
 
 .. code-block:: shell
 
-    git add .
-    git commit -m "Your detailed description of your changes."
-    git push origin course1/assignment1
+   git add .
+   git commit -m "Your detailed description of your changes."
+   git push origin course1/assignment1
 
-7. Submit a pull request on the main branch through the GitHub website.
+Once you pushed your local changes to GitHub, you can submit a pull request to
+the main branch of the closed-educational-resources repository.
 
+Given everything is set up correctly, you can access an html-preview of the release
+version via the artifacts of the ``generate_release_and_build_docs`` workflow.
+
+Now your assignment needs to be reviewed by other members of the group.
+
+4. Publish the assignment
+-------------------------
+
+Once formally reviewed and approved, the pyfar developers will create a pull
+request on the public `open-educational-resources <https://github.com/pyfar/open-educational-resources>`_
+repository, adding the release version of your assignment.
+
+There you can give your assignment a final check and adjust thumnbail and docs
+(e.g. correct affiliation of your assignment to a course).
+
+Once this pull request is approved, the pyfar developers will publish your
+assignment.
+
+Additional Information
+----------------------
+
+If you follow the instructions above and in the template-notebook you should
+be able to create your assignment without any problems. If you need more
+information or run into issues, the section below might help.
 
 Repository Structure
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Infrastructure and workflow in this repository follow the
 `nbgrader folder structure <https://nbgrader.readthedocs.io/en/latest/user_guide/philosophy.html>`_.
@@ -91,43 +152,30 @@ Infrastructure and workflow in this repository follow the
     │   │           └── problem2.ipynb
     │   └── ...
 
-To create a new course, add a folder in the ``courses`` directory and name it
-after your course (e.g., ``course1``).
-This course directory is where all solution notebooks, the nbgrader config, etc., are stored.
+The course directory is where all solution notebooks, the nbgrader config, etc., are stored.
 Every course requires an ``nbgrader_config.py`` file. Please refer to the
-course_exmaple on closed-educational-resources and the
+`course_example <link>`_ on closed-educational-resources and the
 `nbgrader configuration documentation <https://nbgrader.readthedocs.io/en/latest/configuration/nbgrader_config.html>`_,
-there are alot of configuraiton options available.
+there are a lot of configuration options available.
 
-.. _creating-an-assignment:
-
-Creating an Assignment
-----------------------
-
-This course folder serves as the root directory from which nbgrader runs to generate
+The course folder serves as the root directory from which nbgrader runs to generate
 new release notebooks. Newly added notebooks must be stored in their respective
 assignment folder inside the ``source`` directory. This is where nbgrader looks
 for assignments by default.
 
-If you are creating a new course, add a ``source`` folder inside the course directory.
-Then, create a subfolder for your assignment (e.g., ``assignment1``).
-This assignment folder can contain multiple notebooks (e.g., ``problem1``, ``problem2``).
+A course contains a ``source`` folder and subfolders for the assignments.
+An assignment folder can contain multiple notebooks (e.g., ``problem1``, ``problem2``).
 All notebooks within an assignment should be thematically related — for example,
 covering material from a single class session on one topic within the lecture series.
 If the notebooks cover unrelated topics, it's recommended to create separate assignments.
 
-You can also add assignments in an existing course. To do so, just add a new
-assignment folder inside the ``source`` directory of the course.
+Nbgrader
+~~~~~~~~
 
 We use ``nbgrader`` to generate the release version of the assignments. This happens
-automatically in circleci / GitHub Actions when a :ref:`pull request is submitted<pull-request>`.
+automatically in circleci / GitHub Actions when a pull request is submitted.
 The best way to create an nbgrader assignment is to use the `Jupyter notebook
 extension <https://nbgrader.readthedocs.io/en/latest/user_guide/highlights.html#instructor-interface>`_.
-
-You can find a `template-notebook <link-to-template>`_ including detailed instructions and guidelines
-in the `course example <link-to-example-course>`_. This exmaple course serves
-as a template for your assignment.
-
 
 To check the release version of your assignment locally, you can run
 
@@ -138,40 +186,19 @@ To check the release version of your assignment locally, you can run
 in your course directory. This will generate the release version in a new
 ``release`` folder. Make sure not to push release versions to the repository.
 
-.. _file-handling:
+Html-preview
+~~~~~~~~~~~~
 
-File Handling
--------------
+The open-educational-resources are build using Sphinx. To locally build the
+docs to check the html version of your assignment, copy your assignment to
+``open-educational-resources/oer/docs`` and run
 
-To prevent large supplementary files in the repository, we use
-`pooch <https://www.fatiando.org/pooch/latest/>`_ to handle the downloading of
-files when a notebook is executed.
-These files can be stored in the pyfar `files-repository <https://github.com/pyfar/files>`_
+.. code-block:: shell
 
-A detailed guide on how to use pooch is also available in the `template-notebook <link-to-template>`_.
+   make html
 
-.. _pull-request:
-
-Pull Request & GitHub Workflow
-------------------------------
-
-Once you pushed your local changes to GitHub, you can submit a pull request to
-the main branch of the closed-educational-resources repository.
-
-Given everything is set up correctly, a circleci-workflow will generate a
-html preview of the release-version of your assignment. You can access this
-rendered html via the artifacts of the ``generate_release_and_build_docs`` workflow.
-
-Once formally reviewed and approved, you can assign the label "ready to merge"
-to your pull request. This will trigger a workflow that creates a pull request
-on the public `open-educational-resources <https://github.com/pyfar/open-educational-resources>`_ repository, adding the release version
-of your assignment.
-
-On the open-educational-resources pull request you have to add a thumnbail and adjust
-the docs (e.g. correct affiliation of your assignment to a course).
-
-Once this pull-request is reviewed and approved, it will be merged into the
-main branch and then be publicly available on `pyfar open educational resources <https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html>`_.
+with the docs folder as root. This starts the docs build. You can find the
+built docs inside the ``build`` directory, including your ``notebook.html``
 
 Licensing
 ---------
