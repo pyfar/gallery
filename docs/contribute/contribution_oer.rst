@@ -188,16 +188,17 @@ in your course directory. This will generate the release version in a new
 Html-preview
 ~~~~~~~~~~~~
 
-The open-educational-resources are build using Sphinx. To locally build the
-docs to check the html version of your assignment, copy your assignment to
-``open-educational-resources/oer/docs`` and run
+The open-educational-resources are built using `Sphinx <https://www.sphinx-doc.org/en/master/index.html>`_.
+To locally build the docs to check the html version of your assignment, copy
+your assignment to ``open-educational-resources/oer/docs`` and run
 
 .. code-block:: shell
 
    make html
 
 with the docs folder as root. This starts the docs build. You can find the
-built docs inside the ``build`` directory, including your ``notebook.html``
+generated docs inside the ``build`` directory, including your
+``notebook.html``.
 
 Licensing
 ---------
