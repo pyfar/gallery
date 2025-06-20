@@ -4,14 +4,11 @@ Contribute to the Open Educational Resources
 
 
 The collection of open educational resources is organized across two different repositories:
-A repository containing all assignments including the solutions and a repository containing only the assignments.
-Please understand that the repository containing the solutions is not publicly available.
-To avoid mismatches between the public assignments and solutions, the assignments are created from the private repository and pushed to the public repository.
-This process of creating the assignments from the notebooks including solutions is automated using the nbgrader package.
-As the name implies, nbgrader can also be used to (at least partially) automate grading the assignments.
-For an introduction to nbgrader, please refer to the `nbgrader documentation <https://nbgrader.readthedocs.io/en/stable/>`_.
-If you want to contribute to the open educational resources, please first get in touch with us to get access to the private repository.
-Ways to contact us are listed :doc:`here <index>`.
+A private repository containing all assignments including the solutions and a public repository containing only the assignments.
+
+The assignments are created on the private repository and automatically pushed to the public repository after they have been reviewed.
+The following steps guide you through adding your first assignment and publishing it on `pyfar.org <https://pyfar.org>_`.
+If you want to contribute to the open educational resources, please first :doc:`get in touch <index>` with us to get access to the private repository.
 
 1. Get Started
 --------------
@@ -60,10 +57,11 @@ Now you can create your assignment locally.
 2. Create an Assignment
 -------------------------
 
-To create an assignment for a new course, you can use the `course example <link>`_
+To create an assignment for a new course, you can use the `course example <https://github.com/pyfar/closed-educational-resources/tree/main/course_example>`_
 as a template. This example provides the necessary structure to get your
 assignment running with the workflows on closed-educational-resources. It also
-contains a template-notebook with detailed instructions.
+contains a `template-notebook <https://github.com/pyfar/closed-educational-resources/blob/main/course_example/source/assignment1/template.ipynb>`_
+with detailed instructions.
 
 To start your course / assignment:
 
@@ -86,7 +84,7 @@ To start your course / assignment:
 ------------------------
 
 Commit your changes and push your branch to GitHub. Commit only the core assignment
-files. Please refer to the file handling section of the `template-notebook <link>`_
+files. Please refer to the file handling section of the `template-notebook <https://github.com/pyfar/closed-educational-resources/blob/main/course_example/source/assignment1/template.ipynb>`_
 for more information.
 
 .. note::
@@ -154,7 +152,8 @@ Infrastructure and workflow in this repository follow the
 
 The course directory is where all solution notebooks, the nbgrader config, etc., are stored.
 Every course requires an ``nbgrader_config.py`` file. Please refer to the
-`course_example <link>`_ on closed-educational-resources and the
+`course_example <https://github.com/pyfar/closed-educational-resources/tree/main/course_example>`_
+on closed-educational-resources and the
 `nbgrader configuration documentation <https://nbgrader.readthedocs.io/en/latest/configuration/nbgrader_config.html>`_,
 there are a lot of configuration options available.
 
