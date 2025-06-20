@@ -7,7 +7,7 @@ The collection of open educational resources is organized across two different r
 A private repository containing all assignments including the solutions and a public repository containing only the assignments.
 
 The assignments are created on the private repository and automatically pushed to the public repository after they have been reviewed.
-The following steps guide you through adding your first assignment and publishing it on `pyfar.org <https://pyfar.org>_`.
+The following steps guide you through adding your first assignment and publishing it on `pyfar.org <https://pyfar.org>`_.
 If you want to contribute to the open educational resources, please first :doc:`get in touch <index>` with us to get access to the private repository.
 
 1. Get Started
