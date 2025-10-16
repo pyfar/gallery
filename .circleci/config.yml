@@ -86,6 +86,9 @@ workflows:
               version:
                 - "3.13"
 
+          requires:
+            - test_documentation_build
+    
       - test_documentation_build:
           matrix:
             parameters:
@@ -95,6 +98,3 @@ workflows:
                 - "3.11"
                 - "3.12"
                 - "3.13"
-  
-          requires:
-            - test_examples
