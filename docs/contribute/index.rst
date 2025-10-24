@@ -56,6 +56,16 @@ community for the acoustics research community. We welcome any contributions
       Guidelines on how to contribute assignments in the form of a Jupyter
       notebook can be found in the section on `contributing to the open educational resources`_.
 
+   .. grid-item-card::
+      :text-align: justify
+
+      **Develop a package from scratch**
+      ^^^^
+      If you want to develop a pyfar package from scratch, please first get in
+      touch with us through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
+      or info@pyfar.org.
+      We have created a `package template`_ for this purpose.
+
 |
 
 
@@ -63,6 +73,7 @@ community for the acoustics research community. We welcome any contributions
 .. _contributing to the gallery: contribution_gallery.rst
 .. _contributing to the open educational resources: contribution_oer.rst
 .. _contribution guidelines: contribution_packages.rst
+.. _package template: https://pyfar-cookiecutter-pypackage.readthedocs.io
 
 .. toctree::
    :maxdepth: 1
@@ -73,5 +84,6 @@ community for the acoustics research community. We welcome any contributions
    Template Gallery <template_gallery>
    Contribute to the Open Educational Resources <contribution_oer>
    Template Open Educational Resources <template_oer>
+   Pyfar Package Template <https://pyfar-cookiecutter-pypackage.readthedocs.io>
    Code of Conduct <code_of_conduct>
 
