@@ -80,8 +80,9 @@ community for the acoustics research community. We welcome any contributions
    :hidden:
    :caption: General
 
-   Reviewer Guidelines <reviewing>
    Code of Conduct <code_of_conduct>
+   Pull Request Workflow <pr_workflow>
+   Reviewer Guidelines <reviewing>
 
 .. toctree::
    :maxdepth: 1
