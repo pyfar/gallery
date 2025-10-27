@@ -37,6 +37,7 @@ extensions = [
     'autodocsumm',
     "sphinx_design",
     "sphinx_favicon",
+    "sphinx_copybutton",
 ]
 
 templates_path = ['_templates']
