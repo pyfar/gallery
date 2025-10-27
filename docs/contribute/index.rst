@@ -78,9 +78,35 @@ community for the acoustics research community. We welcome any contributions
 .. toctree::
    :maxdepth: 1
    :hidden:
+   :caption: General
 
-   Contribute to a Package <contribution_packages_toc>
-   Contribute to the Gallery <contribution_gallery_toc>
-   Contribute to the Open Educational Resources <contribution_oer_toc>
+   Reviewer Guidelines <reviewing>
    Code of Conduct <code_of_conduct>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contribute to a Package
+   :hidden:
+
+   Guidelines <contribution_packages>
+   Documentation Guidelines <documentation>
+   Testing Guidelines <testing>
+   Release Guidelines <releasing>
+   Cookiecutter Template <https://pyfar-cookiecutter-pypackage.readthedocs.io>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contribute to the Gallery
+   :hidden:
+
+   Guidelines <contribution_gallery>
+   Template <template_gallery>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contribute to the Open Educational Resources
+   :hidden:
+
+   Guidelines <contribution_oer>
+   Template <template_oer>
 
