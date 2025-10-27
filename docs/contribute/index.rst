@@ -79,11 +79,8 @@ community for the acoustics research community. We welcome any contributions
    :maxdepth: 1
    :hidden:
 
-   Contribute to a Package <contribution_packages>
-   Contribute to the Gallery <contribution_gallery>
-   Template Gallery <template_gallery>
-   Contribute to the Open Educational Resources <contribution_oer>
-   Template Open Educational Resources <template_oer>
-   Pyfar Package Template <https://pyfar-cookiecutter-pypackage.readthedocs.io>
+   Contribute to a Package <contribution_packages_toc>
+   Contribute to the Gallery <contribution_gallery_toc>
+   Contribute to the Open Educational Resources <contribution_oer_toc>
    Code of Conduct <code_of_conduct>
 
