@@ -24,4 +24,47 @@ The workflow can very briefly be summarized as:
 
 This way of working helps to keep work well organized.
 
+More Detailed Instructions
+--------------------------
 
+For more detailed instructions including the respective commands and tools, please refer to the guide of the package you want to contribute to.
+See for example the guidelines for `contributing to pyfar <https://pyfar.readthedocs.io/en/stable/contributing.html>`_
+
+
+Submitting a Pull Request
+-------------------------
+
+To get your changes merged into a pyfar repository or project, you need to submit a pull request (PR) on GitHub.
+A general guide on PRs can be found on the `GitHub documentation <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests?platform=linux>`_.
+
+Before submitting a PR, make sure to meet the following criteria:
+
+- Ensure that the PR targets the correct branch, i.e. `main` if you are proposing a bugfix or improvements to the documentation, or `develop` if you propose a new feature or enhancement of existing code.
+- Pyfar projects follow semantic versioning. This means that
+   - Changes to existing functionality are only allowed in minor or major releases (`develop` branch) under the condition that backward compatibility is maintained for at least two minor releases.
+   - If required, deprecations of existing functionality can be introduced to ensure backward compatibility.
+   - Breaking changes are only allowed in major releases.
+- Ensure that your code follows the coding style and guidelines of the project.
+- Ensure to add or update tests as necessary and that all tests pass.
+- Include a clear and concise docstring which is formatted according to the project's documentation guidelines and make sure that it is added to the API documentation.
+- Keep contributions made in a PR as compact and module as possible. It is always beneficial to re-use existing functionality when suitable.
+- Please refrain from making changes on code sections that are not related to the PR. This is to ensure that the git history remains clear and improves maintainability and most importantly makes reviewing a PR easier.
+- Please avoid purely cosmetic formatting changes. Maintainers will usually ask you to revert unrelated or purely cosmetic changes for maintainability reasons.
+- Please keep the git history as clean as possible and write descriptive and meaningful commit messages. Commit messages such as `add fix` are not descriptive enough.
+
+Once all criteria are met, you can create the PR through the GitHub interface.
+
+Please make sure to consider the following points when creating the PR:
+
+- Provide a clear and descriptive title for the PR.
+- Write a detailed description of the changes made in the PR, including the motivation behind them and any relevant context.
+- If the PR addresses any existing issues, link them using the `closes #issue-number` syntax. Note that an existing issue does not mean that you can simply skip the PR description.
+- Browse the available labels and assign the most appropriate ones to your PR.
+- If possible, add the PR to the "Weekly meeting" project board. Workflow automation will update the status of the PR automatically as soon as it is added.
+- If a milestone is already defined for the next release you can also assign it to the PR. Otherwise, maintainers will take care of this later. Please ignore the corresponding (failing) workflow check.
+- If you open a PR which is not yet ready for review, mark it as "Draft". You can request reviews for draft PRs, but reviewers will know that it is not yet ready for final review and consequently provide conceptual feedback only. You can also indicate that you want to discuss the PR further by changing the status to "Open Discussion" in the project section.
+- As soon as the PR is ready for review, request a review from the maintainer team of the respective package or project. The teams are named after the respective repository. Remember to change the status from "Draft" to "Ready for Review" if applicable. Please note that it might take some time for reviewers to get to your PR depending on their availability. If you have not received feedback after a reasonable amount of time, feel free to ping the maintainers once more or get in touch through slack or join a weekly developer meeting.
+- Wait for the reviewers feedback and address the requested changes if necessary. Pyfar requires at least two approving reviews before a PR can be merged. For small changes, such as fixing small issues or updating the documentation, one approving review is usually sufficient.
+- You can also refer to the `reviewer guidelines <reviewing.html>`_ for more information on the review process.
+- If recent chances made to the `main` or `develop` are required for your PR, use `git rebase` over merging. This helps maintainability of the project.
+- If you find that during the review process the commit history gets very long consider squashing it using an interactive rebase. If maintainers find the commit history insufficiently compact they will either ask you to condense the history or squash the entire PR into a single commit when merging.
