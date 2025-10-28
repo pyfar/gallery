@@ -93,7 +93,7 @@ community for the acoustics research community. We welcome any contributions
    Documentation Guidelines <documentation>
    Testing Guidelines <testing>
    Release Guidelines <releasing>
-   Cookiecutter Template <https://pyfar-cookiecutter-pypackage.readthedocs.io>
+   Template <packages/template>
 
 .. toctree::
    :maxdepth: 1
