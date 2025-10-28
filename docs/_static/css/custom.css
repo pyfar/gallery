@@ -1,10 +1,12 @@
 
 html[data-theme="light"] {
     --pst-color-primary: #126CB0; /* pyfar blue as primary color */
+    --pst-color-secondary: #6fa8d3; /* lighter blue as secondary color */
 }
 
 html[data-theme="dark"] {
     --pst-color-primary: #126CB0; /* pyfar blue as primary color */
+    --pst-color-secondary: #6fa8d3; /* lighter blue as secondary color */
 }
 html {
     --pst-icon-external-link: "";
