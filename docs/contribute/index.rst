@@ -80,19 +80,19 @@ community for the acoustics research community. We welcome any contributions
    :hidden:
    :caption: General
 
-   Code of Conduct <code_of_conduct>
-   Pull Request Workflow <pr_workflow>
-   Reviewer Guidelines <reviewing>
+   Code of Conduct <general/code_of_conduct>
+   Pull Request Workflow <general/pr_workflow>
+   Reviewer Guidelines <general/reviewing>
 
 .. toctree::
    :maxdepth: 1
    :caption: Contribute to a Package
    :hidden:
 
-   Guidelines <contribution_packages>
-   Documentation Guidelines <documentation>
-   Testing Guidelines <testing>
-   Release Guidelines <releasing>
+   Guidelines <packages/contribution_packages>
+   Documentation Guidelines <packages/documentation>
+   Testing Guidelines <packages/testing>
+   Release Guidelines <packages/releasing>
    Template <packages/template>
 
 .. toctree::
@@ -100,14 +100,14 @@ community for the acoustics research community. We welcome any contributions
    :caption: Contribute to the Gallery
    :hidden:
 
-   Guidelines <contribution_gallery>
-   Template <template_gallery>
+   Guidelines <gallery/contribution_gallery>
+   Template <gallery/template_gallery>
 
 .. toctree::
    :maxdepth: 1
    :caption: Contribute to the Open Educational Resources
    :hidden:
 
-   Guidelines <contribution_oer>
-   Template <template_oer>
+   Guidelines <oer/contribution_oer>
+   Template <oer/template_oer>
 
