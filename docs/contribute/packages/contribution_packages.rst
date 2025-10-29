@@ -1,16 +1,47 @@
 .. highlight:: shell
 
-Pull Request Guidelines
------------------------
+Style and Design Guidelines for Contribution Packages
+=====================================================
 
-Before you submit a pull request, check that it meets these guidelines:
+Style Guidelines
+----------------
 
-1. The pull request should include tests.
-2. If the pull request adds functionality, the docs should be updated. Put your new functionality into a function with a docstring.
-3. If checks do not pass, have a look at https://app.circleci.com/pipelines/github/pyfar/PACKAGENAME for more information (e.g., use 'pyfar' as the PACKAGENAME).
+Pyfar packages follows the `PEP 8 <https://peps.python.org/pep-0008/>`_ style guide for Python code with some extensions.
+The rules are enforced through the `ruff <https://docs.astral.sh/ruff/>`_ linter.
+Some of our extensions to PEP 8 include (but are not limited to):
 
-Function and Class Guidelines
------------------------------
+- Docstrings are always required and should follow the `numpydoc style <https://numpydoc.readthedocs.io/en/latest/format.html>`_.
+- Commented out code is not allowed.
+- Shadowing built-ins is not allowed.
+- Unused function arguments are not allowed unless they are part of a required function signature (e.g., for overridden methods).
+
+Note that PEP8 does *not* always provide a *single* way of formatting code.
+The following examples are equally valid according to PEP8
+
+.. code-block:: python
+
+   my_first_list = [
+       1, 2, 3,
+       4, 5, 6,
+       7, 8, 9]
+
+   my_second_list = [1, 2, 3,
+                     4, 5, 6,
+                     7, 8, 9]
+
+It is recommended to choose the style that improves readability the most in the given context.
+Please note that changing existing code to a different valid style is usually *not desired* in a contribution as it clutters the git history without adding value and makes revising code harder.
+Please only change the style of existing code if it is necessary to improve readability or if a re-write of the respective code section is required.
+
+
+Design Considerations
+---------------------
+
+Pyfar always aims for code that is easy to read, maintain and extend.
+This usually means, that features should be implemented in a compact and modular way.
+Complex functionality should be broken down into smaller, reusable components.
+Note that this approach will simplify writing unit tests and documentation as well.
+Additionally, it will make reviewing contributions easier and therefore speed up the contribution process.
 
 Functions and classes should
 
