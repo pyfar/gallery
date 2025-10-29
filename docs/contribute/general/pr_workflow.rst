@@ -1,3 +1,38 @@
+.. raw:: html
+
+    <style>
+      span.github-green {background-color: #28a745; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-yellow {background-color: #ffcc00; color: black; padding: 4px 6px; border-radius: 3px;}
+      span.github-burgundy {background-color: #981e51ff; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-purple {background-color: #6f42c1; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-grey {background-color: #6c757d; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-red {background-color: #d73a49; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-blue {background-color: #0366d6; color: white; padding: 4px 6px; border-radius: 3px;}
+    </style>
+
+
+.. role:: approved
+   :class: sd-badge pst-badge github-green
+
+.. role:: implementation-in-progress
+   :class: sd-badge pst-badge github-yellow
+
+.. role:: open-discussion
+   :class: sd-badge pst-badge github-burgundy
+
+.. role:: backlog
+   :class: sd-badge pst-badge github-grey
+
+.. role:: require-review
+   :class: sd-badge pst-badge github-red
+
+.. role:: drafting-phase
+   :class: sd-badge pst-badge github-purple
+
+.. role:: ready-for-pickup
+   :class: sd-badge pst-badge github-blue
+
+
 Development Workflow
 ====================
 
