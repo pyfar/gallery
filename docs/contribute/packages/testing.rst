@@ -61,15 +61,21 @@ Pytest provides several, sophisticated functionalities which could reduce the ef
 
 - Run a single test with
 
-    $ pytest tests/test_plot.py::test_line_plots
+.. code-block:: shell
+
+   $ pytest tests/test_plot.py::test_line_plots
 
 - Exclude tests (for example the time consuming test of plot) with
 
-    $ pytest -k 'not plot and not interaction'
+.. code-block:: shell
+
+   $ pytest -k 'not plot and not interaction'
 
 - Create an html report on the test :doc:`coverage<coverage:index>` with
 
-    $ pytest --cov=. --cov-report=html
+.. code-block:: shell
+
+   $ pytest --cov=. --cov-report=html
 
 - Feel free to add more recommendations on useful pytest functionalities here. Consider, that a trade-off between easy implemention and good readability of the tests needs to be found.
 
