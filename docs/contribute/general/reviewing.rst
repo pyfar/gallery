@@ -1,3 +1,39 @@
+.. raw:: html
+
+    <style>
+      span.github-green {background-color: #28a745; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-yellow {background-color: #ffcc00; color: black; padding: 4px 6px; border-radius: 3px;}
+      span.github-burgundy {background-color: #981e51ff; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-purple {background-color: #6f42c1; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-grey {background-color: #6c757d; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-red {background-color: #d73a49; color: white; padding: 4px 6px; border-radius: 3px;}
+      span.github-blue {background-color: #0366d6; color: white; padding: 4px 6px; border-radius: 3px;}
+    </style>
+
+.. role:: approved
+   :class: sd-badge pst-badge github-green
+
+.. role:: implementation-in-progress
+   :class: sd-badge pst-badge github-yellow
+
+.. role:: open-discussion
+   :class: sd-badge pst-badge github-burgundy
+
+.. role:: backlog
+   :class: sd-badge pst-badge github-grey
+
+.. role:: require-review
+   :class: sd-badge pst-badge github-red
+
+.. role:: drafting-phase
+   :class: sd-badge pst-badge github-purple
+
+.. role:: ready-for-pickup
+   :class: sd-badge pst-badge github-blue
+
+.. role:: on-hold
+   :class: sd-badge pst-badge github-grey
+
 Reviewing Contributions
 =======================
 
@@ -5,9 +41,9 @@ Reviewing open pull requests (PRs) is an essential part of the contribution proc
 By providing feedback and suggestions, reviewers help maintain the quality and consistency of the project and help moving it forward.
 All pyfar packages require at least two approving review before a PR can be merged.
 For small changes, such as fixing small issues or updating the documentation, one approving review is usually sufficient.
-PRs that require a review have the status "Require Review" in the project section.
-If a PR is marked as "Draft", it is not yet ready for review.
-Please wait until the author marks it as "Ready for Review" unless you have been asked to provide feedback on a draft.
+PRs that require a review have the status :require-review:`Require Review` in the project section.
+If a PR is marked as "Draft" or has the status :drafting-phase:`Drafting Phase`, it is not yet ready for review.
+Please wait until the author marks it as *Ready for Review* (or the status shows :require-review:`Require Review`) unless you have been asked to provide feedback on a draft.
 This can happen through the request review feature.
 
 Communication Guidelines
@@ -37,7 +73,7 @@ Review Checklist
    - Check that any new functions or classes are documented in the API reference.
    - Make sure that the documentation builds without errors and renders correctly (see readthedocs.org check). Are there formatting issues with equations, code blocks, or plots?
 - Do the code changes follow the project's coding style and guidelines? Make sure that the ruff linter check passes in the CI system. See the checks panel at the bottom of the PR.
-- If you are feel that the proposed changes have larger implications for the project or need further discussions, please change the PR status to "Open Discussion". This indicates to the maintainers that further input. Such discussions can be moved to a new issue or the weekly developer meeting.
+- If you are feel that the proposed changes have larger implications for the project or need further discussions, please change the PR status to :open-discussion:`Open Discussion`. This indicates to the maintainers that further input. Such discussions can be moved to a new issue or the weekly developer meeting.
 
 Maintainer Checklist
 --------------------
@@ -49,4 +85,4 @@ Maintainer Checklist
 - Check if the history of the PR is sufficiently clean. If there are many small commits that do not add value to the history, ask the author to squash them into meaningful commits. If necessary, assist the author with the process. You may also choose to squash and merge the PR yourself if appropriate.
 - After merging ensure that related issues are closed and that any relevant changelog entries are added.
 - If you want to reject a PR, provide a clear explanation to the author why the PR is being rejected and if possible suggest alternative approaches or solutions.
-- If a PR has not seen any activity in a long time or requires changes from another PR that is taking a long time, please move the status of the PR to "On Hold". This avoids unnecessary reviews or commits.
+- If a PR has not seen any activity in a long time or requires changes from another PR that is taking a long time, please move the status of the PR to :on-hold:`On Hold`. This avoids unnecessary reviews or commits.
