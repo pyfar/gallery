@@ -69,11 +69,11 @@ community for the acoustics research community. We welcome any contributions
 |
 
 
-.. _code of conduct: code_of_conduct.rst
-.. _contributing to the gallery: contribution_gallery.rst
-.. _contributing to the open educational resources: contribution_oer.rst
-.. _contribution guidelines: contribution_packages.rst
-.. _package template: https://pyfar-cookiecutter-pypackage.readthedocs.io
+.. _code of conduct: general/code_of_conduct.rst
+.. _contributing to the gallery: gallery/contribution_gallery.rst
+.. _contributing to the open educational resources: oer/contribution_oer.rst
+.. _contribution guidelines: general/pr_workflow.rst
+.. _package template: packages/template.rst
 
 .. toctree::
    :maxdepth: 1
