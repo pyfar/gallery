@@ -4,3 +4,5 @@ _build
 tests/__pycache__/*
 docs/resources/my_first.sofa
 docs/header.rst
+
+.vscode/
