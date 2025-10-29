@@ -89,7 +89,7 @@ community for the acoustics research community. We welcome any contributions
    :caption: Contribute to a Package
    :hidden:
 
-   Guidelines <packages/contribution_packages>
+   Style and Design Guidelines <packages/style_design>
    Documentation Guidelines <packages/documentation>
    Testing Guidelines <packages/testing>
    Release Guidelines <packages/releasing>
