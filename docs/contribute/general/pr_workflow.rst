@@ -101,7 +101,7 @@ Please make sure to consider the following points when creating the PR:
 - Write a detailed description of the changes made in the PR, including the motivation behind them and any relevant context.
 - If the PR addresses any existing issues, link them using the ``closes #issue-number`` syntax. Note that an existing issue does not mean that you can simply skip the PR description.
 - Browse the available labels and assign the most appropriate ones to your PR.
-- If possible, add the PR to the "Weekly meeting" project board. Workflow automation will then assign the status :backlog:`Backlog` which is automatically updated during the process.
+- If possible, add the PR to the *Weekly meeting* project board. Workflow automation will then assign the status :backlog:`Backlog` which is automatically updated during the process.
 - If a milestone is already defined for the next release you can also assign it to the PR. Otherwise, maintainers will take care of this later. Please ignore the corresponding (failing) workflow check.
 
 
