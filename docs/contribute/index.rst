@@ -81,6 +81,7 @@ community for the acoustics research community. We welcome any contributions
    :caption: General
 
    Code of Conduct <general/code_of_conduct>
+   Reporting Issues <general/reporting_issues>
    Development Guidelines <general/pr_workflow>
    Reviewer Guidelines <general/reviewing>
 
