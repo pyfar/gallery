@@ -83,6 +83,6 @@ Maintainer Checklist
 - In case of merge conflicts, ask the author to resolve them by rebasing the current branch onto the respective target branch.
 - Ensure that the PR is targeting the correct branch and that the milestone is set appropriately. If not, adjust accordingly.
 - Check if the history of the PR is sufficiently clean. If there are many small commits that do not add value to the history, ask the author to squash them into meaningful commits. If necessary, assist the author with the process. You may also choose to squash and merge the PR yourself if appropriate.
-- After merging ensure that related issues are closed and that any relevant changelog entries are added.
+- After merging ensure that related issues are closed and that any relevant changelog entries are added. Don't forget to remove the git branch. No worries, GitHub has a restore feature if it is required in the near future.
 - If you want to reject a PR, provide a clear explanation to the author why the PR is being rejected and if possible suggest alternative approaches or solutions.
 - If a PR has not seen any activity in a long time or requires changes from another PR that is taking a long time, please move the status of the PR to :on-hold:`On Hold`. This avoids unnecessary reviews or commits.
