@@ -62,8 +62,19 @@ This way of working helps to keep work well organized.
 More Detailed Instructions
 --------------------------
 
-For more detailed instructions including the respective commands and tools, please refer to the guide of the package you want to contribute to.
+For more specific instructions for contributing to pyfar packages, please check out the following:
+
+- `Style and design guidelines <../packages/style_design.html>`_.
+- `Documentation guidelines <../packages/documentation.html>`_.
+- `Testing guidelines <../packages/testing.html>`_.
+
+The documentation of each package further provides instructions including the respective commands and tools, please refer to the guide of the package you want to contribute to.
 See for example the guidelines for `contributing to pyfar <https://pyfar.readthedocs.io/en/stable/contributing.html>`_
+
+Similarly, contribution guidelines exist for the *pyfar gallery* and the *open educational resources*:
+
+- `Contribution guidelines for the gallery <../contribution_gallery.html>`_.
+- `Contribution guidelines for the open educational resources <../contribution_oer.html>`_.
 
 
 Submitting a Pull Request
@@ -78,12 +89,12 @@ Before Submitting a Pull Request
 Please make sure to meet the following criteria:
 
 - Ensure that the PR targets the correct branch, i.e. ``main`` if you are proposing a bugfix or improvements to the documentation, or ``develop`` if you propose a new feature or enhancement of existing code.
-- Pyfar projects follow semantic versioning. This means that
+- Pyfar projects follow `semantic versioning <../packages/releasing.html#versioning>`_. This means that
    - Changes to existing functionality are only allowed in minor or major releases (``develop`` branch) under the condition that backward compatibility is maintained for at least two minor releases.
    - If required, deprecations of existing functionality can be introduced to ensure backward compatibility.
    - Breaking changes are only allowed in major releases.
-- Ensure that your code follows the coding style and guidelines of the project.
-- Ensure to add or update tests as necessary and that all tests pass.
+- Ensure that your code follows the `coding style and guidelines of the project <../packages/style_design.html>`_.
+- Ensure to add or update tests as necessary and that all tests pass. Please refer to the `testing guidelines <../packages/testing.html>`_ for more information.
 - Include a clear and concise docstring which is formatted according to the project's documentation guidelines and make sure that it is added to the API documentation.
 - Keep contributions made in a PR as compact and module as possible. It is always beneficial to re-use existing functionality when suitable.
 - Please refrain from making changes on code sections that are not related to the PR. This is to ensure that the git history remains clear and improves maintainability and most importantly makes reviewing a PR easier.
