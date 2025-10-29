@@ -1,5 +1,3 @@
-.. highlight:: shell
-
 Style and Design Guidelines for Contribution Packages
 =====================================================
 
