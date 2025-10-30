@@ -13,7 +13,7 @@ The tests should always be run locally before opening a pull request. In additio
 In the following, you'll find a guideline. Note: these instructions are not generally applicable outside of pyfar.
 
 - The main tool used for testing is :doc:`pytest<pytest:index>`.
-- All tests are located in the *tests/* folder and can by executed with the `pytest` command.
+- All tests are located in the *tests/* folder and can by executed with the ``pytest`` command.
 - Make sure that all important parts of pyfar are covered by the tests. This can be checked using *coverage* (see below).
 - In case of pyfar, mainly **state verification** is applied in the tests. This means that the outcome of a function is compared to a desired value (``assert ...``). For more information, it is refered to `Martin Fowler's article <https://martinfowler.com/articles/mocksArentStubs.html>`_.
 
@@ -24,9 +24,11 @@ Please consider the following aspects when writing tests:
 
 - Pyfar generally uses  **unit tests** to test small parts of the code in isolation. This agrees very well with the code design guidelines of writing compact and modular code (see the `style guidelines <style_design.html>`_).
 - Tests should be easy to read and understand. This includes
-   - Meaningful test names, comments, and a clear structure of the test code.
-   - Writing separate tests for different functionalities instead of combining all checks in a single test.
-   - Avoid conditional statements and loops within tests if possible.
+
+  - Meaningful test names, comments, and a clear structure of the test code.
+  - Writing separate tests for different functionalities instead of combining all checks in a single test.
+  - Avoid conditional statements and loops within tests if possible.
+
 - Keep tests independent of each other. Each test should be able to run in isolation without relying on the outcome of other tests.
 - Use **fixtures** to set up common test data or state. This avoids code duplication and improves readability. See the `Fixtures`_ section below for more information.
 - Note that the modular and compact `code design guidelines <style_design.html>`_ and unit-testing usually go hand in hand: If the code is not concise and compact, writing a compact unit test is (more) difficult. It might be worth to reconsider the code design in this case.
