@@ -39,7 +39,7 @@ Reviewing Contributions
 
 Reviewing open pull requests (PRs) is an essential part of the contribution process.
 By providing feedback and suggestions, reviewers help maintain the quality and consistency of the project and help moving it forward.
-All pyfar packages require at least two approving review before a PR can be merged.
+All pyfar packages require at least two approving reviews before a PR can be merged.
 For small changes, such as fixing small issues or updating the documentation, one approving review is usually sufficient.
 PRs that require a review have the status :require-review:`Require Review` in the project section.
 If a PR is marked as "Draft" or has the status :drafting-phase:`Drafting Phase`, it is not yet ready for review.
@@ -56,7 +56,8 @@ When reviewing a PR, keep in mind that
 - If something is unclear, ask for clarification rather than making assumptions.
 - Begin if possible with the large issues, so the author knows they've been understood. Resist the temptation to immediately go line by line, or to open with small pervasive issues.
 - Use the "request changes" review option if there are significant issues that need to be addressed before the PR can be merged. If you are generally positive about the PR but have some minor suggestions, use the "comment" option.
-- Do not let perfect be the enemy of the good, especially if the PR has already seen more than one review iteration. If you find yourself making many small suggestions, or being too nitpicky on style or grammar, consider merging the current PR when all important concerns are addressed. Don't drag out the review process unnecessarily. Remaining small issues can also be resolved in a separate PR. In such cases, open a new issue and communicate this to the author and give them a chance to address the issue in a future contribution.
+- Do not let perfect be the enemy of the good, especially if the PR has already seen more than one review iteration. If you find yourself making many small suggestions, or being too nitpicky on style or grammar, consider merging the current PR when all important concerns are addressed.
+- Don't drag out the review process unnecessarily. Remaining small issues can also be resolved in a separate PR. In such cases, open a new issue and communicate this to the author and give them a chance to address the issue in a future contribution.
 - Focus on the code changes, do not ask for unrelated changes or improvements which are beyond the scope of the PR.
 - Do not use the PR to discuss larger design issues or future plans. Open a new issue for such discussions and link to it from the PR if necessary.
 - Do not simply commit changes to the author's branch. Instead, suggest changes using GitHub's review tools. If the author agrees, they can then commit the changes themselves automatically giving credit to the reviewer.
@@ -65,14 +66,16 @@ Review Checklist
 ----------------
 
 - Is the behavior, purpose, and scope of the changes made as part of the PR clear? If not, ask to the author to clarify in the PR description before continuing the review.
-- Is the implementation sufficiently compact or modular and make use of existing functionality where possible? It might be that new contributors are not yet aware of all existing functionality.
-- Are variables, functions, classes, and modules named appropriately and consistently? Does the code follow the project's style conventions? See if the ruff linter check passes in the CI system. See the checks panel at the bottom of the PR.
-- Is the code correct and sufficiently tested? Is the test coverage sufficient? Note that we do not enforce 100% coverage for every PR, but the code should in general be well covered.
 - Do all tests pass on the continuous integration (CI) system? See the checks panel at the bottom of the PR.
-- Are docstrings and documentation provided or updated and are they clear and informative?
-   - Check that any new functions or classes are documented in the API reference.
-   - Make sure that the documentation builds without errors and renders correctly (see readthedocs.org check). Are there formatting issues with equations, code blocks, or plots?
+- Is the implementation sufficiently compact or modular and make use of existing functionality where possible? It might be that new contributors are not yet aware of all existing functionality.
+- Are variables, functions, classes, and modules named appropriately and consistently? Does the code follow the project's `style conventions <../packages/style_design.html>`_? See if the ruff linter check passes in the CI system. See the checks panel at the bottom of the PR.
+- Is the code correct and sufficiently tested? Is the test coverage sufficient? Note that we do not enforce 100% coverage for every PR, but the code should in general be well covered.
 - Do the code changes follow the project's coding style and guidelines? Make sure that the ruff linter check passes in the CI system. See the checks panel at the bottom of the PR.
+- Are docstrings and documentation provided or updated and are they clear and informative?
+
+  - Check that any new functions or classes are documented in the API reference.
+  - Make sure that the documentation builds without errors and renders correctly (see readthedocs.org check). Are there formatting issues with equations, code blocks, or plots?
+
 - If you are feel that the proposed changes have larger implications for the project or need further discussions, please change the PR status to :open-discussion:`Open Discussion`. This indicates to the maintainers that further input. Such discussions can be moved to a new issue or the weekly developer meeting.
 
 Maintainer Checklist

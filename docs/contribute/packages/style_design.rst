@@ -45,9 +45,9 @@ Functions and classes should
 
 * have a single clear purpose and a functionality limited to that purpose. Conditional parameters are fine in some cases but are an indicator that a function or class does not have a clear purpose. Conditional parameters are
 
-  - parameters that are obsolete if another parameter is provided
-  - parameters that are necessary only if another parameter is provided
-  - parameters that must have a specific value depending on other parameters
+  - parameters that are obsolete if another parameter is provided,
+  - parameters that are necessary only if another parameter is provided,
+  - parameters that must have a specific value depending on other parameters.
 
 * be split into multiple functions or classes if the functionality is not well limited.
 * contain documentation for all input and output parameters.
@@ -59,12 +59,11 @@ It is also a good idea to follow `the Zen of Python <https://peps.python.org/pep
 
 Errors should be raised if
 
-* audio objects do not have the correct type (e.g. a TimeData instance is passed but a Signal instance is required).
+* objects do not have the correct type (e.g. a TimeData instance is passed but a Signal instance is required).
 * string input that specifies a function option has an invalid value (e.g. 'linea' was passed but 'linear' was required).
 * invalid parameter combinations are used.
 
 Warnings should be raised if
 
 * results might be wrong or unexpected.
-* possibly invalid parameter combinations are used.
 * features are deprecated.
