@@ -8,7 +8,7 @@ A private repository containing all assignments including the solutions and a pu
 
 The assignments are created on the private repository and automatically pushed to the public repository after they have been reviewed.
 The following steps guide you through adding your first assignment and publishing it on `pyfar.org <https://pyfar.org>`_.
-If you want to contribute to the open educational resources, please first :doc:`get in touch <index>` with us to get access to the private repository.
+If you want to contribute to the open educational resources, please first `get in touch <../index.html>`_ with us to get access to the private repository.
 
 1. Get Started
 --------------
