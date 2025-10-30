@@ -33,15 +33,15 @@
    :class: sd-badge pst-badge github-blue
 
 
-Development Workflow
-====================
+Development Guidelines
+======================
 
 All pyfar related projects and packages are developed openly on GitHub.
 Contributions are managed through issues and pull requests, allowing communication
 between users, developers, and maintainers.
 Pull requests can be proposed from forks of the repository for which a contribution
 is to be committed.
-For contributors who are part of the pyfar organization it is recommended to work on feature
+For contributors who are part of the pyfar organization it is recommended to work on
 branches on the repository directly.
 
 
@@ -52,8 +52,8 @@ The workflow can very briefly be summarized as:
 
 - Start a new feature branch for each set of edits that you do.
 - Hack away!
-- Push your feature branch to your own Github repo, and create a pull request.
-- Request a review and wait for feedback
+- Push your feature branch to your forked Github repo, and create a pull request.
+- Request a review and wait for feedback.
 - If required, include the feedback from the review and update your code.
 - A maintainer will merge your PR if two reviewers approved.
 
@@ -64,14 +64,17 @@ More Detailed Instructions
 
 For more specific instructions for contributing to pyfar packages, please check out the following:
 
-- `Style and design guidelines <../packages/style_design.html>`_.
-- `Documentation guidelines <../packages/documentation.html>`_.
+- `Style and design guidelines <../packages/style_design.html>`_,
+- `Documentation guidelines <../packages/documentation.html>`_,
 - `Testing guidelines <../packages/testing.html>`_.
 
 The documentation of each package further provides instructions including the respective commands and tools, please refer to the guide of the package you want to contribute to.
-See for example the guidelines for `contributing to pyfar <https://pyfar.readthedocs.io/en/stable/contributing.html>`_
+See for example the guidelines for `contributing to pyfar <https://pyfar.readthedocs.io/en/stable/contributing.html>`_.
 
-Similarly, contribution guidelines exist for the *pyfar gallery* and the *open educational resources*:
+Similarly, contribution guidelines exist for the
+`pyfar examples gallery <https://pyfar-gallery.readthedocs.io/en/latest/examples_gallery.html>`_
+and
+`open educational resources <https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html>`_:
 
 - `Contribution guidelines for the gallery <../contribution_gallery.html>`_.
 - `Contribution guidelines for the open educational resources <../contribution_oer.html>`_.
@@ -90,9 +93,11 @@ Please make sure to meet the following criteria:
 
 - Ensure that the PR targets the correct branch, i.e. ``main`` if you are proposing a bugfix or improvements to the documentation, or ``develop`` if you propose a new feature or enhancement of existing code.
 - Pyfar projects follow `semantic versioning <../packages/releasing.html#versioning>`_. This means that
-   - Changes to existing functionality are only allowed in minor or major releases (``develop`` branch) under the condition that backward compatibility is maintained for at least two minor releases.
-   - If required, deprecations of existing functionality can be introduced to ensure backward compatibility.
-   - Breaking changes are only allowed in major releases.
+
+  - Changes to existing functionality are only allowed in minor or major releases (``develop`` branch) under the condition that backward compatibility is maintained for at least two minor releases.
+  - If required, deprecations of existing functionality can be introduced to ensure backward compatibility.
+  - Breaking changes are only allowed in major releases.
+
 - Ensure that your code follows the `coding style and guidelines of the project <../packages/style_design.html>`_.
 - Ensure to add or update tests as necessary and that all tests pass. Please refer to the `testing guidelines <../packages/testing.html>`_ for more information.
 - Include a clear and concise docstring which is formatted according to the project's documentation guidelines and make sure that it is added to the API documentation.
@@ -114,14 +119,15 @@ Please make sure to consider the following points when creating the PR:
 - Browse the available labels and assign the most appropriate ones to your PR.
 - If possible, add the PR to the *Weekly meeting* project board. Workflow automation will then assign the status :backlog:`Backlog` which is automatically updated during the process.
 - If a milestone is already defined for the next release you can also assign it to the PR. Otherwise, maintainers will take care of this later. Please ignore the corresponding (failing) workflow check.
+- If you open a PR which is not yet ready for review, mark it as "Draft". You can request reviews for draft PRs, but reviewers will know that it is not yet ready for final review and consequently provide conceptual feedback only. You can also indicate that you want to discuss the PR further by changing the status to :open-discussion:`Open Discussion` in the project section.
 
 
 The Review Process
 ~~~~~~~~~~~~~~~~~~
 
-- If you open a PR which is not yet ready for review, mark it as "Draft". You can request reviews for draft PRs, but reviewers will know that it is not yet ready for final review and consequently provide conceptual feedback only. You can also indicate that you want to discuss the PR further by changing the status to :open-discussion:`Open Discussion` in the project section.
 - As soon as the PR is ready for review, request a review from the maintainer team of the respective package or project. The teams are named after the respective repository. Remember to change the status from "Draft" to "Ready for Review" if applicable. Please note that it might take some time for reviewers to get to your PR depending on their availability. If you have not received feedback after a reasonable amount of time, feel free to ping the maintainers once more or get in touch through slack or join a weekly developer meeting.
 - Wait for the reviewers feedback and address the requested changes if necessary. Pyfar requires at least two approving reviews before a PR can be merged. For small changes, such as fixing small issues or updating the documentation, one approving review is usually sufficient.
+- After revising the PR according to the reviewers' comments, please re-request a review so that reviewers get informed about the updates.
 - You can also refer to the `reviewer guidelines <reviewing.html>`_ for more information on the review process.
 - If recent changes made to the ``main`` or ``develop`` branch are required for your PR, use ``git rebase`` instead of ``git merge``. This helps maintainability of the project.
 - During the review process, please only update the PR description if necessary or a reviewer requests it. To reply to reviewer comments, please use the comment functionality of GitHub instead.
