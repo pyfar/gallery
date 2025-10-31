@@ -69,21 +69,46 @@ community for the acoustics research community. We welcome any contributions
 |
 
 
-.. _code of conduct: code_of_conduct.rst
-.. _contributing to the gallery: contribution_gallery.rst
-.. _contributing to the open educational resources: contribution_oer.rst
-.. _contribution guidelines: contribution_packages.rst
-.. _package template: https://pyfar-cookiecutter-pypackage.readthedocs.io
+.. _code of conduct: general/code_of_conduct.rst
+.. _contributing to the gallery: gallery/contribution_gallery.rst
+.. _contributing to the open educational resources: oer/contribution_oer.rst
+.. _contribution guidelines: general/pr_workflow.rst
+.. _package template: packages/template.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
+   :caption: General
 
-   Contribute to a Package <contribution_packages>
-   Contribute to the Gallery <contribution_gallery>
-   Template Gallery <template_gallery>
-   Contribute to the Open Educational Resources <contribution_oer>
-   Template Open Educational Resources <template_oer>
-   Pyfar Package Template <https://pyfar-cookiecutter-pypackage.readthedocs.io>
-   Code of Conduct <code_of_conduct>
+   Code of Conduct <general/code_of_conduct>
+   Reporting Issues <general/reporting_issues>
+   Development Guidelines <general/pr_workflow>
+   Reviewer Guidelines <general/reviewing>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contribute to a Package
+   :hidden:
+
+   Style and Design Guidelines <packages/style_design>
+   Documentation Guidelines <packages/documentation>
+   Testing Guidelines <packages/testing>
+   Release Guidelines <packages/releasing>
+   Template <packages/template>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contribute to the Gallery
+   :hidden:
+
+   Guidelines <gallery/contribution_gallery>
+   Template <gallery/template_gallery>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contribute to the Open Educational Resources
+   :hidden:
+
+   Guidelines <oer/contribution_oer>
+   Template <oer/template_oer>
 
