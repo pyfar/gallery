@@ -254,6 +254,15 @@ Supporters
    :gutter: 4
 
    .. grid-item-card::
+      :link: https://www.tue.nl/en/research/research-groups/building-physics-and-services/building-acoustics
+      :text-align: center
+
+      .. image:: resources/supporter-logos/TUe-logo-scarlet-L.png
+         :width: 200 px
+
+      Building Acoustics Group, Eindhoven University of Technology
+
+   .. grid-item-card::
       :link: https://www.akustik.rwth-aachen.de/go/id/dwma/
       :text-align: center
 
