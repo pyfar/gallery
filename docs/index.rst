@@ -246,6 +246,27 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
       .. image:: _static/pyfar_pf_transparent.png
          :width: 150 px
 
+   .. grid-item-card::
+      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#var_tub
+      :text-align: center
+
+      Virtual Acoustic Reality (TUB)
+      ^^^^
+
+      .. image:: _static/TUB_VAR_sound_field.png
+         :width: 150 px
+
+
+   .. grid-item-card::
+      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#val_fau
+      :text-align: center
+
+      Virtual Acoustics Lab (FAU)
+      ^^^^
+
+      .. image:: _static/Artificial-Audio-Logo.jpg
+         :width: 150 px
+
 
 Supporters
 ==========
