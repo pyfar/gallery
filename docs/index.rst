@@ -256,6 +256,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.tue.nl/en/research/research-groups/building-physics-and-services/building-acoustics
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/TUe-logo-scarlet-L.png
          :width: 250 px
@@ -263,6 +264,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.akustik.rwth-aachen.de/go/id/dwma/
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/ITHA_RWTH_fixed_size.png
          :width: 250 px
@@ -270,6 +272,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.tu.berlin/ak/
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/TU_AK_fixed_size.png
          :width: 250 px
@@ -277,6 +280,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.th-koeln.de/informations-medien-und-elektrotechnik/technische-akustik_25051.php
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/TH_Koeln_fixed_size.png
          :width: 250 px
@@ -284,6 +288,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.tu.berlin/akustik
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/tu-berlin-logo-long-red_fixed_size.png
          :width: 250 px
@@ -291,6 +296,7 @@ Supporters
    .. grid-item-card::
       :link: https://electro.dtu.dk/research/research-areas/electro-technology/acoustic-technology
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/DTU_fixed_size.png
          :width: 250 px
@@ -298,6 +304,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.lms.tf.fau.eu/person/prof-dr-ing-sebastian-schlecht/
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/FAU_LMS_fixed_size.png
          :width: 250 px
@@ -306,6 +313,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.aalto.fi/en/aalto-acoustics-lab
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/aalto_fixed_size.png
          :width: 250 px
@@ -314,6 +322,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-engineering/institute-of-sound-and-vibration-research
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/university_southhampton_fixed_size.png
          :width: 250 px
@@ -322,6 +331,7 @@ Supporters
    .. grid-item-card::
       :link: https://www.int.uni-rostock.de/Signalverarbeitung-und-virtuel.spva+B6Jkw9MA__.0.html
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/Uni_Rostock_fixed_size.png
          :width: 250 px
@@ -329,6 +339,7 @@ Supporters
 
    .. grid-item-card::
       :text-align: center
+      :class-body: bg-logo-card
 
       .. image:: resources/supporter-logos/iap_fixed_size.png
          :width: 250 px

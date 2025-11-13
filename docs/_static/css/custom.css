@@ -20,3 +20,17 @@ html {
 img {
     background-color: transparent !important;
 }
+
+/* Custom background class - copy of sd-bg-light pattern from sphinx-design */
+.bg-logo-card {
+    background-color: var(--bg-color-logo-card) !important;
+}
+
+html[data-theme="light"] {
+    --bg-color-logo-card: #ffffff; /* Toned down gray-white at 80% brightness */
+}
+
+html[data-theme="dark"] {
+    --bg-color-logo-card: #d9d9d9; /* 85% brightness white (255 * 0.85 = 217 = D9) */
+}
+
