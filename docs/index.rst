@@ -237,7 +237,7 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
    :gutter: 4
 
    .. grid-item-card::
-      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#pyfar_assignments
+      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#pyfar-assignments
       :text-align: center
 
       Intro to pyfar
@@ -247,7 +247,7 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
          :width: 150 px
 
    .. grid-item-card::
-      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#var_tub
+      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#var-tub
       :text-align: center
 
       Virtual Acoustic Reality (TUB)
@@ -258,7 +258,7 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
 
 
    .. grid-item-card::
-      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#val_fau
+      :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#val-fau
       :text-align: center
 
       Virtual Acoustics Lab (FAU)
