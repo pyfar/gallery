@@ -197,7 +197,7 @@ for the whole pyfar ecosystem.
    :gutter: 4
 
    .. grid-item-card::
-      :link: examples_gallery.html#getting_started
+      :link: examples_gallery.html#getting-started
       :text-align: center
 
       Getting Started
