@@ -22,7 +22,8 @@ ipykernel
 nbsphinx
 nbsphinx-link
 sphinx-gallery
-pyfar>=0.6.9
+git+https://github.com/pyfar/pyfar.git@develop
+git+https://github.com/pyfar/spharpy.git@develop
 sounddevice
 pre-commit
 ipympl
