@@ -24,7 +24,6 @@ nbsphinx-link
 sphinx-gallery
 git+https://github.com/pyfar/pyfar.git@develop
 git+https://github.com/pyfar/spharpy.git@develop
-git+https://github.com/pyfar/pyrato.git@develop
 sounddevice
 pre-commit
 ipympl
