@@ -84,16 +84,15 @@ workflows:
           matrix:
             parameters:
               version:
-                - "3.9"
-                - "3.10"
                 - "3.11"
                 - "3.12"
                 - "3.13"
+                - "3.14"
 
       - test_documentation_build:
           matrix:
             parameters:
               version:
-                - "3.13"
+                - "3.14"
           requires:
             - test_examples
