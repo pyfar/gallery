@@ -36,3 +36,4 @@ Examples gallery
 
    gallery/interactive/pyfar_introduction.ipynb
    gallery/interactive/spherical_harmonic_hrtf_interpolation.ipynb
+   gallery/interactive/pyrato_introduction.ipynb
