@@ -24,7 +24,7 @@ nbsphinx-link
 sphinx-gallery
 pyfar>=0.8.0
 spharpy>=1.0.0
-git+https://github.com/pyfar/pyrato@develop
+pyrato>=1.0.0
 sounddevice
 pre-commit
 ipympl
