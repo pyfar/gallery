@@ -27,7 +27,7 @@ Examples gallery
    gallery/interactive/sofar_introduction.ipynb
    gallery/no_binder/impulse_response_measurement.ipynb
    gallery/static/binaural_synthesis.ipynb
-   gallery/interactive/spherical_harmonic_processing.ipynb
+   gallery/interactive/spherical_harmonic_hrtf_interpolation.ipynb
 
 
 .. nbgallery::
