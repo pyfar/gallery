@@ -33,3 +33,4 @@ sphinx-favicon
 watermark
 pytz
 sphinx-copybutton
+pooch
