@@ -35,3 +35,4 @@ Examples gallery
    :glob:
 
    gallery/interactive/pyfar_introduction.ipynb
+   gallery/interactive/spherical_harmonic_hrtf_interpolation.ipynb
