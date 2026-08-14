@@ -3,10 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. |pyfar_logo| image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
-   :width: 150
-   :alt: Alternative text
-
 .. include:: header.rst
 
 pyfar - python packages for acoustics research
