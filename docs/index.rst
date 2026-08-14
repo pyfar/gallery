@@ -203,6 +203,16 @@ for the whole pyfar ecosystem.
       Getting Started
       ^^^^
 
+      .. image:: _static/pyfar_pf_transparent.png
+         :width: 150 px
+
+   .. grid-item-card::
+      :link: examples_gallery.html#insights
+      :text-align: center
+
+      Insights: Features & Concepts
+      ^^^^
+
       .. image:: _static/thumbnail_pyfar_audio_objects.png
          :width: 200 px
 
@@ -213,17 +223,7 @@ for the whole pyfar ecosystem.
       Applications
       ^^^^
 
-      .. image:: _static/thumbnail_sofar_introduction.png
-         :width: 200 px
-
-   .. grid-item-card::
-      :link: examples_gallery.html#workshops
-      :text-align: center
-
-      Workshops
-      ^^^^
-
-      .. image:: _static/pyfar_pf_transparent.png
+      .. image:: _static/thumbnail_sh_processing.png
          :width: 150 px
 
 

@@ -8,6 +8,15 @@ Examples gallery
    :name: getting_started
    :glob:
 
+   gallery/interactive/pyfar_introduction.ipynb
+   gallery/interactive/pyrato_introduction.ipynb
+
+
+.. nbgallery::
+   :caption: Insights: Features & Concepts
+   :name: insights
+   :glob:
+
    gallery/interactive/pyfar_audio_objects.ipynb
    gallery/interactive/fast_fourier_transform.ipynb
    gallery/interactive/pyfar_arithmetics.ipynb
@@ -27,13 +36,4 @@ Examples gallery
    gallery/interactive/sofar_introduction.ipynb
    gallery/no_binder/impulse_response_measurement.ipynb
    gallery/static/binaural_synthesis.ipynb
-
-
-.. nbgallery::
-   :caption: Workshops
-   :name: workshops
-   :glob:
-
-   gallery/interactive/pyfar_introduction.ipynb
-   gallery/interactive/pyrato_introduction.ipynb
    gallery/interactive/spherical_harmonic_hrtf_interpolation.ipynb
