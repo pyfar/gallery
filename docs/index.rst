@@ -203,7 +203,7 @@ for the whole pyfar ecosystem.
       Getting Started
       ^^^^
 
-      .. image:: _static/pyfar_pf_transparent.png
+      .. image:: _static/pyfar_logos_fixed_size_pf.png
          :width: 150 px
 
    .. grid-item-card::
@@ -243,7 +243,7 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
       Intro to pyfar
       ^^^^
 
-      .. image:: _static/pyfar_pf_transparent.png
+      .. image:: _static/pyfar_logos_fixed_size_pf.png
          :width: 150 px
 
    .. grid-item-card::

@@ -152,7 +152,7 @@ nbsphinx_thumbnails = {
     'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
     'gallery/interactive/sofar_introduction': '_static/pyfar_logos_fixed_size_sr.png',
     'gallery/interactive/fast_fourier_transform': '_static/thumbnail_fast_fourier_transform.png',
-    'gallery/interactive/pyfar_introduction': '_static/pyfar_pf_transparent.png',
+    'gallery/interactive/pyfar_introduction': '_static/pyfar_logos_fixed_size_pf.png',
     'gallery/interactive/pyfar_interactive_plots' : '_static/thumbnail_pyfar_interactive_plots.png',
     'gallery/interactive/spherical_harmonic_hrtf_interpolation' : '_static/thumbnail_sh_processing.png',
     'gallery/interactive/pyrato_introduction' : '_static/pyfar_logos_fixed_size_pr.png',
