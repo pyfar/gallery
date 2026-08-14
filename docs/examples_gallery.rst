@@ -10,6 +10,7 @@ Examples gallery
 
    gallery/interactive/pyfar_introduction.ipynb
    gallery/interactive/pyrato_introduction.ipynb
+   gallery/interactive/sofar_introduction.ipynb
 
 
 .. nbgallery::
@@ -33,7 +34,6 @@ Examples gallery
    :name: applications
    :glob:
 
-   gallery/interactive/sofar_introduction.ipynb
    gallery/no_binder/impulse_response_measurement.ipynb
    gallery/static/binaural_synthesis.ipynb
    gallery/interactive/spherical_harmonic_hrtf_interpolation.ipynb
