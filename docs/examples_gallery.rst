@@ -11,7 +11,6 @@ Examples gallery
    gallery/interactive/pyfar_introduction.ipynb
    gallery/interactive/pyrato_introduction.ipynb
    gallery/interactive/sofar_introduction.ipynb
-   gallery/interactive/pyfar_try_it_yourself.ipynb
 
 
 .. nbgallery::
