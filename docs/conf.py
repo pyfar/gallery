@@ -104,8 +104,10 @@ nbsphinx_prolog = r"""
       {% if "gallery/no_binder/" in docname %}
       This example must be run locally, please
       {% else %}
-      Open an interactive online version by clicking the badge
+      Open an interactive online version by clicking the mybinder.org
       <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?labpath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
+      or Google Colab badge
+      <span style="white-space: nowrap;"><a href="https://colab.research.google.com/github/pyfar/gallery/blob/main/{{ docname|e }}"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
       or
       {% endif %}
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
