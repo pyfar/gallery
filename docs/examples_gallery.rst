@@ -38,3 +38,4 @@ Examples gallery
    gallery/no_binder/impulse_response_measurement.ipynb
    gallery/static/binaural_synthesis.ipynb
    gallery/interactive/spherical_harmonic_hrtf_interpolation.ipynb
+   gallery/interactive/voice_directivity.ipynb
