@@ -4,7 +4,7 @@
 
 The Steering Council is the governance body of the pyfar project. It is composed of people who are already actively involved in the development of pyfar packages and who have a broad understanding of all packages and the relationships between them. The overall role of the Council is to ensure, with input from the Community, the long-term well-being of the project, both technically and as a community.
 
-During the everyday project activities, council members participate in all discussions, code review and other project activities as peers with all other Contributors and the Community. In these everyday activities, Council Members do not have any special power or privilege through their membership on the Council. However, it is expected that because of the quality and quantity of their contributions and their expert knowledge of the Project Software and Services that Council Members will provide useful guidance, both technical and in terms of project direction, to potentially less experienced contributors.
+During the everyday project activities, Council members participate in all discussions, code review and other project activities as peers with all other Contributors and the Community. In these everyday activities, Council Members do not have any special power or privilege through their membership on the Council. However, it is expected that because of the quality and quantity of their contributions and their expert knowledge of the Project Software and Services that Council Members will provide useful guidance, both technical and in terms of project direction, to potentially less experienced contributors.
 
 ### Responsibilities
 
@@ -22,7 +22,7 @@ The Steering Council does not replace Maintainers on daily technical decisions w
 ### What Reaches the Steering Council
 
 In practice, most decisions in the pyfar project will be resolved by Maintainers via lazy consensus or informal vote.
-**The committee is involved when:**
+**The Council is involved when:**
 
 - A DEP has **cross-package or project-wide impact** — for example, introducing a new shared data structure, changing a convention adopted by all packages, or deprecating functionality that other packages depend on
 - A DEP proposes a **large new feature or new package** — meaning functionality that significantly expands a package or the project, requires substantial development effort, or has broad implications for the user-facing API
@@ -39,7 +39,7 @@ In practice, most decisions in the pyfar project will be resolved by Maintainers
 
 #### Council Chair
 
-The council appoints a council chair. The chair's responsibilities are
+The Council appoints a council chair. The chair's responsibilities are
 
 - Organizing and preparing Steering Council meetings
 - Ensuring the composition of the Steering Council stays current
@@ -54,12 +54,11 @@ The council appoints a council chair. The chair's responsibilities are
 
 ### Stepping Down & Emeritus Status
 
-Members who step down from the Steering Council are recognized with **emeritus status**, acknowledging their past contributions. Emeritus members may attend meetings and contribute to discussions but do not hold voting rights.
+Members who step down from the Steering Council are recognized with **emeritus status**, acknowledging their past contributions. Emeritus members may attend meetings and contribute to discussions but do not hold the rights of an active council member.
 
 ### Expected Conduct
 
-Steering Council members are expected to participate in votes, particularly on major DEPs and governance decisions. If a member becomes inactive in the project for a period of 6 months, they will be considered for removal from the Council. Before removal, inactive Member will be approached to see if they plan on returning to active participation. If not, they will be removed immediately upon a Council vote.
-Sustained absence from votes without notice may prompt a discussion about whether a member wishes to continue in the role.
+Steering Council members are expected to participate in votes, particularly on major DEPs and governance decisions. If a member becomes inactive in the project for a period of 6 months, they will be considered for removal from the Council. Before removal, inactive Member will be approached to see if they plan on returning to active participation or if they wish to step down. If unresponsive, they will be removed immediately upon a Council vote.
 
 ### Conflict of interest
 
