@@ -157,4 +157,5 @@ nbsphinx_thumbnails = {
     'gallery/interactive/spherical_harmonic_hrtf_interpolation' : '_static/thumbnail_sh_processing.png',
     'gallery/interactive/pyrato_introduction' : '_static/pyfar_logos_fixed_size_pr.png',
     'gallery/interactive/try_it_yourself' : '_static/thumbnail_code.png',
+    'gallery/interactive/voice_directivity': '_static/thumbnail_sh_processing.png',
 }
