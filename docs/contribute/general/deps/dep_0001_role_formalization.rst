@@ -20,7 +20,7 @@ The opinions and suggestions of all project members should be respected and may 
 The project organization should now include the Steering Council,
 i.e. a group of people who are required to be involved in important organizational, technical, and process/meta level decisions and who are responsible for the overall direction of the project.
 
-Each individual should have clear roles and responsibilities; the roles can be categorised as follows:
+Each individual should have clear roles and responsibilities; the roles can be categorized as follows:
 
 - Contributor,
 - Developer,
