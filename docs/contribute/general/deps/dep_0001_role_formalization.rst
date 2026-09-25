@@ -67,7 +67,7 @@ Contributors are not necessarily part of the pyfar organization.
 
 
 Developer
-~~~~~~~~~
+^^^^^^^^^
 
 * Someone who contributed (extensively) to pyfar in the past and wants to take up more responsibility.
 * Role should be encourage feeling of responsibility for the package in question.
