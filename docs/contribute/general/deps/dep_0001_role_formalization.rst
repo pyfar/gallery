@@ -17,7 +17,7 @@ The current and future structure of the pyfar project was discussed at the retre
 The project should not have a BDFL (Benevolent Dictator for Life) who makes decisions alone or takes responsibility for the entire project.
 The opinions and suggestions of all project members should be respected and may form the basis for the final decision.
 
-The project organization should now include the Steering Committee,
+The project organization should now include the Steering Council,
 i.e. a group of people who are required to be involved in important organizational, technical, and process/meta level decisions and who are responsible for the overall direction of the project.
 
 Each individual should have clear roles and responsibilities; the roles can be categorised as follows:
