@@ -32,6 +32,11 @@ Each individual should have clear roles and responsibilities; the roles can be c
 With the exception of the Community Manager, each role is assigned to individuals within a single package.
 There should be only one Community Manager, who is in charge of the entire pyfar project.
 
+The minimum number of people in each role depends on the size of the package and its workload.
+Package maintainers should ensure that there are enough people in each role.
+For maintainer roles, this responsibility lies with the steering council.
+For all roles, people who have been inactive for a certain period should be contacted and removed from their role if they do not respond.
+
 .. note:: Marco
 
   This needs to be updated with new roles
@@ -43,12 +48,6 @@ Steering Council
 ~~~~~~~~~~~~~~~~
 
 The responsibilities of the steering council are found in the governance section of the contribution guidelines.
-
-.. note:: Weekly meeting
-
-  * For a roles, we agreed that after a certain period of inactivity, people in question will be contacted and in case of lacking response be removed from their role.
-  * For all roles, the minimum required number of people depends on the size of a package and associated workload.
-  * Sufficient number of people in each role should be ensured by package maintainers. For maintainers, this responsibility lies with the steering council.
 
 
 Community Manager
