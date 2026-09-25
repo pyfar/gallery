@@ -1,11 +1,9 @@
 DEP-0: Purpose and Process
 ==========================
 
-**Author(s):** Marco Berzborn, Hanna Chmeruk
-
-**Status:** Draft
-
-**Created:** 10.07.2026
+| **Author(s):** Marco Berzborn, Hanna Chmeruk
+| **Status:** Draft
+| **Created:** 10.07.2026
 
 What is a DEP?
 ---------------
@@ -65,7 +63,7 @@ A DEP may instead be marked ``Provisional`` if it is accepted for inclusion but 
 
 A DEP is ``Deferred`` by its author or a package maintainer when no progress is being made. It is ``Rejected`` if consensus decides against it, or ``Withdrawn`` if the author retracts it. In both cases the DEP is kept as a record and updated with a Resolution header linking to the relevant pull request.
 
-A DEP can be ``Superseded`` by another, using the Replaced-By and Replaces headers (e.g. :ref:`DEP#number`) to cross-reference them.
+A DEP can be ``Superseded`` by another, using the Replaced-By and Replaces headers (e.g. ``:ref:`DEP#number```) to cross-reference them.
 
 Process DEPs may instead have status ``Active`` if they are never meant to be completed, e.g. DEP 0 (this DEP).
 
