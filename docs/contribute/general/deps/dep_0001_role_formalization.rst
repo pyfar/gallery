@@ -33,7 +33,7 @@ With the exception of the Community Manager, each role is assigned to individual
 There should be only one Community Manager, who is in charge of the entire pyfar project.
 
 The minimum number of people in each role depends on the size of the package and its workload.
-Package maintainers should ensure that there are enough people in each role.
+Package maintainers should ensure that there are enough people in each role. At least one person should be assigned to each role, but the total number of people in each role should be adapted based on actual need.
 For maintainer roles, this responsibility lies with the steering council.
 For all roles, people who have been inactive for a certain period should be contacted and removed from their role if they do not respond.
 
@@ -102,7 +102,7 @@ A Triage (aka Issue Manager) should take care of managing issues and pull reques
   - Close PRs and issues if they have already been fully implemented or if it has been decided to close them (e.g. during a discussion in the weekly meeting).
   - Check the labels, milestone, name of the PR/issue, assignees, status on issues and pul requests, development status and relationships to other PRs/issues.
   - If this has not already been done by the author of the PR/issue, estimate the size and priority and add to the project board.
-  - If a PR or an issue has not been updated or seen attention for a certain period of time (e.g. one month for PRs and three months for issues), notify the Maintainer and discuss the reasons for this.
+  - If a PR or an issue has not been updated or received attention for 2-4 weeks, notify the Maintainer and discuss the reasons for this.
 
 - For a PR:
 
@@ -149,105 +149,6 @@ Before merging a pull request, a Maintainer should should check the following it
 - Were all types of review provided? (See the section Review for more details.)
 - In which branch should this PR be merged? Is the correct one selected?
 - When is the right time to merge this PR? Is it connected to any releases?
-
-
-Open Discussion Roles
-~~~~~~~~~~~~~~~~~~~~~
-
-List of questions regarding roles and the organisational structure to be discussed:
-
-Maintainer
-^^^^^^^^^^
-
-.. note:: Hanna
-
-  Requierements to be a Maintainer: similar to the rules for the Committee members
-
-.. note:: Meeting
-
-  Similar to the steering council: 1-2 years in the development
-
-.. note:: Hanna
-
-  What is the maximum and the minimum number of Maintainers a package should have?
-
-.. note:: Meeting
-
-  Maximum depending on the package size, minimum 1 person.
-
-.. note:: Hanna
-
-  Should a Maintainer also have the authority to close issues and PRs without discussing it with the rest of the team?
-
-.. note:: Meeting
-
-  Depending on the situation, but the Maintainer(s) should always write a reason(s) for closing an issue/PR.
-
-.. note:: Hanna
-
-  How many packages is one Maintainer allowed to maintain at the same time? (Should be discussed to avoid overloading one single person and to prevent the establishment of a BDFL.)
-
-.. note:: Meeting
-
-  No strict limitation, the Committee can discuss this.
-
-.. note:: Hanna
-
-  Should only the Maintainers be able to add or remove items from the Agenda on the project board?
-
-.. note:: Meeting
-
-  No, everyone can add items, remove only things you put on the agenda by yourself.
-
-Contributor
-^^^^^^^^^^^
-
-.. note:: Hanna
-
-  Is every other role a subset of the Contributor role? So, if someone is a Reviewer, Maintainer, Triage or Community Manager, are they automatically considered a Contributor?
-
-.. note:: Meeting
-
-  No, Contributor is a separate role, not a "parent class".
-
-Reviewer
-^^^^^^^^
-
-.. note:: Hanna
-
-  It is still to be discussed whether the role of Reviewer should also be divided into the roles of Technical Reviewer, Test Reviewer and Documentation Reviewer, or whether the role of Reviewer should be kept general and the distinction between the different types of Reviewer should be made via checkboxes in the pull requests themselves.
-
-.. note:: Marco Berzborn
-
-  During the retreat, the favored option was to not further subdivide the role, but have a list of items that are checked when they were considered in the review. Items which were not considered during the review are left open. The maintainer finally decides if the reviews are sufficient and if the PR can be merged.
-
-Triage
-^^^^^^
-
-.. note:: Hanna
-
-  Should all Triages also be responsible for cleaning up the project board and sorting the issues and PRs on it? Or is that rather a task for the Maintainers?
-
-.. note:: Meeting
-
-  Sorting wrong sorted issues/PRs, extending the labels/etc. can do Triages.
-
-.. note:: Hanna
-
-  Should there be a rule that the Triage should open a discussion about an issue or a PR if there have been no updates for some time? In other words: should there be a deadline after which the status of the PR or issue should be reconsidered if no changes have been implemented by then?
-
-.. note:: Meeting
-
-  If assigned - talk to the author, if not - can just stay in the "ready for pickup".
-
-.. note:: Hanna
-
-  If we want to implement the rule mentioned above, we need to define the period after which the status of an issue or a PR should be reviewed.
-
-.. note:: Marco Berzborn
-
-  2-4 weeks seems like a feasible time period for this.
-
 
 
 Copyright
