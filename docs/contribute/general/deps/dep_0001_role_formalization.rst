@@ -53,8 +53,19 @@ Package specific roles
 Maintainer
 ^^^^^^^^^^
 
-The responsibilities of a Maintainer include merging pull requests, establishing the technical direction and coordinating releases.
-Maintainers are responsible for aquiring/accepting new developers
+The responsibilities of a Maintainer include:
+
+- Representing the package in the steering council and meetings.
+- Establishing the technical direction.
+- Acquiring/accepting new developers, triagers, and reviewers for the package.
+- Ensuring that the infrastructure of the package is up to date, such that developers can work efficiently and effectively.
+- Merging pull requests after all reviews have been completed. Maintainers are responsible for the final decision if sufficient reviews have been provided and the PR can be merged.
+- Coordinating releases.
+
+To ensure sufficient experience for the role of Maintainer, it is required to have at least 1-2 years of active experience in developing the respective package.
+
+
+Maintainers are responsible for
 Before merging a pull request, a Maintainer should should check the following items:
 
 - Did all CircleCi tests pass?
@@ -62,11 +73,6 @@ Before merging a pull request, a Maintainer should should check the following it
 - In which branch should this PR be merged? Is the correct one selected?
 - When is the right time to merge this PR? Is it connected to any
   releases?
-
-.. note:: Meeting
-
-  **Required experience level:**
-  * 1-2 years of active experience in developing the respective package
 
 
 Contributor
