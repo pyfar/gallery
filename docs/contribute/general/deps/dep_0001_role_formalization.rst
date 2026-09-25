@@ -85,8 +85,7 @@ Before merging a pull request, a Maintainer should should check the following it
 - Did all CircleCi tests pass?
 - Were all types of review provided? (See the section Review for more details.)
 - In which branch should this PR be merged? Is the correct one selected?
-- When is the right time to merge this PR? Is it connected to any
-  releases?
+- When is the right time to merge this PR? Is it connected to any releases?
 
 
 Contributor
