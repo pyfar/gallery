@@ -84,6 +84,7 @@ community for the acoustics research community. We welcome any contributions
    Reporting Issues <general/reporting_issues>
    Development Guidelines <general/pr_workflow>
    Reviewer Guidelines <general/reviewing>
+   Documented Enhancement Proposals <general/deps>
 
 .. toctree::
    :maxdepth: 1
