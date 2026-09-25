@@ -3,6 +3,7 @@ DEP-0: Purpose and Process
 
 | **Author(s):** Marco Berzborn, Hanna Chmeruk
 | **Status:** Draft
+| **Type**: Process
 | **Created:** 10.07.2026
 
 What is a DEP?
