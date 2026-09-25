@@ -13,7 +13,7 @@ Roles and Responsibilities
 Structure description
 ~~~~~~~~~~~~~~~~~~~~~~
 
-At the retreat, we discussed the current and future structure of the pyfar project and agreed on the following: There should be no BDFL (Benevolent Dictator for Life) who makes decisions alone or takes responsibility for the entire project. The opinions and suggestions of all project members should be respected and may be chosen as the final decision.
+The current and future structure of the pyfar project was discussed at the retreat. The project should not have a BDFL (Benevolent Dictator for Life) who makes decisions alone or takes responsibility for the entire project. The opinions and suggestions of all project members should be respected and may form the basis for the final decision.
 
 The project organisation should now include the Steering Committee, i.e. the group of people who should be present for important organisational and technical decisions that affect one package, several packages or even the entire pyfar project.
 
