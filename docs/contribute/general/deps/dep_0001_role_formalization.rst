@@ -64,6 +64,9 @@ The responsibilities of a Maintainer include:
 
 To ensure sufficient experience for the role of Maintainer, it is required to have at least 1-2 years of active experience in developing the respective package.
 
+.. note:: Marco
+
+   The review related part should be moved to the respective section in the contribution guidelines.
 
 Maintainers are responsible for
 Before merging a pull request, a Maintainer should should check the following items:
