@@ -71,7 +71,7 @@ Process DEPs may instead have status ``Active`` if they are never meant to be co
 How a DEP Becomes Accepted
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A DEP is ``Accepted`` by consensus of all interested contributors, with mandatory involvement from the steering council. The steering council is expected to contribute broad experience, maintain an overview of the entire ecosystem, and ensure that DEPs align with the project's overall scope and direction. The steering council further acts as a tie breaker.
+A DEP is ``Accepted`` by consensus of all interested contributors, with mandatory involvement from the steering council. The steering council ensure that DEPs align with the project's overall scope and direction. The steering council further acts as a tie breaker.
 To communicate the DEP with the community, send a message to the community Slack channel with a subject like:
 
 Proposal to contribute to/discuss **DEP # <number>: <title>**
@@ -80,7 +80,7 @@ The message should:
 
 - Link to the latest version of the DEP
 - Briefly describe any major points of discussion and how they were resolved
-- The state of the DEP
+- Mention the state of the DEP
 
 Feedback on a DEP can be given using GitHub pull request comments or review system. Please refrain from using the "request changes", as the responsibility of the DEP champion is to incorporate feedback and update the DEP accordingly. Final acceptance of the DEP is determined in the steering council meeting.
 
