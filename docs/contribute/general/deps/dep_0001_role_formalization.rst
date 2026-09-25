@@ -58,36 +58,6 @@ A Community Manager is responsible for communicating with the pyfar community by
 Package specific roles
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Maintainer
-^^^^^^^^^^
-
-The responsibilities of a Maintainer include:
-
-- Representing the package in the steering council and meetings.
-- Establishing the technical direction.
-- Acquiring/accepting new developers, triagers, and reviewers for the package.
-- Ensuring that the infrastructure of the package is up to date, such that developers can work efficiently and effectively.
-- Merging pull requests after all reviews have been completed. Maintainers are responsible for the final decision if sufficient reviews have been provided and the PR can be merged.
-- Coordinating releases.
-
-**Required experience level:**
-
-At least 1-2 years of active experience in developing the respective package.
-Maintainers will be appointed by the steering council, but self-nominations are also possible. The final decision will be made by the steering council.
-
-.. note:: Marco
-
-   The review related part should be moved to the respective section in the contribution guidelines.
-
-Maintainers are responsible for
-Before merging a pull request, a Maintainer should should check the following items:
-
-- Did all CircleCi tests pass?
-- Were all types of review provided? (See the section Review for more details.)
-- In which branch should this PR be merged? Is the correct one selected?
-- When is the right time to merge this PR? Is it connected to any releases?
-
-
 Contributor
 ^^^^^^^^^^^
 
@@ -142,16 +112,43 @@ A Triage (aka Issue Manager) should take care of managing issues and pull reques
 - For an issue:
 
   - Check whether it was created in the correct package.
-  - Check whether it is correctly categorised.
+  - Check whether it is correctly categorized.
   - Check if the report is complete enough to reproduce the issue.
   - Mark potential duplicates and/or related issues.
   - Label it as 'good first issue' if it is appropriate for newcomers.
 
+**Required experience level:**
+None, encouraged for newcomers
 
-.. note:: Meeting
 
-  **Required experience level:**
-  None, encouraged for newcomers
+Maintainer
+^^^^^^^^^^
+
+The responsibilities of a Maintainer include:
+
+- Representing the package in the steering council and meetings.
+- Establishing the technical direction.
+- Acquiring/accepting new developers, triagers, and reviewers for the package.
+- Ensuring that the infrastructure of the package is up to date, such that developers can work efficiently and effectively.
+- Merging pull requests after all reviews have been completed. Maintainers are responsible for the final decision if sufficient reviews have been provided and the PR can be merged.
+- Coordinating releases.
+
+**Required experience level:**
+
+At least 1-2 years of active experience in developing the respective package.
+Maintainers will be appointed by the steering council, but self-nominations are also possible. The final decision will be made by the steering council.
+
+.. note:: Marco
+
+   The review related part should be moved to the respective section in the contribution guidelines.
+
+Maintainers are responsible for
+Before merging a pull request, a Maintainer should should check the following items:
+
+- Did all CircleCi tests pass?
+- Were all types of review provided? (See the section Review for more details.)
+- In which branch should this PR be merged? Is the correct one selected?
+- When is the right time to merge this PR? Is it connected to any releases?
 
 
 Open Discussion Roles
