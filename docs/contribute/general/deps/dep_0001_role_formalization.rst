@@ -13,27 +13,36 @@ Roles and Responsibilities
 Structure description
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The current and future structure of the pyfar project was discussed at the retreat. The project should not have a BDFL (Benevolent Dictator for Life) who makes decisions alone or takes responsibility for the entire project. The opinions and suggestions of all project members should be respected and may form the basis for the final decision.
+The current and future structure of the pyfar project was discussed at the retreat.
+The project should not have a BDFL (Benevolent Dictator for Life) who makes decisions alone or takes responsibility for the entire project.
+The opinions and suggestions of all project members should be respected and may form the basis for the final decision.
 
-The project organisation should now include the Steering Committee, i.e. the group of people who should be present for important organisational and technical decisions that affect one package, several packages or even the entire pyfar project.
+The project organization should now include the Steering Committee,
+i.e. a group of people who are required to be involved in important organizational, technical, and process/meta level decisions and who are responsible for the overall direction of the project.
 
-Each individual should have clear roles and responsibilities; the roles can be categorised as follows: Maintainer, Contributor, Reviewer, Triage and Community Manager. With the exception of the Community Manager, each role is assigned to individuals within a single package. There should be only one Community Manager, who is in charge for the entire pyfar project. We have decided against the role of Core Developer, or rather, we have merged this role with that of the Maintainer. You can find more details in the section Maintainer.
+Each individual should have clear roles and responsibilities; the roles can be categorised as follows:
 
-.. note:: Hanna Chmeruk
+- Contributor,
+- Developer,
+- Maintainer,
+- Reviewer,
+- Triage,
+- Community Manager.
 
-  Passt das so?
+With the exception of the Community Manager, each role is assigned to individuals within a single package.
+There should be only one Community Manager, who is in charge of the entire pyfar project.
+
+.. note:: Marco
+
+  This needs to be updated with new roles
 
 .. image:: https://hackmd.io/_uploads/SknbiVt-fx.png
   :alt: Roles model of the pyfar project
 
-Steering Committee
-~~~~~~~~~~~~~~~~~~
+Steering Council
+~~~~~~~~~~~~~~~~
 
-.. note:: Hanna Chmeruk, Wed, Jun 3, 2026 2:32 PM
-
-  Es ist noch zu entscheiden, ob wir es Committee oder Council nennen wollen. Ich habe mich an die Definitionen von dieser `Webseite <https://thisvsthat.io/committee-vs-council>`_ gestützt.
-
-**The Steering Committee** should be selected from people who are already involved in the development of the pyfar packages. Members of the committee should have an understanding of all the packages and the relationships between them. The Steering Committee is expected to meet regularly to monitor the current status of the packages, clarify any questions that come up, set goals for the future and determine the next steps if there are any open issues.
+The responsibilities of the steering council are found in the governance section of the contribution guidelines.
 
 .. note:: Weekly meeting
 
@@ -45,7 +54,7 @@ Steering Committee
 Community Manager
 ~~~~~~~~~~~~~~~~~
 
-A Community Manager is responsible for supporting the entire pyfar community by posting announcements on communication channels (currently only on the Slack channel), organising and/or coordinating events (e.g. retreats, workshops), and ensuring that the project remains welcoming and friendly to newcomers.
+A Community Manager is responsible for communicating with the pyfar community by posting general announcements on communication channels, organizing and/or coordinating events (e.g. retreats, workshops), and ensuring that the project remains welcoming and friendly to newcomers.
 
 Package specific roles
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -62,7 +71,10 @@ The responsibilities of a Maintainer include:
 - Merging pull requests after all reviews have been completed. Maintainers are responsible for the final decision if sufficient reviews have been provided and the PR can be merged.
 - Coordinating releases.
 
-To ensure sufficient experience for the role of Maintainer, it is required to have at least 1-2 years of active experience in developing the respective package.
+**Required experience level:**
+
+At least 1-2 years of active experience in developing the respective package.
+Maintainers will be appointed by the steering council, but self-nominations are also possible. The final decision will be made by the steering council.
 
 .. note:: Marco
 
@@ -81,39 +93,36 @@ Before merging a pull request, a Maintainer should should check the following it
 Contributor
 ^^^^^^^^^^^
 
-A Contributor is anyone who contributes to a package in any way. So, if someone has simply submitted one or two reviews, added an issue or created a pull request, that person is considered a Contributor.
+A Contributor is anyone who contributes to a package in any way. So, if someone has simply submitted reviews, added an issue or created a pull request, that person is considered a Contributor.
 This is not a category that needs to be assigned, every contributor can be listed.
-Contributors are not necessarily part of the pyfar organization
-
-.. note:: Weekly Meeting
-
-  Developer
-  ~~~~~~~~~
-
-  * Someone who contributed (extensively) to pyfar in the past and wants to take up more responsibility.
-  * Role should be encourage feeling of responsibility for the package in question.
-  * Self nomination as well as on initiative by maintainers can be possible, final decisions will be up to the maintainers (welcoming culture is encouraged however).
-  * Developers in general should be named in the respective section and be part of the pyfar organization on GitHub.
-
-  **Required experience level:**
-  Basic, some experience with pyfar recommended but not required. Newcomers encouraged.
+Contributors are not necessarily part of the pyfar organization.
 
 
-.. note:: Meeting
+Developer
+~~~~~~~~~
 
-  **Required experience level:**
-  None
+* Someone who contributed (extensively) to pyfar in the past and wants to take up more responsibility.
+* Role should be encourage feeling of responsibility for the package in question.
+* Self nomination as well as on initiative by maintainers can be possible, final decisions will be up to the maintainers (welcoming culture is encouraged however).
+* Developers in general should be named in the respective section and be part of the pyfar organization on GitHub.
+
+**Required experience level:**
+Basic, some experience with pyfar recommended but not required. Newcomers encouraged.
+
 
 Reviewer
 ^^^^^^^^
 
-A Reviewer is responsible for reviewing pull requests in the corresponding package. A Reviewer does not necessarily need to be an experienced developer for the package themselves, as long as they have a sufficient understanding of the suggested code and can provide constructive feedback.
+A Reviewer is responsible for reviewing pull requests in the corresponding package.
+A Reviewer does not necessarily need to be an experienced developer for the package themselves,
+as long as they have a sufficient understanding of the suggested code and can provide constructive feedback.
+Different types of reviews can be provided catering different aspects of a pull requests and levels of detail.
+
+A more detailed description of the review process will be developed and added to the contribution guidelines in the future.
 
 
-.. note:: Meeting
-
-  **Required experience level:**
-  Revieweres can work on different experience levels. Basic experience suffices for basic review (encouraged for newcomers as well), for detailed technical reviews some experience is recommended.
+**Required experience level:**
+Reviewers can work on different experience levels. Basic experience suffices for basic review (encouraged for newcomers as well), for detailed technical reviews some experience is recommended.
 
 Triage
 ^^^^^^
