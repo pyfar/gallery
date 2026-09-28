@@ -48,7 +48,7 @@ In practice, most decisions in the pyfar project will be resolved by Maintainers
 Composition
 ^^^^^^^^^^^
 
-- **Size:** A minimum of **4** and a maximum of **5** members. Keeping the committee small ensures it remains functional and decisive. At least 4 members are required to participate in a vote.
+- **Size:** A minimum of **4** and a maximum of **5** members. Keeping the committee small ensures it remains functional and decisive. At least 3 members are required to participate in a vote.
 - **Eligibility:** Any person with at least **1 - 2 years of active pyfar contribution** — meaning regular commits, reviews, infrastructure work, community building and support, or active participation in weekly meetings — and who expresses willingness to remain in the role for **at least one year**.
 - **Overlap with Maintainers:** Steering Council members will in most cases also hold a Maintainer role in one or more packages. The committee is a subset of the most experienced and engaged contributors, not a separate group.
 
