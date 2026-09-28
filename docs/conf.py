@@ -38,7 +38,6 @@ extensions = [
     "sphinx_design",
     "sphinx_favicon",
     "sphinx_copybutton",
-    'sphinx_mdinclude',
 ]
 
 templates_path = ['_templates']

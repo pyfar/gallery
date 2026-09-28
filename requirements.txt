@@ -34,4 +34,3 @@ watermark
 pytz
 sphinx-copybutton
 pooch
-sphinx_mdinclude
