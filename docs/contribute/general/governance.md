@@ -20,11 +20,11 @@ The current steering council consists of the following members (in alphabetical 
 The Steering Council is responsible for:
 
 - **Setting the overall scope and long-term vision** and roadmap of the pyfar ecosystem
-- Accepting or rejecting **Enhancement Proposals (DEPs)** that have project-wide or cross-package implications
+- Accepting or rejecting **Documented Enhancement Proposals (DEPs)** that have project-wide or cross-package implications
 - **Governance decisions** — changing rules, roles, processes, or the Code of Conduct
 - **Representing the project** externally (e.g., to academic partners and funding bodies)
 - **Resolving conflicts** that cannot be settled among Maintainers through discussion or informal voting
-- Accepting new maintainers into the project and ensuring that a sufficient number of maintainers are available per project
+- **Accepting new maintainers** into the project and ensuring that a sufficient number of maintainers are available per project
 
 The Steering Council does not replace Maintainers on daily technical decisions within a single package. Routine pull request merges, deprecations with clear migration paths, and package-level technical direction remain within the authority of each package's Maintainers.
 
