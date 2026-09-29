@@ -264,6 +264,16 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
          :width: 150 px
 
 
+Community
+=========
+
+.. card:: Packages using pyfar
+
+    * `sparrowpy <https://github.com/sparrow-acoustics/sparrowpy>`_: Sound Propagation with Acoustic Radiosity for Realistic Outdoor Worlds
+    * `Mesh2HRTF <https://github.com/Any2HRTF/Mesh2HRTF>`_: Open software for the numerical calculation of head-related transfer functions
+    * `Mesh2scattering <https://github.com/ahms5/Mesh2scattering>`_: An open-source project aiming an easy-to-use software package for the numerical calculation of scattering pattern and scattering and diffusion coefficients of any surface
+
+
 Supporters
 ==========
 
