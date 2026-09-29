@@ -1,0 +1,157 @@
+DEP-1: Formalization of Roles
+=============================
+
+| **Author(s):** Marco Berzborn, Hanna Chmeruk
+| **Status:** Draft
+| **Type**: Process
+| **Created:** 25.09.2026
+
+
+Roles and Responsibilities
+---------------------------
+
+Structure description
+~~~~~~~~~~~~~~~~~~~~~~
+
+The current and future structure of the pyfar project was discussed at the retreat.
+The project should not have a BDFL (Benevolent Dictator for Life) who makes decisions alone or takes responsibility for the entire project.
+The opinions and suggestions of all project members should be respected and may form the basis for the final decision.
+
+The project organization should now include the Steering Council,
+i.e. a group of people who are required to be involved in important organizational, technical, and process/meta level decisions and who are responsible for the overall direction of the project.
+
+Each individual should have clear roles and responsibilities; the roles can be categorized as follows:
+
+- Contributor,
+- Developer,
+- Maintainer,
+- Reviewer,
+- Triage,
+- Community Manager.
+
+With the exception of the Community Manager, each role is assigned to individuals within a single package.
+There should be only one Community Manager, who is in charge of the entire pyfar project.
+
+The minimum number of people in each role depends on the size of the package and its workload.
+Package maintainers should ensure that there are enough people in each role. At least one person should be assigned to each role, but the total number of people in each role should be adapted based on actual need.
+For maintainer roles, this responsibility lies with the steering council.
+For all roles, people who have been inactive for a certain period should be contacted and removed from their role if they do not respond.
+
+.. note:: Marco
+
+  This needs to be updated with new roles
+
+.. image:: https://hackmd.io/_uploads/SknbiVt-fx.png
+  :alt: Roles model of the pyfar project
+
+Steering Council
+~~~~~~~~~~~~~~~~
+
+The responsibilities of the steering council are found in the governance section of the contribution guidelines.
+
+
+Community Manager
+~~~~~~~~~~~~~~~~~
+
+A Community Manager is responsible for communicating with the pyfar community by posting general announcements on communication channels, organizing and/or coordinating events (e.g. retreats, workshops), and ensuring that the project remains welcoming and friendly to newcomers.
+
+Package specific roles
+~~~~~~~~~~~~~~~~~~~~~~
+
+Contributor
+^^^^^^^^^^^
+
+A Contributor is anyone who contributes to a package in any way. So, if someone has simply submitted reviews, added an issue or created a pull request, that person is considered a Contributor.
+This is not a category that needs to be assigned, every contributor can be listed.
+Contributors are not necessarily part of the pyfar organization.
+
+
+Developer
+^^^^^^^^^
+
+* Someone who contributed (extensively) to pyfar in the past and wants to take up more responsibility.
+* Role should be encourage feeling of responsibility for the package in question.
+* Self nomination as well as on initiative by maintainers can be possible, final decisions will be up to the maintainers (welcoming culture is encouraged however).
+* Developers in general should be named in the respective section and be part of the pyfar organization on GitHub.
+
+**Required experience level:**
+Basic, some experience with pyfar recommended but not required. Newcomers encouraged.
+
+
+Reviewer
+^^^^^^^^
+
+A Reviewer is responsible for reviewing pull requests in the corresponding package.
+A Reviewer does not necessarily need to be an experienced developer for the package themselves,
+as long as they have a sufficient understanding of the suggested code and can provide constructive feedback.
+Different types of reviews can be provided catering different aspects of a pull requests and levels of detail.
+
+A more detailed description of the review process will be developed and added to the contribution guidelines in the future.
+
+
+**Required experience level:**
+Reviewers can work on different experience levels. Basic experience suffices for basic review (encouraged for newcomers as well), for detailed technical reviews some experience is recommended.
+
+Triage
+^^^^^^
+
+A Triage (aka Issue Manager) should take care of managing issues and pull requests in the specific package. The concrete tasks of a Triager are:
+
+- General:
+
+  - Close PRs and issues if they have already been fully implemented or if it has been decided to close them (e.g. during a discussion in the weekly meeting).
+  - Check the labels, milestone, name of the PR/issue, assignees, status on issues and pul requests, development status and relationships to other PRs/issues.
+  - If this has not already been done by the author of the PR/issue, estimate the size and priority and add to the project board.
+  - If a PR or an issue has not been updated or received attention for 2-4 weeks, notify the Maintainer and discuss the reasons for this.
+
+- For a PR:
+
+  - Request the right reviewers to review the PR.
+  - Check if existing issues are correctly referenced.
+
+- For an issue:
+
+  - Check whether it was created in the correct package.
+  - Check whether it is correctly categorized.
+  - Check if the report is complete enough to reproduce the issue.
+  - Mark potential duplicates and/or related issues.
+  - Label it as 'good first issue' if it is appropriate for newcomers.
+
+**Required experience level:**
+None, encouraged for newcomers
+
+
+Maintainer
+^^^^^^^^^^
+
+The responsibilities of a Maintainer include:
+
+- Representing the package in the steering council and meetings.
+- Establishing the technical direction.
+- Acquiring/accepting new developers, triagers, and reviewers for the package.
+- Ensuring that the infrastructure of the package is up to date, such that developers can work efficiently and effectively.
+- Merging pull requests after all reviews have been completed. Maintainers are responsible for the final decision if sufficient reviews have been provided and the PR can be merged.
+- Coordinating releases.
+
+**Required experience level:**
+
+At least 1-2 years of active experience in developing the respective package.
+Maintainers will be appointed by the steering council, but self-nominations are also possible. The final decision will be made by the steering council.
+
+.. note:: Marco
+
+   The review related part should be moved to the respective section in the contribution guidelines.
+
+Maintainers are responsible for
+Before merging a pull request, a Maintainer should should check the following items:
+
+- Did all CircleCi tests pass?
+- Were all types of review provided? (See the section Review for more details.)
+- In which branch should this PR be merged? Is the correct one selected?
+- When is the right time to merge this PR? Is it connected to any releases?
+
+
+Copyright
+----------
+
+This document has been placed in the public domain.
