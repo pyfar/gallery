@@ -70,7 +70,7 @@ Developer
 ^^^^^^^^^
 
 * Someone who contributed (extensively) to pyfar in the past and wants to take up more responsibility.
-* Role should be encourage feeling of responsibility for the package in question.
+* The role should encourage the feeling of responsibility for the package in question.
 * Self nomination as well as on initiative by maintainers can be possible, final decisions will be up to the maintainers (welcoming culture is encouraged however).
 * Developers in general should be named in the respective section and be part of the pyfar organization on GitHub.
 
@@ -108,6 +108,7 @@ A Triage (aka Issue Manager) should take care of managing issues and pull reques
 
   - Request the right reviewers to review the PR.
   - Check if existing issues are correctly referenced.
+  - Add tags if necessary and move to the appropriate status/category in the project board.
 
 - For an issue:
 
