@@ -7,4 +7,5 @@ They are intended to provide a structured, transparent, and persistent way to di
 .. toctree::
    :maxdepth: 1
 
+   DEP-0: Purpose and Process <deps/dep_0000_purpose_and_process>
    DEP-1: Formalization of Roles <deps/dep_0001_role_formalization>

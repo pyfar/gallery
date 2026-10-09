@@ -88,9 +88,8 @@ html_theme_options = {
             "type": "fontawesome",
         }
     ],
-    # Configure secondary (right) side bar
-    "show_toc_level": 3,                     # Show all subsections of notebooks
-    "show_nav_level": 2,
+    "show_toc_level": 3, # Show three subsections in right hand sidebar
+    "show_nav_level": 1, # Show only top level of navigation in left hand sidebar, rest will be folded in
     "secondary_sidebar_items": ["page-toc"]  # Omit 'show source' link that that shows notebook in json format
 }
 
