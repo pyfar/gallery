@@ -2,7 +2,7 @@ DEP-0: Purpose and Process
 ==========================
 
 | **Author(s):** Marco Berzborn, Hanna Chmeruk
-| **Status:** Draft
+| **Status:** Provisional
 | **Type**: Process
 | **Created:** 10.07.2026
 
@@ -18,13 +18,16 @@ Types
 
 There are four kinds of DEPs:
 
-1. A **Standards Track** DEP describes a new feature or implementation for a pyfar package. Examples of such DEPs are:
+1. A **Standards Track** DEP describes a new feature or implementation or changes to existing features for a pyfar package. Examples of such DEPs are:
 
-   - A planned feature or addition has project wide or cross-package implications.
-   - A planned feature is extensive and requires substantial development effort.
-   - A planned feature has broad implications for the user-facing API.
+   A planned addition or change
 
-2. A **New Package** DEP describes a proposal for new packages and their integration into the pyfar ecosystem.
+   -  has project wide or cross-package implications.
+   -  is extensive and requires substantial development effort.
+   -  has broad implications for the user-facing API.
+   -  has implications for related or unrelated planned future development.
+
+2. A **Package Definition** DEP describes a proposal for a new package and its integration into the pyfar ecosystem.
 3. An **Informational** DEP describes a pyfar design issue, or provides general guidelines or information to the community, but does not propose a new feature. Informational DEPs do not necessarily represent a community consensus or recommendation but are intended to document reasoning and shortcomings of existing implementations.
 4. A **Process/Meta** DEP describes a process surrounding pyfar, or proposes a change to a process. Process DEPs require community consensus.
 
@@ -82,7 +85,11 @@ The message should:
 - Briefly describe any major points of discussion and how they were resolved
 - Mention the state of the DEP
 
-Feedback on a DEP can be given using GitHub pull request comments or review system. Please refrain from using the "request changes", as the responsibility of the DEP champion is to incorporate feedback and update the DEP accordingly. Final acceptance of the DEP is determined in the steering council meeting.
+Feedback on a DEP can be given using GitHub pull request comments or review system.
+It is the responsibility of the DEP champion to incorporate feedback and update the DEP accordingly.
+Final acceptance of the DEP is determined in the steering council meeting.
+All GitHub review comment types (comment, request-changes, or approval) are considered equal and do not carry implications in the final voting process and decision.
+For example, a request for changes does not imply that the DEP will be rejected, and an approval does not imply that the DEP will be accepted.
 
 Maintenance
 ^^^^^^^^^^^
@@ -96,7 +103,7 @@ DEPs are Markdown/RST files stored in the pyfar documentation repository. Each D
 
     Author: <author name(s)>
     Status: <Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded>
-    Type: <Standards Track | New Package | Informational | Process>
+    Type: <Standards Track | Package Definition | Informational | Process>
     Created: <date>
     Requires: (optional)
     Pyfar-Package(s) and Version(s) : (optional)
