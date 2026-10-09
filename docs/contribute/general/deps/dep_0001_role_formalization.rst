@@ -119,7 +119,7 @@ A Triage (aka Issue Manager) should take care of managing issues and pull reques
   - Label it as 'good first issue' if it is appropriate for newcomers.
 
 **Required experience level:**
-None, encouraged for newcomers
+Basic experience with the package and the entire ecosystem is recommended. Experience with GitHub and the issue/PR management is required. Programming experience is not required, but helpful for understanding the issues and PRs.
 
 
 Maintainer
