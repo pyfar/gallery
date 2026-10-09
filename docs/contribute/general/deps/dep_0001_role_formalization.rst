@@ -100,7 +100,7 @@ A Triage (aka Issue Manager) should take care of managing issues and pull reques
 - General:
 
   - Close PRs and issues if they have already been fully implemented or if it has been decided to close them (e.g. during a discussion in the weekly meeting).
-  - Check the labels, milestone, name of the PR/issue, assignees, status on issues and pul requests, development status and relationships to other PRs/issues.
+  - Check the labels, milestone, name of the PR/issue, assignees, status on issues and pull requests, development status and relationships to other PRs/issues.
   - If this has not already been done by the author of the PR/issue, estimate the size and priority and add to the project board.
   - If a PR or an issue has not been updated or received attention for 2-4 weeks, notify the Maintainer and discuss the reasons for this.
 
@@ -142,8 +142,7 @@ Maintainers will be appointed by the steering council, but self-nominations are 
 
    The review related part should be moved to the respective section in the contribution guidelines.
 
-Maintainers are responsible for
-Before merging a pull request, a Maintainer should should check the following items:
+Before merging a pull request, a Maintainer should check the following items:
 
 - Did all CircleCi tests pass?
 - Were all types of review provided? (See the section Review for more details.)
