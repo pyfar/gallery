@@ -355,13 +355,6 @@ Supporters
          :align: center
 
    .. grid-item-card::
-      :text-align: center
-      :class-body: bg-logo-card
-
-      .. image:: resources/supporter-logos/iap_fixed_size.png
-         :width: 250 px
-
-   .. grid-item-card::
       :link: https://arch.ethz.ch/en/
       :text-align: center
       :class-body: bg-logo-card
@@ -369,6 +362,13 @@ Supporters
       .. image:: resources/supporter-logos/ETH_Zurich_fixed_size.png
          :width: 250 px
          :align: center
+
+   .. grid-item-card::
+      :text-align: center
+      :class-body: bg-logo-card
+
+      .. image:: resources/supporter-logos/iap_fixed_size.png
+         :width: 250 px
 
 
 .. _Pyfar examples gallery: examples_gallery.rst
