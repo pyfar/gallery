@@ -28,7 +28,7 @@ pyrato>=1.1.0
 sounddevice
 pre-commit
 ipympl
-sphinx-design
+sphinx-design>=0.8.0
 sphinx-favicon
 watermark
 pytz
