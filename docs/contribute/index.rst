@@ -16,8 +16,10 @@ community for the acoustics research community. We welcome any contributions
    .. grid-item-card::
       :text-align: justify
 
-      **Feedback, bugs, feature requests**
-      ^^^^
+      .. card-header::
+
+         **Feedback, bugs, feature requests**
+
       The best way for any feedback, bug reports, and feature request is to
       open a new issue on GitHub. The GitHub projects are linked through the
       `Code` buttons on `pyfar.org <https://pyfar.org>`_.
@@ -25,8 +27,10 @@ community for the acoustics research community. We welcome any contributions
    .. grid-item-card::
       :text-align: justify
 
-      **Contribute code or documentation**
-      ^^^^
+      .. card-header::
+
+         **Contribute code or documentation**
+
 
       If you want to add code or documentation, a good starting point for ideas
       are the issues on GitHub. The GitHub projects are linked through the
@@ -37,8 +41,10 @@ community for the acoustics research community. We welcome any contributions
    .. grid-item-card::
       :text-align: justify
 
-      **Contribute examples**
-      ^^^^
+      .. card-header::
+
+         **Contribute examples**
+
       If you're using any of the pyfar related packages and have examples that
       you think would be useful for others, please consider adding them to the
       `gallery <https://pyfar-gallery.readthedocs.io/en/latest>`_.
@@ -48,8 +54,10 @@ community for the acoustics research community. We welcome any contributions
    .. grid-item-card::
       :text-align: justify
 
-      **Contribute to the open educational resources**
-      ^^^^
+      .. card-header::
+
+         **Contribute to the open educational resources**
+
       If you want to contribute to the open educational resources, please first get in
       touch with us through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
       or info@pyfar.org.
@@ -59,8 +67,10 @@ community for the acoustics research community. We welcome any contributions
    .. grid-item-card::
       :text-align: justify
 
-      **Develop a package from scratch**
-      ^^^^
+      .. card-header::
+
+         **Develop a package from scratch**
+
       If you want to develop a pyfar package from scratch, please first get in
       touch with us through `Slack <https://join.slack.com/t/pyfar/shared_invite/zt-2eacdhww2-iUiPnh_wuqg2zD939wL4kw>`_
       or info@pyfar.org.
@@ -113,4 +123,3 @@ community for the acoustics research community. We welcome any contributions
 
    Guidelines <oer/contribution_oer>
    Template <oer/template_oer>
-

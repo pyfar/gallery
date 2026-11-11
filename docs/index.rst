@@ -32,154 +32,167 @@ educational and commercial use.
       :text-align: justify
       :shadow: lg
 
-      .. image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
-         :width: 300 px
-         :target: https://pyfar.readthedocs.io/
+      .. card-header::
 
-      ^^^
-
+         .. image:: resources/logos/pyfar_logos_fixed_size_pyfar.png
+            :width: 300 px
+            :target: https://pyfar.readthedocs.io/
 
       The pyfar base package offers functionality for digital signal
       processing, signal generation, and plotting.
-      +++
-      .. grid:: 2
 
-         .. grid-item::
+      .. card-footer::
 
-            .. button-link:: https://pyfar.readthedocs.io/
-               :color: primary
-               :shadow:
-               :expand:
+         .. grid:: 2
 
-               docs
+            .. grid-item::
 
-         .. grid-item::
+               .. button-link:: https://pyfar.readthedocs.io/
+                  :color: primary
+                  :shadow:
+                  :expand:
 
-            .. button-link:: https://github.com/pyfar/pyfar
-               :color: primary
-               :shadow:
-               :expand:
+                  docs
 
-               code
+            .. grid-item::
+
+               .. button-link:: https://github.com/pyfar/pyfar
+                  :color: primary
+                  :shadow:
+                  :expand:
+
+                  code
 
    .. grid-item-card::  Python package for handling SOFA files
       :text-align: justify
       :shadow: lg
 
-      .. image:: resources/logos/pyfar_logos_fixed_size_sofar.png
-         :width: 300 px
-         :target: https://sofar.readthedocs.io
+      .. card-header::
 
-      ^^^
+         .. image:: resources/logos/pyfar_logos_fixed_size_sofar.png
+            :width: 300 px
+            :target: https://sofar.readthedocs.io
+
       SOFA files store spatially distributed acoustic data such as head-related
       transfer functions. Sofar can read, create, write, manipulate, and verify
       SOFA files.
-      +++
-      .. grid:: 2
 
-         .. grid-item::
+      .. card-footer::
 
-            .. button-link:: https://sofar.readthedocs.io
-               :color: primary
-               :shadow:
-               :expand:
+         .. grid:: 2
 
-               docs
+            .. grid-item::
 
-         .. grid-item::
+               .. button-link:: https://sofar.readthedocs.io
+                  :color: primary
+                  :shadow:
+                  :expand:
 
-            .. button-link:: https://github.com/pyfar/sofar
-               :color: primary
-               :shadow:
-               :expand:
+                  docs
 
-               code
+            .. grid-item::
+
+               .. button-link:: https://github.com/pyfar/sofar
+                  :color: primary
+                  :shadow:
+                  :expand:
+
+                  code
 
    .. grid-item-card::  Spherical array processing in python
       :text-align: justify
       :shadow: lg
 
-      .. image:: resources/logos/pyfar_logos_fixed_size_spharpy.png
-         :width: 300 px
-         :target: https://spharpy.readthedocs.io
+      .. card-header::
 
-      ^^^
+         .. image:: resources/logos/pyfar_logos_fixed_size_spharpy.png
+            :width: 300 px
+            :target: https://spharpy.readthedocs.io
+
       Spherical array processing in python
-      +++
-      .. grid:: 2
 
-         .. grid-item::
+      .. card-footer::
 
-            .. button-link:: https://spharpy.readthedocs.io
-               :color: primary
-               :shadow:
-               :expand:
+         .. grid:: 2
 
-               docs
+            .. grid-item::
 
-         .. grid-item::
+               .. button-link:: https://spharpy.readthedocs.io
+                  :color: primary
+                  :shadow:
+                  :expand:
 
-            .. button-link:: https://github.com/pyfar/spharpy
-               :color: primary
-               :expand:
-               :shadow:
+                  docs
 
-               code
+            .. grid-item::
+
+               .. button-link:: https://github.com/pyfar/spharpy
+                  :color: primary
+                  :expand:
+                  :shadow:
+
+                  code
 
    .. grid-item-card:: Python Room Acoustics Tools
       :text-align: justify
       :shadow: lg
 
-      .. image:: resources/logos/pyfar_logos_fixed_size_pyrato.png
-         :width: 300 px
-         :target: https://pyrato.readthedocs.io
+      .. card-header::
 
-      ^^^^
+         .. image:: resources/logos/pyfar_logos_fixed_size_pyrato.png
+            :width: 300 px
+            :target: https://pyrato.readthedocs.io
+
       A collection of functions for commonly used operations in room acoustics.
-      +++
-      .. grid:: 2
 
-         .. grid-item::
+      .. card-footer::
 
-            .. button-link:: https://pyrato.readthedocs.io
-               :color: primary
-               :shadow:
-               :expand:
+         .. grid:: 2
 
-               docs
+            .. grid-item::
 
-         .. grid-item::
+               .. button-link:: https://pyrato.readthedocs.io
+                  :color: primary
+                  :shadow:
+                  :expand:
 
-            .. button-link:: https://github.com/pyfar/pyrato
-               :color: primary
-               :expand:
-               :shadow:
+                  docs
 
-               code
+            .. grid-item::
+
+               .. button-link:: https://github.com/pyfar/pyrato
+                  :color: primary
+                  :expand:
+                  :shadow:
+
+                  code
 
    .. grid-item-card:: coming next...
       :text-align: justify
       :shadow: lg
 
-      .. image:: resources/logos/pyfar_logos_fixed_size_coming.png
-         :width: 250 px
-         :target: https://github.com/pyfar
+      .. card-header::
 
-      ^^^^
+         .. image:: resources/logos/pyfar_logos_fixed_size_coming.png
+            :width: 250 px
+            :target: https://github.com/pyfar
+
       The pyfar base package will be extended. New packages for audio
       input/output to external hardware, acoustic measurements,
       and material modeling are planned.
-      +++
-      .. grid:: 1
 
-         .. grid-item::
+      .. card-footer::
 
-            .. button-link:: https://github.com/pyfar
-               :color: primary
-               :expand:
-               :shadow:
+         .. grid:: 1
 
-               progress
+            .. grid-item::
+
+               .. button-link:: https://github.com/pyfar
+                  :color: primary
+                  :expand:
+                  :shadow:
+
+                  progress
 
 |
 
@@ -196,8 +209,10 @@ for the whole pyfar ecosystem.
       :link: examples_gallery.html#getting-started
       :text-align: center
 
-      Getting Started
-      ^^^^
+      .. card-header::
+
+         Getting Started
+
 
       .. image:: _static/pyfar_logos_fixed_size_pf.png
          :width: 150 px
@@ -206,8 +221,10 @@ for the whole pyfar ecosystem.
       :link: examples_gallery.html#insights
       :text-align: center
 
-      Insights: Features & Concepts
-      ^^^^
+      .. card-header::
+
+         Insights: Features & Concepts
+
 
       .. image:: _static/thumbnail_pyfar_audio_objects.png
          :width: 200 px
@@ -216,8 +233,10 @@ for the whole pyfar ecosystem.
       :link: examples_gallery.html#applications
       :text-align: center
 
-      Applications
-      ^^^^
+      .. card-header::
+
+         Applications
+
 
       .. image:: _static/thumbnail_sh_processing.png
          :width: 150 px
@@ -236,8 +255,10 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
       :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#pyfar-assignments
       :text-align: center
 
-      Intro to pyfar
-      ^^^^
+      .. card-header::
+
+         Intro to pyfar
+
 
       .. image:: _static/pyfar_logos_fixed_size_pf.png
          :width: 150 px
@@ -246,8 +267,10 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
       :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#var-tub
       :text-align: center
 
-      Virtual Acoustic Reality (TUB)
-      ^^^^
+      .. card-header::
+
+         Virtual Acoustic Reality (TUB)
+
 
       .. image:: _static/TUB_VAR_sound_field.png
          :width: 150 px
@@ -257,8 +280,10 @@ The collection primarily includes assignments in the form of Jupyter notebooks.
       :link: https://pyfar-oer.readthedocs.io/en/latest/open_educational_resources.html#val-fau
       :text-align: center
 
-      Virtual Acoustics Lab (FAU)
-      ^^^^
+      .. card-header::
+
+         Virtual Acoustics Lab (FAU)
+
 
       .. image:: _static/Artificial-Audio-Logo.jpg
          :width: 150 px
