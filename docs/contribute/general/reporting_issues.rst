@@ -3,6 +3,7 @@ Reporting Issues
 
 Contributions in the form of issue reports are highly appreciated as they help to improve
 the quality of pyfar packages and projects.
+Before submitting an issue, please first check the list of currently open issues and those that have been closed as "not planned". A similar suggestion may already have been discussed but dismissed for some reason.
 
 Here are a couple of things to consider:
 
