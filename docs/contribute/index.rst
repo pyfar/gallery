@@ -21,7 +21,7 @@ community for the acoustics research community. We welcome any contributions
       The best way for any feedback, bug reports, and feature request is to
       open a new issue on GitHub. The GitHub projects are linked through the
       `Code` buttons on `pyfar.org <https://pyfar.org>`_.
-      Before submitting an issue, please read the information on our `reporting issues`_ page
+      Before submitting an issue, please read the information on our `reporting issues`_ page.
 
    .. grid-item-card::
       :text-align: justify
