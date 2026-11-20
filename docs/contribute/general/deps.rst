@@ -8,3 +8,4 @@ They are intended to provide a structured, transparent, and persistent way to di
    :maxdepth: 1
 
    DEP-0: Purpose and Process <deps/dep_0000_purpose_and_process>
+   DEP-2: Definition pyspar <deps/dep_0002_definition_pyspar>
