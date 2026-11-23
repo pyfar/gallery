@@ -120,6 +120,7 @@ Please make sure to consider the following points when creating the PR:
 - If possible, add the PR to the *Weekly meeting* project board. Workflow automation will then assign the status :backlog:`Backlog` which is automatically updated during the process.
 - If a milestone is already defined for the next release you can also assign it to the PR. Otherwise, maintainers will take care of this later. Please ignore the corresponding (failing) workflow check.
 - If you open a PR which is not yet ready for review, mark it as "Draft". You can request reviews for draft PRs, but reviewers will know that it is not yet ready for final review and consequently provide conceptual feedback only. You can also indicate that you want to discuss the PR further by changing the status to :open-discussion:`Open Discussion` in the project section.
+- Add your PR to the ``Unreleased`` section in ``HISTORY.rst`` with the PR number and a brief description of the changes; see `here <https://github.com/pyfar/pyfar/blob/main/HISTORY.rst>`_ for reference.
 
 
 The Review Process
