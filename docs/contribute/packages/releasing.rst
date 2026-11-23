@@ -34,7 +34,7 @@ When preparing for a new major or minor release, please merge the develop branch
 Patch releases are directly made on the main branch without merging from develop.
 The following steps are then required to prepare a new release:
 
-- Update the changelog in HISTORY.rst.
+- Update the changelog in HISTORY.rst. Add the new version number directly below the ``Unreleased`` section heading, and leave the ``Unreleased`` heading unchanged so it remains at the top of the document.
 - Commit all required changes.
 - Run the test suite and ensure that all tests pass.
 - Build the documentation and check that it builds without errors.
