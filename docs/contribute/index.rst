@@ -114,6 +114,7 @@ community for the acoustics research community. We welcome any contributions
    :hidden:
 
    Guidelines <gallery/contribution_gallery>
+   Projects Using Pyfar <gallery/projects_using_pyfar>
    Template <gallery/template_gallery>
 
 .. toctree::
