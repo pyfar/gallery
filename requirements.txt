@@ -17,7 +17,7 @@ pydata-sphinx-theme
 autodocsumm>=0.2.14
 soundfile>=0.11.0
 sofar>=1.2.0
-nbmake>=0.7.0
+nbmake>=v1.5.1
 ipykernel
 nbsphinx
 nbsphinx-link
